@@ -16,6 +16,12 @@ TCExam is Web-Based, platform independent, language independent (includes transl
 TCExam automates all assessment phases: authoring, scheduling, delivering, and reporting. It's easy to use and do not require expensive hardware to run, nor additional commercial software. Users connect to the TCExam system using a common Web-browser like Mozilla Firefox or Internet Explorer.
 
 ## System's Bad UIs
-* Save button in between the next and previous button
+* Save / confirm button in between the next and previous button
+* Delete Alert is shown in green color
+* If there is unfulfilled requirement in fields, the system does not show which fields are error.
+* Give abbreviation as a label in field (not clear), although the system provide tooltip
+* If failed in login and auth, the system does not show / throw anything
+* When user tries to log on and failed many times, the system show _static_ number of seconds before next attempt
+* Main menu tab is not consistent. When user logout, the system still show several active tabs
 
 ## Instruction Script

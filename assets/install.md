@@ -11,6 +11,8 @@ quit;
 4. Unzip folder TCExam 13.3.0 ke xampp/htdocs
 5. Masuk ke *localhost/relative path di htdocs/install/install.php*
 6. Centang semua, kemudian install
+7. Login userpass: admin/1234
+8. Buat [test](https://tcexam.org/docs/first_test/)
 
 Coba cek [youtube](https://www.youtube.com/watch?v=Fj9Io6aoHag)
 
