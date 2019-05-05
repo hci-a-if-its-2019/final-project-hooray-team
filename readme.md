@@ -35,10 +35,36 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
 
 ### Specific Instructions
 1. Login as default admin with username and password as admin and 1234
-2. Create a new group
+2. Create a new group named 'HCI A Class'
 3. Create a new user with his/her level is not equal to zero (since it cannot be used) and belongs to the newly created group
 4. Create a new module named 'Technology'
 5. Create a new topic named 'Human-Computer' and fill in description as 'the interaction between humans and computers'
 6. Change the topic name to 'Human Computer Interaction'
 7. In the module 'Technology' with topic 'Human Computer Interaction', create several of these questions:
+ - Type: single answer; Question: What is a human means?
+ - Type: free answer; Question: What is the meaning of Human Computer Interaction?
+ - Type: multiple answers; Question: What is involved in HCI category?
+ - Type: ordering answers; Question: What is the order in the shorten of HCI?
+ 8. Make answers in the order of questions above:
+ - A human is a human being (right); A human is an animal
  - 
+ - Human (right); Computer (right); Interaction (right); Creation
+ - Human (right position 1); Computer (right position 2); Interaction (right position 3); Inovation
+ 9. Change single answer question to appear as the first question in any tests.
+ 10. Create a test
+ - Name: IMK
+ - Description: IMK for Contextual Inquiry of Horray Team
+ - Start time: today date and End time: tomorrow date
+ - Test time: 60 minutes
+ - Groups: HCI A Class
+ - Basic points: 4; Points for wrong answer: -1; Points for no answer: 0; Points to pass the exam: 0
+ - Check everything else except 'logout when time expires'
+ - Set password to 'imkimkimk'
+ 11. Set questions which have been created previously as the question for the test
+
+ Extra:
+ 1. Logout from admin and login as created user above
+ 2. Check if the test is available
+ 3. Do the test
+ 4. Logout and login as admin again, check evaluation and give points to free answer
+ 5. Login as created user and check the results for the test which has been done
