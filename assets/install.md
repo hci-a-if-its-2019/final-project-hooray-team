@@ -1,4 +1,14 @@
-How to install TCExam:
+# How to install TCExam:
+
+## Version 2 (New)
+1. Download latest TCExam from github
+2. Create user from phpmyadmin (password is required)
+3. Unzip folder TCExam to xampp/htdocs
+4. Open link *localhost/install/install.php*
+5. Tick everything and give username/password as newly created user
+6. First login as: admin/1234
+
+## Version 1
 1. Download TCExam versi 13.3.0 [Github](https://github.com/tecnickcom/tcexam/releases?after=14.0.3) sesuai dengan yang di Informatika 
 2. Ganti password dari mysql jika masih kosong; cara menjalankannya masuk ke folder xampp/mysql/bin;
 ```

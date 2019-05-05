@@ -25,3 +25,20 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
 * Main menu tab is not consistent. When user logout, the system still show several active tabs
 
 ## Instruction Script
+### Preliminary Interview Questions
+1. Have you ever become a tutor?
+2. What is your tutoring style, face-to-face or online?
+3. Are you still tutoring these days? If yes, how often is it per week? If not, how much days your tutoring last?
+4. Have you ever made an exercise or exam for your students?
+5. What type would you prefer your exercise or exam, multiple choice or essay?
+6. Is it written by hand or made in an application?
+
+### Specific Instructions
+1. Login as default admin with username and password as admin and 1234
+2. Create a new group
+3. Create a new user with his/her level is not equal to zero (since it cannot be used) and belongs to the newly created group
+4. Create a new module named 'Technology'
+5. Create a new topic named 'Human-Computer' and fill in description as 'the interaction between humans and computers'
+6. Change the topic name to 'Human Computer Interaction'
+7. In the module 'Technology' with topic 'Human Computer Interaction', create several of these questions:
+ - 
