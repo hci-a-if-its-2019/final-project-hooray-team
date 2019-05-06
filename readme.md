@@ -82,33 +82,32 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
 - In writing his mini quiz, he uses Microsoft Word application.
 
 ## Transcript
-### Participant 1 (May 5, 2019 19:00)
+### Participant 1 (May 5, 2019 19:00 duration 21'30")
 ```
-1. 😃: "Pada hari ini saya akan mengadakan wawancara untuk menggali informasi dari sistem TCExam, sebuah aplikasi untuk membuat kuis soal dan jawaban yang dapat digunakan oleh guru dan murid. Dalam wawancara ini, partisipan diharapkan dapat melakukan instruksi-instruksi yang berikan."
-2.😃 : "Pertama, masuk sebagai admin dengan username admin dan passwordnya 1234."
-3. 👨‍🚀: (masuk sebagai admin) "Lho kok tambah banyak menunya."
-3. 😃: "Kemudian, daftarkan seorang user."
-4. 👨‍🚀: (masuk ke menu user -> user dan mengisi form user) "Hoo..., lho ini kok ga bisa?" (tidak dapat mengisi pada bagian registration date) "Ndak nyahut, ndak bisa. Ini memang registration date nya ga keisi ya? Ya udah.." (klik Add) "Wah sudah ketambah."
-5. 😃: "Selanjutnya membuat grup."
-6. 👨‍🚀: "Oke, mari kita membuat grup. Sebentar saya coba. Oke sebentar, add."
-7. 😃: "Masukkan user tadi ke dalam grup ini."
-8. 👨‍🚀: "Mana terus usernya?" (klik update tetapi muncul error 'some of the required fields have not been filled out: confirm -> update')
-9. 👨‍🚀: "Oh sebentar mungkin ini, namanya tadi siapa ya?" (mengetik nama user di name) "Lho salah malah jadi grup baru."
-10. 😃: "Mungkin ada di menu lainnya untuk memasukkan."
-11. 👨‍🚀: (masuk ke menu user -> select) "Mana ya? Sebentar ini." (mencentang nama user dan mengarahkan ke dropdown menu dan mengganti group nya) "Oh! masuk. Oke, bisa."
-12. 😃: "Selanjutnya membuat module dengan nama 'Technology'."
-13. 👨‍🚀: "Modul? Oke" (membuka menu modules -> modules)
-14. 😃: "Modul ini biasanya seperti Bab."
-15. 👨‍🚀: (mengisi nama modul) "Sama ya seperti tadi caranya. Oke, add."
-16. 😃: "Kemudian membuat topik dengan nama 'Human Computer'."
-17. 👨‍🚀: (membuka menu modules -> topics) "Topik. Terus masuknya kemana? Oh masuk ke modul yang tadi. Terus deskripsinya diisi apa?"
-18. 😃: "Deskripsinya diisi 'the interaction between humans and computers'."
-19. 👨‍🚀: Oke."
+01. 😃: "Pada hari ini saya akan mengadakan wawancara untuk menggali informasi dari sistem TCExam, sebuah aplikasi untuk membuat kuis soal dan jawaban yang dapat digunakan oleh guru dan murid. Dalam wawancara ini, partisipan diharapkan dapat melakukan instruksi-instruksi yang berikan."
+02. 😃: "Pertama, masuk sebagai admin dengan username admin dan passwordnya 1234."
+03. 👨‍🚀: (masuk sebagai admin) "Lho kok tambah banyak menunya."
+04. 😃: "Kemudian, daftarkan seorang user."
+05. 👨‍🚀: (masuk ke menu user -> user dan mengisi form user) "Hoo..., lho ini kok ga bisa?" (tidak dapat mengisi pada bagian registration date) "Ndak nyahut, ndak bisa. Ini memang registration date nya ga keisi ya? Ya udah.." (klik Add) "Wah sudah ketambah."
+06. 😃: "Selanjutnya membuat grup."
+07. 👨‍🚀: "Oke, mari kita membuat grup. Sebentar saya coba. Oke sebentar, add."
+08. 😃: "Masukkan user tadi ke dalam grup ini."
+09. 👨‍🚀: "Mana terus usernya?" (klik update tetapi muncul error 'some of the required fields have not been filled out: confirm -> update')
+10. 👨‍🚀: "Oh sebentar mungkin ini, namanya tadi siapa ya?" (mengetik nama user di name) "Lho salah malah jadi grup baru."
+11. 😃: "Mungkin ada di menu lainnya untuk memasukkan."
+12. 👨‍🚀: (masuk ke menu user -> select) "Mana ya? Sebentar ini." (mencentang nama user dan mengarahkan ke dropdown menu dan mengganti group nya) "Oh! masuk. Oke, bisa."
+13. 😃: "Selanjutnya membuat module dengan nama 'Technology'."
+14. 👨‍🚀: "Modul? Oke" (membuka menu modules -> modules)
+15. 😃: "Modul ini biasanya seperti Bab."
+16. 👨‍🚀: (mengisi nama modul) "Sama ya seperti tadi caranya. Oke, add."
+17. 😃: "Kemudian membuat topik dengan nama 'Human Computer'."
+18. 👨‍🚀: (membuka menu modules -> topics) "Topik. Terus masuknya kemana? Oh masuk ke modul yang tadi. Terus deskripsinya diisi apa?"
+19. 😃: "Deskripsinya diisi 'the interaction between humans and computers'."
 20. 😃: "Kemudian ganti nama topik mencari Human Computer Interaction."
 21. 👨‍🚀: "Hah? Maksudnya?"
-22. : "Topik yang telah dibuat namanya diganti."
+22. 😃: "Topik yang telah dibuat namanya diganti."
 23. 👨‍🚀: "Oh, ini ada update." (mengganti nama topik dan klik update) "Lho, ndak ganti. Sebentar ya. Some of the required fields have not been field out: confirm -> update." (menambahkan kata di deskripsi dan mencoba mengeklik update lagi) "Mungkin disini. Lho masih ga bisa juga."
-24.😃 : "Cari yang tulisannya confirm -> update."
+24. 😃: "Cari yang tulisannya confirm -> update."
 25. 👨‍🚀: (melakukan scroll atas bawah dan mengarahkan kursor ke sembarang tempat) "Confirm update dimana? Ga ada."
 26. 😃: "Coba di hover di tiap tombol yang di sekitar tombol update."
 27. 👨‍🚀: "Maksudnya box ini?" (mencentang box kemudian klik update) "Hah, kok bisa? Ini komentar saya, box nya tidak jelas sama sekali."
@@ -160,7 +159,7 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
 73. 👨‍🚀: "Lho mana ini? Gimana ini?" (klik add questions) "Kok ga terjadi apa-apa? Ga user friendly sama sekali yang ini."
 74. 😃: "Di bagian tab questions itu, pilih isinya."
 75. 👨‍🚀: (memilih topik yang sudah dibuat mengisi form bawahnya kemudian add questions) "Oh ini masuk ini. Tapi ini aneh sekali, ga friendly sekali. Mungkin bisa dibuat lebih gampang."
-76. : "Sekian dari wawancara kali ini. Terima kasih atas partisipasinya dalam sistem TcExam."
+76. 😃: "Sekian dari wawancara kali ini. Terima kasih atas partisipasinya dalam sistem TcExam."
 
 
 
