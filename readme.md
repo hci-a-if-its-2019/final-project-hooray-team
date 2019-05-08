@@ -132,8 +132,10 @@ There are several do and dont's based on the contextual inquiry
 - Give mark/sign to the required field in a form
 - Make the active page is affordable to click from the main tab
 - Give an easy-to-read explanation for each form field
+- Merge some form with same context to one page (example question and answer)
 
 ### Dont's
 - Don't show every message the same color
 - Don't put new field/section at the invisible part of the screen
 - Don't put a form field which is unnecessary for the user
+- Don't refresh each time user adding something that repetitive (example creating questions)
