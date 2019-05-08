@@ -118,3 +118,7 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
 ## Transcript
 
 Transcripts for this Contextual Inquiry is available in this link: [Transcript](transcript/transcript.md)
+
+## Models and Annotations
+
+Artifact model, Flow model, and Cultural model for this Contextual Inquiry are available in this link: [ Models](https://docs.google.com/presentation/d/1C4g-h0BwNnfURy2CZUE5xoRbzpQlglr-DFVmPvyjkIc/)
