@@ -169,16 +169,16 @@ Adobe XD file: https://gsculerlor.s-ul.eu/4Nkg75WG
 *Image : Showing list of questions*
 ![Questions](assets/prototype/ganen/Edit%20Question.png)
 *Image : Edit question and add answers*
-![Grups](assets/prototype/ganen/Group%20management.png)
+![Grups](assets/prototype/ganen/Group%20Management.png)
 *Image : Add Group*
-![Topics](assets/prototype/ganen/Topics%20management.png)
+![Topics](assets/prototype/ganen/Topics%20Management.png)
 *Image : Add Topic*
 
-![Topics](assets/prototype/ganen/User%20management.png)
+![User](assets/prototype/ganen/User%20Management.png)
 *Image : Add User*
 
-![Topics](assets/prototype/ganen/Test%20management.png)
+![Test](assets/prototype/ganen/Test%20Management.png)
 *Image : Add Test*
 
-![Topics](assets/prototype/ganen/Test%20Management%20–%20with%20answer.png)
+![Test with question](assets/prototype/ganen/Test%20Management%20–%20with%20answer.png)
 *Image : Add question to test*
