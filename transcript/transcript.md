@@ -1,4 +1,166 @@
 ## Transcript
+### Participant 1 (May 5, 2019 19:00 duration 21'30")
+```
+01. 😃: "Pada hari ini saya akan mengadakan wawancara untuk menggali informasi dari sistem TCExam, sebuah aplikasi untuk membuat kuis soal dan jawaban yang dapat digunakan oleh guru dan murid. Dalam wawancara ini, partisipan diharapkan dapat melakukan instruksi-instruksi yang berikan."
+02. 😃: "Pertama, masuk sebagai admin dengan username admin dan passwordnya 1234."
+03. 👨‍🚀: (masuk sebagai admin) "Lho kok tambah banyak menunya."
+04. 😃: "Kemudian, daftarkan seorang user."
+05. 👨‍🚀: (masuk ke menu user -> user dan mengisi form user) "Hoo..., lho ini kok ga bisa?" (tidak dapat mengisi pada bagian registration date) "Ndak nyahut, ndak bisa. Ini memang registration date nya ga keisi ya? Ya udah.." (klik Add) "Wah sudah ketambah."
+06. 😃: "Selanjutnya membuat grup."
+07. 👨‍🚀: "Oke, mari kita membuat grup. Sebentar saya coba. Oke sebentar, add."
+08. 😃: "Masukkan user tadi ke dalam grup ini."
+09. 👨‍🚀: "Mana terus usernya?" (klik update tetapi muncul error 'some of the required fields have not been filled out: confirm -> update')
+10. 👨‍🚀: "Oh sebentar mungkin ini, namanya tadi siapa ya?" (mengetik nama user di name) "Lho salah malah jadi grup baru."
+11. 😃: "Mungkin ada di menu lainnya untuk memasukkan."
+12. 👨‍🚀: (masuk ke menu user -> select) "Mana ya? Sebentar ini." (mencentang nama user dan mengarahkan ke dropdown menu dan mengganti group nya) "Oh! masuk. Oke, bisa."
+13. 😃: "Selanjutnya membuat module dengan nama 'Technology'."
+14. 👨‍🚀: "Modul? Oke" (membuka menu modules -> modules)
+15. 😃: "Modul ini biasanya seperti Bab."
+16. 👨‍🚀: (mengisi nama modul) "Sama ya seperti tadi caranya. Oke, add."
+17. 😃: "Kemudian membuat topik dengan nama 'Human Computer'."
+18. 👨‍🚀: (membuka menu modules -> topics) "Topik. Terus masuknya kemana? Oh masuk ke modul yang tadi. Terus deskripsinya diisi apa?"
+19. 😃: "Deskripsinya diisi 'the interaction between humans and computers'."
+20. 😃: "Kemudian ganti nama topik mencari Human Computer Interaction."
+21. 👨‍🚀: "Hah? Maksudnya?"
+22. 😃: "Topik yang telah dibuat namanya diganti."
+23. 👨‍🚀: "Oh, ini ada update." (mengganti nama topik dan klik update) "Lho, ndak ganti. Sebentar ya. Some of the required fields have not been field out: confirm -> update." (menambahkan kata di deskripsi dan mencoba mengeklik update lagi) "Mungkin disini. Lho masih ga bisa juga."
+24. 😃: "Cari yang tulisannya confirm -> update."
+25. 👨‍🚀: (melakukan scroll atas bawah dan mengarahkan kursor ke sembarang tempat) "Confirm update dimana? Ga ada."
+26. 😃: "Coba di hover di tiap tombol yang di sekitar tombol update."
+27. 👨‍🚀: "Maksudnya box ini?" (mencentang box kemudian klik update) "Hah, kok bisa? Ini komentar saya, box nya tidak jelas sama sekali."
+28. 😃: "Mengapa tidak jelas?"
+29. 👨‍🚀: "Tidak jelas, box itu harusnya tidak perlu box terus di box lagi. Box nya harusnya kotak sederhana seperti disebelahnya enabled."
+30. 😃: "Tulisannya centang terus confirm? Jadi ga perlu sampai di-hover?"
+31. 👨‍🚀: "Ya kalau perlu mungkin dibuatkan kalau mau install. Itu ada kalimat kecil dibawahnya I agree to, baru ada kotaknya. Ini ga ada tulisan apa-apa. Ga ada angin, ga ada hujan disuruh ngeklik, gimana caranya ngerti."
+32. 😃: "Sekarang membuat tes."
+33. 👨‍🚀: (membuka menu tests -> tests) "Oke, haduh panjang sekali."
+34. 😃: "Isi nama tes sesuai yang ada di notepad aja, tinggal di copy paste."
+35. 👨‍🚀: "Siap. Tesnya berarti 1 jam aja kan? Terus yang mana yang diganti."
+36. 😃: "Start timenya 19:00 dan end timenya 20:00."
+37. 👨‍🚀: "Ini kok ambigu? Kok dua kali ya? Repetitif gitu. End timenya disuruh ngisi sendiri terus ada test timenya sendiri. Terus bedanya apa?"
+38. 😃: "Jadi end time itu testnya paling lambat berakhir kapan. Untuk yang end timenya itu menunjukkan lama pengerjaan tesnya. Jadi misalnya start timenya jam 19:00 end timenya 23:00 dan test timenya 60 menit. Berarti bisa mengerjakan dalam kurun waktu itu misalnya jam 21:00 tapi lama mengerjakan tesnya tetap cuma 1 jam saja."
+39. 👨‍🚀: "Oh, maksudnya begitu toh."
+40. 👨‍🚀: "Grup ini maksudnya gimana? Apa milih grup yang bisa ikut tes?" (memilih grup yang sebelumnya telah dibuat) "Kok ga ada efeknya ya?"
+41. 👨‍🚀: (melanjutkan mengisi skor) "Oh ini skor buat kuisnya berarti."
+42. 👨‍🚀: "Terus apa ini sisanya?"
+43. 😃: "Di centang semua saja kecuali yang logout when time expires."
+44. 😃: "Isi passwordnya juga dengan 'imkimkimk'."
+45. 👨‍🚀: "Alphanumeric characters. Oh pantas passwordnya panjang."
+46. 👨‍🚀: (klik Add) "Sudah belum? (scroll atas bawah) "Oh ini sudah ini." (mengeklik pada field tes) "Oh ini sudah muncul. Kemudian apa?"
+47. 😃: "Kemudian, membuat soal."
+48. 👨‍🚀: "Berarti kemana ini? Langsung ke questions dibawah ini?" (mencoba mengisi formnya) "Misalnya questionsnya 2, tipe single answer, difficulty bebas, number of answers 2. Answers ini ikut questionnya?" (mengeklik add questions)
+49. 👨‍🚀: "Lho kok ga ngubah apa-apa ini?"
+50. 😃: "Oke bagian ini dilewati dahulu. Kemudian tambahkan soal."
+51. 👨‍🚀: "Lho lewat mana ini?"
+52. 😃: "Di bagian menu biasanya ada tambah soal."
+53. 👨‍🚀: (membuka modules -> questions) "Oh bisa milih modul sama topik yang tadi dibuat."
+54. 😃: "Isi sesuai instruksi yang ada di notepad."
+55. 👨‍🚀: (mengisi form) "Position ini maksudnya apa ada satu warna merah?"
+56. 😃: "Itu untuk menunjukkan pada nomor berapa ia akan muncul."
+57. 👨‍🚀: "Oke sudah selesai isi semua pertanyaannya. Terus apa lagi?"
+58. 😃: "Selanjutnya tambahkan jawaban dari setiap soal."
+59. 👨‍🚀: "Berarti kembali lagi ke modules answers."
+60. 👨‍🚀: "Lho tapi ini kok pertanyaan pertamanya ke switch jadi pertanyaan kedua? Kayaknya yang di position kurang masuk akal sih. Dibuat position tapi ga pengaruh apa-apa. Dropdown menunya terus buat apa?"
+61. 😃: "Buat jawaban dari soal-soalnya sesuai dengan instruksi yang ada di notepad."
+62. 👨‍🚀: "Terus ini jawaban pertama, jawaban keduanya gimana?"
+63. 😃: "Tambahkan jawaban kedua."
+64. 👨‍🚀: "Oh keluar yang tanda plus itu setelah di add berarti."
+65. 😃: "Dari jawaban-jawaban yang ada pilih yang benar, karena yang tersimpan masih bernilai False semua."
+66. 👨‍🚀: "Waduh, oh ini mungkin. Right ini?" (mencentang right untuk jawaban yang perlu diganti jadi right)
+67. 😃: "Kemudian, melihat list dari pertanyaan yang sudah ada."
+68. 👨‍🚀: "Oh ini langsung ada." (masuk ke menu modules -> list)
+69. 👨‍🚀: "Ini maksudnya kotak warna merah, biru, hijau ini gimana ya? Ga jelas sama sekali cuma diisi angka sama huruf-huruf aja. Pusing saya liat kotak-kotak gini."
+70. 😃: "Mungkin bisa di hover satu-satu untuk melihat guna dari setiap kotaknya."
+71. 👨‍🚀: (menghover salah satu kotak) "Oalah, mbok ya dibuat tulisan yang jelas gitu, dibuat tabel mungkin biar bisa tahu itu apa dari liat row paling atas. Kalau hover satu-satu kan makan waktu lama."
+72. 😃: "Terakhir, kembali ke tes yang telah dibuat dan pilih soal-soal yang tadi menjadi soal di tes ini."
+73. 👨‍🚀: "Lho mana ini? Gimana ini?" (klik add questions) "Kok ga terjadi apa-apa? Ga user friendly sama sekali yang ini."
+74. 😃: "Di bagian tab questions itu, pilih isinya."
+75. 👨‍🚀: (memilih topik yang sudah dibuat mengisi form bawahnya kemudian add questions) "Oh ini masuk ini. Tapi ini aneh sekali, ga friendly sekali. Mungkin bisa dibuat lebih gampang."
+76. 😃: "Sekian dari wawancara kali ini. Terima kasih atas partisipasinya dalam sistem TcExam."
+```
+---
+### Participant 2 (May 7, 2019 10:30 duration 19'00")
+```
+01. 😃: "Selamat pagi, pada hari ini saya akan melakukan wawancara dengan partisipan untuk membahas sistem TcExam, yaitu sebuah aplikasi untuk membuat kuis dan jawaban yang dapat dilakukan oleh guru dan murid. Pada kali ini, partisipan akan melakukan instruksi-instruksi yang diberikan."
+02. 😃: "Pertama, login sebagai admin dengan username admin dan passwordnya 1234. Masuk ke menu admin."
+03. 😃: "Kedua, buatlah seorang user baru."
+04. 🙆‍: (saat mengisi password dengan 3 karakter) "Oh, delapan ya panjangnya."
+05. 🙆‍: "Levelnya gimana?"
+06. 😃: "Pokoknya tidak sama dengan nol."
+07. 🙆‍: "Tidak sama dengan nol. Hahaha... Itu memang buat apa ada sampai sepuluh?"
+08. 😃: "Itu juga tidak ada dalam dokumentasi maupun penjelasan dari kata-katanya."
+09. 🙆‍: "Oke, what is this? Groups? Apa ini?"
+10. 😃: "Jadi grup akan memasukkan orang tersebut ke kelompok tertentu seperti kelas."
+11. 🙆‍: (mengklik Add dan muncul error) "Attention, this SSN has been used already. Oh ini soalnya kayaknya aku pakai yang pernah dibuat orang."
+12. 🙆‍: (mengganti isi SSN dan klik Add) "Sudah ta ini? Sudah ta? Sudah?"
+13. 😃: "Iya, sudah terganti itu."
+14. 😃: "Kemudian, buat grup baru."
+15. 🙆‍: (masuk ke users -> groups)
+16. 😃: "Dengan nama HCI. Lalu, pindahkan user yang tadi dibuat ke dalam grup ini."
+17. 🙆‍: "Sabar ya, sebentar." (mencari menu untuk memindahkannya. Membuka users -> users, masuk ke user yang baru dibuat, mengganti pilihan di groups, klik update) "Hah kok error hijau? Some of the required fields have not been filled."
+18. 🙆‍: (mengisi ulang form tersebut kemudian mencentang kotak kecil dan klik Update)
+19. 😃: "Kok bisa tahu itu untuk dicentang dan menyelesaikan error diatas?"
+20. 🙆‍: "Gatau, nyoba aja ini terus bisa. Haha.."
+21. 😃: "Buatlah sebuah modul baru dengan nama Teknologi."
+22. 🙆‍: (membuka menu modules -> modules dan mengisinya)
+23. 😃: "Buatlah sebuah topik baru pada modul yang telah dibuat sebelumnya dengan nama Human Computer."
+24. 🙆‍: (masuk ke modules -> topics, mengganti modul yang sesuai, dan mengisi nama)
+25. 😃: "Dari topik yang baru dibuat ini ganti namanya jadi Human Computer Interaction. Ditambahi 'Interaction' di belakang namanya."
+26. 🙆‍: (mengganti nama, mencentang kotak, dan klik Update)
+27. 😃: "Baiklah, sampai sini tidak ada kendala ya. Lalu, buatlah pertanyaan baru dari modul dan topik yang telah dibuat."
+28. 😃: "Pertanyaan pertama 'What is a human means?' Tipenya single answer. Oke, add."
+29. 😃: "Kemudian buatlah pertanyaan baru, dan bisa dilihat di notepad untuk pertanyaannya."
+30. 🙆‍: (menghapus kotak question dan melakukan klik Add)
+31. 😃: "Pertanyaan selanjutnya 'What is involved in HCI category?' Tipenya multiple answer."
+32. 😃: (menghapus kotak question dan menggantinya, klik Add) "Sudah, ini jawabannya ga diisi?"
+33. 😃: "Kemudian membuat jawaban dari pertanyaan tersebut."
+34. 🙆‍: (pindah ke menu modules -> answers dan mengganti modul yang sesuai) "Ah, oke."
+35. 😃: "Apakah anda merasa kesulitan ketika ingin mengganti modul?"
+36. 🙆‍: "Engga sih."
+37. 😃: "Misalkan modulnya ada banyak, apakah akan merasa kesulitan jika bentuknya hanya list seperti itu?"
+38. 🙆‍: "Bisa jadi kesulitan. Maksudnya kalau modulnya 100 lebih gitu? Ya susahlah apalagi nyari namanya satu-satu."
+39. 😃: "Partisipan dapat menambahkan jawaban yang sesuai di notepad."
+40. 🙆‍: "Ini yang 'human is a human being'? Haha.."
+41. 😃: "Iya, kemudian tambahkan jawaban lain."
+42. 🙆‍: "Jawaban lain? What?"
+43. 😃: "Dari soal ini."
+44. 🙆‍: (memilih soal lain)
+45. 😃: "Bukan, dari soal yang sama dibuat jawabannya karena bentuknya pilihan ganda."
+46. 🙆‍: "Oh ini pilihan ganda?"
+47. 😃: "Iya kan single answer dari beberapa answer."
+48. 🙆‍: "Yey.."
+49. 😃: "Ganti soal menjadi yang tipenya multiple answer."
+50. 🙆‍: (memilih yang depannya 'M') "Ini ta? Iya sih harusnya kan M."
+51. 😃: "Tambahkan human, computer, device untuk setiap jawabannya."
+52. 🙆‍: "Udah nih."
+53. 😃: "Dari jawaban-jawaban yang tadi, ditandai mana yang benar."
+54. 🙆‍: (memberi centang pada right di jawaban 'computer' pada soal tipe multiple answer) "Iya kan?"
+55. 😃: "Iya, karena multiple answer berarti ada beberapa jawaban yang benar."
+56. 🙆‍: "Oke. Terus?"
+57. 😃: "Udah cuma satu?"
+58. 🙆‍: "Oalah, beberapa jawaban benar. Oalah iya ya, kalau multiple choice kan cuma satu tok."
+59. 😃: "Lanjutkan memilih jawaban yang benar dari soal-soal yang lain kecuali free answer."
+60. 😃: "Selanjutnya, cari cara untuk melihat daftar soal yang telah dibuat."
+61. 🙆‍: (mencari di menu dan membuka modules -> list) "Hah mana? Oh ini."
+62. 😃: "Dari kotak-kotak ini apakah anda paham apa itu warna merah, hijau, dan biru? Bagaimana pendapat pertama anda setelah melihat kotak-kotak ini?"
+63. 🙆‍: "Eh S ini yang Short Answer, terus 1 ini difficulty level. He eh. Terus 'what is human' ini jawaban yang salah. Eh.. Oalah ya ampun, jadi kotak kaya gini terus tulisan bawahnya itu pertanyaan dari kotak ini. Bawahnya dari jawaban ini."
+64. 😃: "Iya, apakah anda merasa kesulitan untuk membaca kotak-kotak ini?"
+65. 🙆‍: "Iya, mungkin yang tulisan pertanyaan ditaruh di atas kali ya?"
+66. 😃: "Untuk mengetahui makna dari kotak itu kan harus di-hover dulu, apakah anda mengalami kesulitan?"
+67. 🙆‍: "Ohh... Ga terlalu sih."
+68. 😃: "Jadi overall bagaimana pendapat anda?"
+69. 🙆‍: "Kayaknya lebih enak kalau bentuk tabel ya. Cuma kalau mau tetap pakai ini. Tulisannya ini di atas mungkin baru kotaknya. Biasanya gitu bukannya gitu orang-orang?"
+70. 😃: "Kemudian, buatlah sebuah tes baru namanya IMK."
+71. 🙆‍: (membuka tests -> tests dan mengisi form) "Ini yang bawah centang semua?"
+72. 😃: "Iya centang semua, kecuali yang logout. Tes telah ditambahkan."
+73. 🙆‍: (scroll atas bawah untuk memastikan apakah tes telah ditambah) "Oh udah ya."
+74. 😃: "Masukkan pertanyaan yang telah dibuat sebelumnya ke dalam tes ini."
+75. 🙆‍: (memilih soalnya) "Tadi buat berapa ya? Empat ya? Ini number of questions buat apa?"
+76. 😃: "Itu menentukan maksimal soal yang keluar."
+77. 🙆‍: "Lah kok aneh." (klik Add questions)
+78. 😃: "Iya memang beberapa perintah tidak menunjukkan maksudnya. Baiklah, terima kasih kepada partisipan karena dapat diwawancarai untuk sistem TcExam ini."
+```
+---
 ### Participant 3 (May 6, 2019 11:00 duration 17'42")
 ```
 👧: She ; 😊: Me
@@ -63,7 +225,7 @@
 58. 👧 : (Scrolling, menemukan kolom questions, pilih topic, mengganti field "Number of questions" jadi 4, klik add question)
 59. 😊 : Udah gitu aja nil, makasih nila
 ```
-
+---
 ### Participant 4 (May 7, 2019 11:36 duration 19'54")
 ```
 👦 : He ; 😊 : Me
