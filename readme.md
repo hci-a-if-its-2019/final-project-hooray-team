@@ -122,3 +122,15 @@ Transcripts for this Contextual Inquiry is available in this link: [Transcript](
 ## Models and Annotations
 
 Artifact model, Flow model, and Cultural model for this Contextual Inquiry are available in this link: [ Models](https://docs.google.com/presentation/d/1C4g-h0BwNnfURy2CZUE5xoRbzpQlglr-DFVmPvyjkIc/)
+
+## Do's and Dont's
+
+### Do's
+- Make a consistent menu
+- Give symbol or text description for required fields in form
+- Provide search for every listed item
+
+### Dont's
+- Give empty feedback
+- Make unnecessary button for update
+- Hover everything to get description
