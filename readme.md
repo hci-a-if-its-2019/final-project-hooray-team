@@ -102,19 +102,17 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
 - He make exercise for his students
 - In giving exercise, he uses his Microsoft word Application
 
-### Participant 5 
--
--
--
--
--
+### Participant 5 🤡
+- A male, 20 years old
+- Informatics ITS 2017
+- Former lecturer assistant
+- Usually using paper or manually write the text or exercise
 
-### Participant 6
--
--
--
--
--
+### Participant 6 👱🏻‍♀️
+- A female, 23 years old
+- Sasjep UB 2015
+- Usually asked by her lecturer to help them handling class tests or exercises
+- Mostly done by their own online exam system (UB exam system)
 
 ## Transcript
 ### Participant 1 (May 5, 2019 19:00 duration 21'30")
