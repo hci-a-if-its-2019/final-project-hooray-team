@@ -121,7 +121,7 @@ Transcripts for this Contextual Inquiry is available in this link: [Transcript](
 
 ## Models and Annotations
 
-Artifact model, Flow model, and Cultural model for this Contextual Inquiry are available in this link: [ Models](https://docs.google.com/presentation/d/1C4g-h0BwNnfURy2CZUE5xoRbzpQlglr-DFVmPvyjkIc/)
+Artifact model, Flow model, and Cultural model for this Contextual Inquiry are available in this link: [Models](https://docs.google.com/presentation/d/1C4g-h0BwNnfURy2CZUE5xoRbzpQlglr-DFVmPvyjkIc/), [readme file](models/models.md)
 
 ## Do and Dont's
 There are several do and dont's based on the contextual inquiry
