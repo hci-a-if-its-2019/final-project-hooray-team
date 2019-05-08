@@ -1,16 +1,21 @@
 ## Models and Annotations
 
 ### Artifact Model
+![Artifact 1](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_1.png)
+![Artifact 2](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_2.png)
+![Artifact 3](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_3.png)
+![Artifact 4](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_4.png)
+![Artifact 5](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_5.png)
+![Artifact 6](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_6.png)
+![Artifact 7](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_7.png)
+![Artifact 8](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_8.png)
+![Artifact 9](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_9.png)
+![Artifact 10](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/artifact_model/artifact_10.png)
 
-![Artifact Model 1](/Users/gsculerlor/Documents/GitHub/assignment-1-GSculerlor/img/artifact_1.png)
-
-![Artifact 2](/Users/gsculerlor/Documents/GitHub/assignment-1-GSculerlor/img/artifact_2.png)
-
-![Artifact 3](/Users/gsculerlor/Documents/GitHub/assignment-1-GSculerlor/img/artifact_3.png)
 
 ### Flow Model
 
-![Participant 1](http://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/flow_model/participant_1.jpg)
+![Participant 1](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/flow_model/participant_1.jpg)
 
 ![Participant 2](https://raw.githubusercontent.com/hci-a-if-its-2019/final-project-hooray-team/master/assets/flow_model/participant_2.jpg)
 
