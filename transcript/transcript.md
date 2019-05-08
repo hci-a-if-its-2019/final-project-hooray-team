@@ -1,4 +1,5 @@
-## Transcript
+Transcript
+
 ### Participant 1 (May 5, 2019 19:00 duration 21'30")
 ```
 01. 😃: "Pada hari ini saya akan mengadakan wawancara untuk menggali informasi dari sistem TCExam, sebuah aplikasi untuk membuat kuis soal dan jawaban yang dapat digunakan oleh guru dan murid. Dalam wawancara ini, partisipan diharapkan dapat melakukan instruksi-instruksi yang berikan."
@@ -303,3 +304,114 @@
 70. 😊 : Ok gapapa, makasih yaa..
 
 ```
+
+### Participant 5 (May 6, 2019 15:20 duration 14'31")
+
+```
+🤯 : Participant ; 👀 : Me
+
+1. 👀 : Halo jadi disini kita akan ngelakuin test test gitu lah, sebelumnya anda sering bikin test atau ujian gitu nggak?
+2. 🤯 : Sering sih waktu jadi asdos kemaren, cuma dosennya kan suka nulis gitu dan emang tugasnya di kertas jadi ya manual gitu
+3. 👀 : Oh gitu, oke-oke. Sebelumnya pernah ngerti tcexam nggak?
+4. 🤯 : Pernah denger, tapi belum pernah pake
+5. 👀 : Oke oke, jadi disini kita bakal ngetes tcexam. Santai aja yang dites appnya bukan kamu jadi gaperlu takut salah atau semacamnya, gausah sok paham juga hahahaha
+6. 🤯 : Hahahaha oke mas
+7. 👀 : Oke langsung aja ya, jadi silahkan login dengan username admin password 1234
+8. 🤯 : Oke (melakukan login), oke sudah
+9. 👀 : Silahkan bikin akun baru terserah
+10. 🤯 : Oke mas (mengisi form -> klik update -> muncul error kalau ada field yang tidak terisi) 
+10. 🤯 : Walah semua harus diisi toh, tak pikir nggak semua wajib. Ngisi lagi dong
+12. 👀 : Yaudah isi lagi aja ngasal gapapa
+13. 🤯 : Oke oke (mengisi ulang form -> klik update) sip sudah bisa
+14. 👀 : Oke silahkan buat group dengan nama HCI A Class lalu pindah user tadi ke group HCI tadi
+15. 🤯 : (membuat group -> klik update -> kembali ke page akun -> mengubah group akun tadi) oke sip, btw ini centang ga jelas banget padahal penting
+16. 👀 : Oke silahkan buat module baru namanya technology, lalu buat topik Human Computer dan isi deskripsinya terserah deh
+17. 🤯 : (membuat topic -> klik add) oke
+18. 👀 : Nah sekarang ganti nama topic tadi jadi Human Computer Interaction
+19. 🤯 : Oke (mengubah nama -> klik update) lah tombol addnya gak ngilang padahal udah ada update
+20. 👀 : Sip nah sekarang anda akan bikin pertanyaan, silahkan buka topic dan modul tadi lalu biat pertanyaan satu single answer, satu free answer, satu multiple answer, satu ordering answer
+21. 🤯 : wah bentar-bentar banyak juga ya (mengisi form pertanyaan), btw ini wyswyg editornya nggak lengkap juga, kalau butuh emote atau yang semacemnya nggak ada padahal sekarang wyswyg editor pada ada fitur itu (mengecek semua checklist)
+22. 🤯 : btw ini wyswyg editornya nggak lengkap juga, kalau butuh emote atau yang semacemnya nggak ada padahal sekarang wyswyg editor pada ada fitur itu (mengecek semua checklist)
+23. 👀 : Kamu langsung checklist semua?
+24. 🤯 : Iya, gatau juga sih maksudnya apa gaada penjelasannya, daripada bikin ulang kayak di user tadi mending di cek semua aja
+25. 👀 : Oke sip dah kalo gitu, sekarang silahkan bikin jawabannya
+26. 🤯 : Hmm...ini tiap sekali bikin jawaban harus refresh lagi ya? Sebenernya lebih bagus kalo tiap pertanyaan langsung form lengkap ada kasih jawaban benar sama list jawaban salah sekali buat
+27. 🤯 : (mengisi setiap pertanyaan dengan jawaban) hmm ribet juga ternyata emang ini buat bikin pertanyaan sama jawaban, kurang user friendly
+28. 👀 : I see I see
+29. 🤯 : Ini menurutku preview juga kurang terlihat kalo ditaruh bawah sini, nggak keliatan kalau itu preview, soalnya plain text banget
+30. 🤯 : Sama di hampir semua form kurang self explanation ini checkbox maksudnya apa, ini button maksudnya apa, buat orang yang awam dan belum tau istilah istilahnya jadi bingung juga apaan ini maksudnya
+31. 👀 : Oke noted
+32. 🤯 : (melanjutkan mengisi form jawaban) oke sudah semua, paling. Nggak ngerti bingung juga sebenernya ini ngapain aja
+33. 👀 : Oke selanjutnya silahkan menaruh semua jawaban di bagian pertama
+34. 🤯 : Gimana gimana?
+35. 👀 : Jadi buat pertanyaan yang sudah diisi tadi kan ada yang benar, nah yang benar tadi ditaruh di posisi pertama
+36. 🤯 : Oalah paham paham, wait... (mencari opsi buat ganti position)
+37. 🤯 : lah positionnya cuma satu doang dong hahaha, harusnya ini sih
+38. 🤯 : (mengedit form jawaban) harusnya sih udah ini gatau dah hahahaha
+39. 👀 : Nah sekarang silahkan membuat test 
+40. 🤯 : Lah tadi bukan test toh?
+41. 👀 : Kan tadi pertanyaan doang bapak hahaha
+42. 🤯 : Oh iya deng oke oke, ini OMR Bulk apaan dah, gaada penjelasannya anjir
+43. 🤯 : Wah sama kayak lainnya, formnya banyak opsi tapi ga keliatan mana yang wajib isi mana yang nggak
+44. 🤯 : (mengisi form test)
+45. 👀 : Lah kau centang semua lagi?
+46. 🤯 : Iya lah biar ga error lagi kek tadi hahaha
+47. 👀 : Hahaha oke oke
+48. 🤯 : (melanjutkan mengisi form jawaban) oke sudah semua, paling. Nggak ngerti bingung juga sebenernya ini ngapain 
+49. 🤯 : Oke udah
+50. 👀 : Oke udah kelar kalau gitu semua testnya
+51. 🤯 : Yea finally, jelek banget tampilannya susah jadinya
+52. 👀 : Ya kalau bagus ga juga ku test kan hahaha
+```
+
+### Participant 6 (May 6, 2019 21:09 duration 17'05'')
+
+```
+🤯 : Participant ; 👀 : Me
+
+1. 👀 : Halo jadi disini kita akan ngelakuin test test gitu lah, sebelumnya anda sering bikin test atau ujian gitu nggak?
+2. 🤯 : Sering sih disuruh jaga sama dosen gitu, pake web e-examnya UB
+3. 👀 : Oh gitu, oke-oke. Sebelumnya pernah ngerti tcexam nggak?
+4. 🤯 : Gapernah denger sama sekali hahahaha
+5. 👀 : Oke oke santai hahaha, jadi disini kita bakal ngetes tcexam. Santai aja yang dites appnya bukan kamu jadi gaperlu takut salah atau semacamnya, gausah sok paham juga hahahaha
+6. 🤯 : Awas susah nen
+7. 👀 : Nggak nggak sans ae la sama aku haha, jadi silahkan login dengan username admin password 1234
+9. 🤯 : Ok (melakukan login)
+10. 👀 : Oke mantap terus lanjut buat group namanya HCI A Class
+11. 🤯 : (membuat group -> klik update) njir nen ini checkboxnya ga keliatan banget njir hampir ga kepencet hahaha 
+12. 👀 : HAHAHAHA can relate, oke oke lanjut bikin akun bebas intinya levelnya bukan 0 
+13. 🤯 : (Mengisi form -> klik add) ku isi 7 yak levelnya
+14. 👀 : Bebas haha, oke terus setelah itu buat modul namanya Technology
+15. 🤯 : (Mengisi form -> klik add)
+16. 👀 : Terus buat topik namanya Human-Computer terus kasih deskripsi interaksi antara manusia dan komputer
+17. 🤯 : (mengisi form -> klik add) 
+18. 👀 : Nah ganti namanya jadi Human Computer Interaction
+19. 🤯 : Ah banyak minta lu nen (membuka topik lalu mengganti nama topik)
+20. 👀 : Nah lalu silahkan buat pertanyaan buat topik tadi, ini listnya
+21. 🤯 : (mengisi form pertanyaan sesuai dengan konten), eh nen btw ini tampilan gabisa lebih bagus apa? hahaha 
+22. 👀 : Udah lah kalo jelek nggak ku test anjir hahaha, dah dah lanjut deh bikin jawabannya sekarang
+23. 🤯 : Njir kenapa ga bareng sama soalnya tadi, ribet jadinya (membuka per pertanyaan dan mengisi jawaban sesuai list)
+24. 👀 : Hehe gimana capek? Lanjut silahkan bikin jawaban yang bener selalu di posisi pertama
+25. 🤯 : Maksudnya?
+26. 👀 : Ya pokoknya jawaban benernya ada di posisi pertama terus tiap kuis dibuat
+27. 🤯 : Oh dia ke random toh kalo gak diatur, oke oke, harusnya ada tadi fieldnya (memilih opsi position 1)
+28. 👀 : Mantab pinter juga anda haha, sekarang silahkan bikin test sesuai list ini
+29. 🤯 : njir bikin form lagi dong haha
+30. 👀 : Udah la gaperlu protes
+31. 🤯 : (Scrolling tetapi belum sampai bawah jadi belum melihat field questions -> klik question -> klik dropdown question -> tests -> klik select -> tests -> klik test)
+32. 👀 : Lah, masukin pertanyaannya eh jangan ngelantur kemana mana
+33. 🤯 : Lah bener kan ini? Tapi kok ngulang terus sih, salah ya hehe
+34. 👀 : Ya kalo repetitif ya salah njirr
+35. 🤯 : (Hovering tabs) masukin pertanyaannya ke tes nya
+36. 🤯 : (Hover tab tests, klik OMR Bulk Importer) ini apa coba
+37. 👀 : Ku juga gatau sih ehehe
+38. 🤯 : (Buka import answer) ah ini lho. gabilang dari tadi nen
+39. 👀 : Lah kan aturannya gitu bapak hahaha
+40. 🤯 : (Memilih topics -> klik add questions -> scroll lagi sampe bawah)
+41. 👀 : Gitu dong
+42. 🤯 : Ok ezzzzz
+43. 👀 : Okeh kelar yeeeee 
+44. 🤯 : Ahhhh hahaha akhirnya, bikin yang bagusan dikit napa nen
+45. 👀 : Bukan punyaku njir hahaha gausah protes napa
+```
+
