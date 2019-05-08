@@ -134,3 +134,12 @@ Artifact model, Flow model, and Cultural model for this Contextual Inquiry are a
 - Give empty feedback
 - Make unnecessary button for update
 - Hover everything to get description
+
+# Sketching and Prototyping
+## Part A: Sketches
+## Part B: Assumptions
+## Part C: Prototypes
+![Question_List](assets/prototype/Question_List.png)
+*Image : Showing list of questions*
+![Questions](assets/prototype/Questions.png)
+*Image : Edit question and add answers*
