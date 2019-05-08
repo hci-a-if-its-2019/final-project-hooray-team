@@ -88,14 +88,14 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
 -
 -
 
-### Participant 3 :person_with_pouting_face:
+### Participant 3 👧
 - A female, 21 years old
 - A student of Informatics Department batch 2016
 - She had experienced as a tutor for high school students last year
 - She never made exam questions for her students because it has been prepared by the course
 - In giving exercise, she uses her printed book given by the course
 
-### Participant 4 :boy:
+### Participant 4 👦
 - A male, 20 years old
 - A student of Informatics Department batch 2017
 - He experiences as a teaching assistant
