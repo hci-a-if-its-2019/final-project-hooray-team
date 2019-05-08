@@ -97,7 +97,7 @@
 14. 😃: "Kemudian, buat grup baru."
 15. 🙆‍: (masuk ke users -> groups)
 16. 😃: "Dengan nama HCI. Lalu, pindahkan user yang tadi dibuat ke dalam grup ini."
-17. 🙆‍: "Sabar ya, sebentar." (mencari menu untuk memindahkannya. Membuka users -> users, masuk ke user yang baru dibuat, mengganti pilihan di groups, klik update) "Hah kok error hijau? Some of the required fields have not been filled."
+17. 🙆‍: "Sabar ya, sebentar." (mencari menu untuk memindahkannya. Membuka users -> users, masuk ke user yang baru dibuat, mengganti pilihan di groups, klik update) "Hah kok error hijau? Some of the required fields have not been filled. Oh bagian password."
 18. 🙆‍: (mengisi ulang form tersebut kemudian mencentang kotak kecil dan klik Update)
 19. 😃: "Kok bisa tahu itu untuk dicentang dan menyelesaikan error diatas?"
 20. 🙆‍: "Gatau, nyoba aja ini terus bisa. Haha.."
@@ -158,7 +158,7 @@
 75. 🙆‍: (memilih soalnya) "Tadi buat berapa ya? Empat ya? Ini number of questions buat apa?"
 76. 😃: "Itu menentukan maksimal soal yang keluar."
 77. 🙆‍: "Lah kok aneh." (klik Add questions)
-78. 😃: "Iya memang beberapa perintah tidak menunjukkan maksudnya. Baiklah, terima kasih kepada partisipan karena dapat diwawancarai untuk sistem TcExam ini."
+78. 😃: "Baiklah, terima kasih kepada partisipan karena dapat diwawancarai untuk sistem TcExam ini."
 ```
 ---
 ### Participant 3 (May 6, 2019 11:00 duration 17'42")
