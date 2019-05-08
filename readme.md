@@ -122,3 +122,18 @@ Transcripts for this Contextual Inquiry is available in this link: [Transcript](
 ## Models and Annotations
 
 Artifact model, Flow model, and Cultural model for this Contextual Inquiry are available in this link: [ Models](https://docs.google.com/presentation/d/1C4g-h0BwNnfURy2CZUE5xoRbzpQlglr-DFVmPvyjkIc/)
+
+## Do and Dont's
+There are several do and dont's based on the contextual inquiry
+
+### Do
+- Separate the CRUD actions on differents menu
+- Provide clear message/feedback for any action
+- Give mark/sign to the required field in a form
+- Make the active page is affordable to click from the main tab
+- Give an easy-to-read explanation for each form field
+
+### Dont's
+- Don't show every message the same color
+- Don't put new field/section at the invisible part of the screen
+- Don't put a form field which is unnecessary for the user
