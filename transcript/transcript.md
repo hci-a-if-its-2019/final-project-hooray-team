@@ -1,4 +1,5 @@
-## Transcript
+Transcript
+
 ### Participant 1 (May 5, 2019 19:00 duration 21'30")
 ```
 01. 😃: "Pada hari ini saya akan mengadakan wawancara untuk menggali informasi dari sistem TCExam, sebuah aplikasi untuk membuat kuis soal dan jawaban yang dapat digunakan oleh guru dan murid. Dalam wawancara ini, partisipan diharapkan dapat melakukan instruksi-instruksi yang berikan."
@@ -304,7 +305,7 @@
 
 ```
 
-### Participant 5 (May 6, 2019 11:36 duration 14'31")
+### Participant 5 (May 6, 2019 15:20 duration 14'31")
 
 ```
 🤯 : Participant ; 👀 : Me
@@ -361,5 +362,56 @@
 50. 👀 : Oke udah kelar kalau gitu semua testnya
 51. 🤯 : Yea finally, jelek banget tampilannya susah jadinya
 52. 👀 : Ya kalau bagus ga juga ku test kan hahaha
+```
+
+### Participant 6 (May 6, 2019 21:09 duration 17'05'')
+
+```
+🤯 : Participant ; 👀 : Me
+
+1. 👀 : Halo jadi disini kita akan ngelakuin test test gitu lah, sebelumnya anda sering bikin test atau ujian gitu nggak?
+2. 🤯 : Sering sih disuruh jaga sama dosen gitu, pake web e-examnya UB
+3. 👀 : Oh gitu, oke-oke. Sebelumnya pernah ngerti tcexam nggak?
+4. 🤯 : Gapernah denger sama sekali hahahaha
+5. 👀 : Oke oke santai hahaha, jadi disini kita bakal ngetes tcexam. Santai aja yang dites appnya bukan kamu jadi gaperlu takut salah atau semacamnya, gausah sok paham juga hahahaha
+6. 🤯 : Awas susah nen
+7. 👀 : Nggak nggak sans ae la sama aku haha, jadi silahkan login dengan username admin password 1234
+9. 🤯 : Ok (melakukan login)
+10. 👀 : Oke mantap terus lanjut buat group namanya HCI A Class
+11. 🤯 : (membuat group -> klik update) njir nen ini checkboxnya ga keliatan banget njir hampir ga kepencet hahaha 
+12. 👀 : HAHAHAHA can relate, oke oke lanjut bikin akun bebas intinya levelnya bukan 0 
+13. 🤯 : (Mengisi form -> klik add) ku isi 7 yak levelnya
+14. 👀 : Bebas haha, oke terus setelah itu buat modul namanya Technology
+15. 🤯 : (Mengisi form -> klik add)
+16. 👀 : Terus buat topik namanya Human-Computer terus kasih deskripsi interaksi antara manusia dan komputer
+17. 🤯 : (mengisi form -> klik add) 
+18. 👀 : Nah ganti namanya jadi Human Computer Interaction
+19. 🤯 : Ah banyak minta lu nen (membuka topik lalu mengganti nama topik)
+20. 👀 : Nah lalu silahkan buat pertanyaan buat topik tadi, ini listnya
+21. 🤯 : (mengisi form pertanyaan sesuai dengan konten), eh nen btw ini tampilan gabisa lebih bagus apa? hahaha 
+22. 👀 : Udah lah kalo jelek nggak ku test anjir hahaha, dah dah lanjut deh bikin jawabannya sekarang
+23. 🤯 : Njir kenapa ga bareng sama soalnya tadi, ribet jadinya (membuka per pertanyaan dan mengisi jawaban sesuai list)
+24. 👀 : Hehe gimana capek? Lanjut silahkan bikin jawaban yang bener selalu di posisi pertama
+25. 🤯 : Maksudnya?
+26. 👀 : Ya pokoknya jawaban benernya ada di posisi pertama terus tiap kuis dibuat
+27. 🤯 : Oh dia ke random toh kalo gak diatur, oke oke, harusnya ada tadi fieldnya (memilih opsi position 1)
+28. 👀 : Mantab pinter juga anda haha, sekarang silahkan bikin test sesuai list ini
+29. 🤯 : njir bikin form lagi dong haha
+30. 👀 : Udah la gaperlu protes
+31. 🤯 : (Scrolling tetapi belum sampai bawah jadi belum melihat field questions -> klik question -> klik dropdown question -> tests -> klik select -> tests -> klik test)
+32. 👀 : Lah, masukin pertanyaannya eh jangan ngelantur kemana mana
+33. 🤯 : Lah bener kan ini? Tapi kok ngulang terus sih, salah ya hehe
+34. 👀 : Ya kalo repetitif ya salah njirr
+35. 🤯 : (Hovering tabs) masukin pertanyaannya ke tes nya
+36. 🤯 : (Hover tab tests, klik OMR Bulk Importer) ini apa coba
+37. 👀 : Ku juga gatau sih ehehe
+38. 🤯 : (Buka import answer) ah ini lho. gabilang dari tadi nen
+39. 👀 : Lah kan aturannya gitu bapak hahaha
+40. 🤯 : (Memilih topics -> klik add questions -> scroll lagi sampe bawah)
+41. 👀 : Gitu dong
+42. 🤯 : Ok ezzzzz
+43. 👀 : Okeh kelar yeeeee 
+44. 🤯 : Ahhhh hahaha akhirnya, bikin yang bagusan dikit napa nen
+45. 👀 : Bukan punyaku njir hahaha gausah protes napa
 ```
 
