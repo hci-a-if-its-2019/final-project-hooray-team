@@ -143,3 +143,7 @@ Artifact model, Flow model, and Cultural model for this Contextual Inquiry are a
 *Image : Showing list of questions*
 ![Questions](assets/prototype/Questions.png)
 *Image : Edit question and add answers*
+![Grups](assets/prototype/Groups.png)
+*Image : Add Group*
+![Topics](assets/prototype/Topics.png)
+*Image : Add Topic*
