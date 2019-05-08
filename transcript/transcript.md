@@ -141,3 +141,63 @@
 70. 😊 : Ok gapapa, makasih yaa..
 
 ```
+
+### Participant 5 (May 6, 2019 11:36 duration 14'31")
+
+```
+🤯 : Participant ; 👀 : Me
+
+1. 👀 : Halo jadi disini kita akan ngelakuin test test gitu lah, sebelumnya anda sering bikin test atau ujian gitu nggak?
+2. 🤯 : Sering sih waktu jadi asdos kemaren, cuma dosennya kan suka nulis gitu dan emang tugasnya di kertas jadi ya manual gitu
+3. 👀 : Oh gitu, oke-oke. Sebelumnya pernah ngerti tcexam nggak?
+4. 🤯 : Pernah denger, tapi belum pernah pake
+5. 👀 : Oke oke, jadi disini kita bakal ngetes tcexam. Santai aja yang dites appnya bukan kamu jadi gaperlu takut salah atau semacamnya, gausah sok paham juga hahahaha
+6. 🤯 : Hahahaha oke mas
+7. 👀 : Oke langsung aja ya, jadi silahkan login dengan username admin password 1234
+8. 🤯 : Oke (melakukan login), oke sudah
+9. 👀 : Silahkan bikin akun baru terserah
+10. 🤯 : Oke mas (mengisi form -> klik update -> muncul error kalau ada field yang tidak terisi) 
+10. 🤯 : Walah semua harus diisi toh, tak pikir nggak semua wajib. Ngisi lagi dong
+12. 👀 : Yaudah isi lagi aja ngasal gapapa
+13. 🤯 : Oke oke (mengisi ulang form -> klik update) sip sudah bisa
+14. 👀 : Oke silahkan buat group dengan nama HCI A Class lalu pindah user tadi ke group HCI tadi
+15. 🤯 : (membuat group -> klik update -> kembali ke page akun -> mengubah group akun tadi) oke sip, btw ini centang ga jelas banget padahal penting
+16. 👀 : Oke silahkan buat module baru namanya technology, lalu buat topik Human Computer dan isi deskripsinya terserah deh
+17. 🤯 : (membuat topic -> klik add) oke
+18. 👀 : Nah sekarang ganti nama topic tadi jadi Human Computer Interaction
+19. 🤯 : Oke (mengubah nama -> klik update) lah tombol addnya gak ngilang padahal udah ada update
+20. 👀 : Sip nah sekarang anda akan bikin pertanyaan, silahkan buka topic dan modul tadi lalu biat pertanyaan satu single answer, satu free answer, satu multiple answer, satu ordering answer
+21. 🤯 : wah bentar-bentar banyak juga ya (mengisi form pertanyaan), btw ini wyswyg editornya nggak lengkap juga, kalau butuh emote atau yang semacemnya nggak ada padahal sekarang wyswyg editor pada ada fitur itu (mengecek semua checklist)
+22. 🤯 : btw ini wyswyg editornya nggak lengkap juga, kalau butuh emote atau yang semacemnya nggak ada padahal sekarang wyswyg editor pada ada fitur itu (mengecek semua checklist)
+23. 👀 : Kamu langsung checklist semua?
+24. 🤯 : Iya, gatau juga sih maksudnya apa gaada penjelasannya, daripada bikin ulang kayak di user tadi mending di cek semua aja
+25. 👀 : Oke sip dah kalo gitu, sekarang silahkan bikin jawabannya
+26. 🤯 : Hmm...ini tiap sekali bikin jawaban harus refresh lagi ya? Sebenernya lebih bagus kalo tiap pertanyaan langsung form lengkap ada kasih jawaban benar sama list jawaban salah sekali buat
+27. 🤯 : (mengisi setiap pertanyaan dengan jawaban) hmm ribet juga ternyata emang ini buat bikin pertanyaan sama jawaban, kurang user friendly
+28. 👀 : I see I see
+29. 🤯 : Ini menurutku preview juga kurang terlihat kalo ditaruh bawah sini, nggak keliatan kalau itu preview, soalnya plain text banget
+30. 🤯 : Sama di hampir semua form kurang self explanation ini checkbox maksudnya apa, ini button maksudnya apa, buat orang yang awam dan belum tau istilah istilahnya jadi bingung juga apaan ini maksudnya
+31. 👀 : Oke noted
+32. 🤯 : (melanjutkan mengisi form jawaban) oke sudah semua, paling. Nggak ngerti bingung juga sebenernya ini ngapain aja
+33. 👀 : Oke selanjutnya silahkan menaruh semua jawaban di bagian pertama
+34. 🤯 : Gimana gimana?
+35. 👀 : Jadi buat pertanyaan yang sudah diisi tadi kan ada yang benar, nah yang benar tadi ditaruh di posisi pertama
+36. 🤯 : Oalah paham paham, wait... (mencari opsi buat ganti position)
+37. 🤯 : lah positionnya cuma satu doang dong hahaha, harusnya ini sih
+38. 🤯 : (mengedit form jawaban) harusnya sih udah ini gatau dah hahahaha
+39. 👀 : Nah sekarang silahkan membuat test 
+40. 🤯 : Lah tadi bukan test toh?
+41. 👀 : Kan tadi pertanyaan doang bapak hahaha
+42. 🤯 : Oh iya deng oke oke, ini OMR Bulk apaan dah, gaada penjelasannya anjir
+43. 🤯 : Wah sama kayak lainnya, formnya banyak opsi tapi ga keliatan mana yang wajib isi mana yang nggak
+44. 🤯 : (mengisi form test)
+45. 👀 : Lah kau centang semua lagi?
+46. 🤯 : Iya lah biar ga error lagi kek tadi hahaha
+47. 👀 : Hahaha oke oke
+48. 🤯 : (melanjutkan mengisi form jawaban) oke sudah semua, paling. Nggak ngerti bingung juga sebenernya ini ngapain 
+49. 🤯 : Oke udah
+50. 👀 : Oke udah kelar kalau gitu semua testnya
+51. 🤯 : Yea finally, jelek banget tampilannya susah jadinya
+52. 👀 : Ya kalau bagus ga juga ku test kan hahaha
+```
+
