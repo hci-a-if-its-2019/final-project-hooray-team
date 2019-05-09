@@ -21,6 +21,7 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
 * No mark for the required field and input box is available, but cannot be filled
 * Main menu tab is not consistent
 * No message for success or fail action
+* The question's position feature doesn't work properly
 
 # Contextual Inquiry
 ## Instruction Script
