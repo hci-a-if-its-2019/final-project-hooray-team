@@ -1,3 +1,7 @@
+```"Pada akhirnya, kapanpun tugasnya, semua kelompok kerjanya H-1 semuanya" - Ganen```
+
+------
+
 Team Member:
 
 - Ganendra Afrasya Salsabilla - 05111640000071
