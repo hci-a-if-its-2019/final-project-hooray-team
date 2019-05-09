@@ -21,10 +21,11 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
 
 ## System's Bad UIs
 * Delete Alert is shown in green color
-* If there is unfulfilled requirement in fields, the system does not show which fields are error.
-* Give abbreviation as a label in field (not clear), although the system provide tooltip
-* If failed in login and auth, the system does not show / throw anything
-* Main menu tab is not consistent.
+* If there is unfulfilled requirement in fields, the system does not show which fields are error
+* No mark for the required field and input box is available, but cannot be filled
+* Main menu tab is not consistent
+* No message for success or fail action
+* The question's position feature doesn't work properly
 
 # Contextual Inquiry
 ## Instruction Script
