@@ -125,13 +125,17 @@ Artifact model, Flow model, and Cultural model for this Contextual Inquiry are a
 
 ### Do's
 - Make a consistent menu
-- Give symbol or text description for required fields in form
-- Provide search for every listed item
+- Provide text search for dropdown select
+- Change CRUD buttons to proper position
+- Provide clear message/feedback for any action
+- Give mark/sign to the required field in a form
+- Give representative name for field label
 
 ### Dont's
-- Give empty feedback
-- Make unnecessary button for update
-- Hover everything to get description
+- Don't use green background for delete message
+- Don't put new field/section at the invisible part of the screen
+- Don't put a form field which is unnecessary for the user
+- Don't hover everything to get description
 
 # Sketching and Prototyping
 ## Part A: Sketches
