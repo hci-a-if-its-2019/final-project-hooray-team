@@ -5,7 +5,7 @@
 		<!-- Basic -->
 		<meta charset="UTF-8">
 
-		<title>Modules and Subjects</title>
+		<title>Groups Management</title>
 		<meta name="keywords" content="HTML5 Admin Template" />
 		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
 		<meta name="author" content="okler.net">
@@ -78,7 +78,7 @@
 												<a href="users.html"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
 											</li>
 											<li>
-												<a><i class="fa fa-users" aria-hidden="true"></i>Groups</a>
+												<a href="groups.html"><i class="fa fa-users" aria-hidden="true"></i>Groups</a>
 											</li>
 											<li>
 												<a><i class="fa fa-plus" aria-hidden="true"></i>Select</a>
@@ -196,14 +196,44 @@
 										<i class="fa fa-home"></i>
 									</a>
 								</li>
-								<li><span>Pages</span></li>
-								<li><span>Blank Page</span></li>
+								<li><span>Users</span></li>
+								<li><span>Groups Management</span></li>
 							</ol>
 						</div>
 					</header>
 
 					<!-- start: page -->
-					Isi content disini
+					<div class="col-lg-8">
+						<section class="panel">
+								<header class="panel-heading">
+									<h2 class="panel-title">Groups Management</h2>
+								</header>
+								<div class="panel-body">
+									<div class="row">
+										<div class="col-lg-12">
+											<div class="form-group">
+												<label class="control-label" for="groups">Groups</label>
+												<select class="form-control input-sm mb-md" required>
+													<option>+</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-lg-12">
+											<div class="form-group">
+												<label class="control-label">Groups Name <span class="required">*</span></label>
+												<input type="text" name="groups-name" class="form-control" required>
+											</div>
+										</div>
+									</div>
+								</div>
+								<footer class="panel-footer text-center">
+									<button class="btn btn-primary">Add</button>
+								</footer>
+						</section>
+							
+					</div>
 					<!-- end: page -->
 				</section>
 			</div>
