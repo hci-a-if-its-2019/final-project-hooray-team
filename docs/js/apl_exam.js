@@ -1,0 +1,1 @@
+BASE_URL = "http://localhost/apl/APL-OAuth2-Server/src/"
