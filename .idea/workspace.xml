@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="666e512f-b2f0-4c20-a683-aeac1083d75b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blank.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules.html" afterDir="false" />
     </list>
@@ -35,14 +36,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-71090609">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1137" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/blank.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3664">
-              <caret line="229" column="46" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="46" />
+            <state relative-caret-position="134">
+              <caret line="24" column="111" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -50,36 +69,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/modules.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="377" column="21" selection-start-line="377" selection-start-column="21" selection-end-line="377" selection-end-column="21" />
+            <state relative-caret-position="210">
+              <caret line="486" column="20" lean-forward="true" selection-start-line="486" selection-start-column="20" selection-end-line="486" selection-end-column="20" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/js/profil.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/js/ruangdiskusi.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/js/tes_kepribadian.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -95,6 +88,8 @@
     <findStrings>
       <find>method</find>
       <find>mod-form</find>
+      <find>form</find>
+      <find>sub-form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,8 +98,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/blank.html" />
         <option value="$PROJECT_DIR$/docs/js/apl_exam.js" />
+        <option value="$PROJECT_DIR$/docs/blank.html" />
         <option value="$PROJECT_DIR$/docs/modules.html" />
       </list>
     </option>
@@ -123,10 +118,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="613" />
-    <option name="y" value="136" />
+    <option name="x" value="-129" />
+    <option name="y" value="144" />
     <option name="width" value="1641" />
-    <option name="height" value="1032" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -136,25 +131,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="final-project-hooray-team" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final-project-hooray-team" type="462c0819:PsiDirectoryNode" />
+              <item name="hooray" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hooray" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="final-project-hooray-team" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final-project-hooray-team" type="462c0819:PsiDirectoryNode" />
+              <item name="hooray" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hooray" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="final-project-hooray-team" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final-project-hooray-team" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,17 +184,18 @@
       <workItem from="1558369716764" duration="1456000" />
       <workItem from="1558408474688" duration="1330000" />
       <workItem from="1558410802386" duration="2787000" />
+      <workItem from="1558418069456" duration="3766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5573000" />
+    <option name="totallyTimeSpent" value="9339000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="91" width="1094" height="688" extended-state="0" />
+    <frame x="-86" y="96" width="1094" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2591876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2640232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -220,7 +210,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3291367" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -248,13 +238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3664">
-          <caret line="229" column="46" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -273,10 +256,17 @@
     <entry file="file://$PROJECT_DIR$/docs/js/tes_kepribadian.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="24" column="111" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/modules.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="377" column="21" selection-start-line="377" selection-start-column="21" selection-end-line="377" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="486" column="20" lean-forward="true" selection-start-line="486" selection-start-column="20" selection-end-line="486" selection-end-column="20" />
         </state>
       </provider>
     </entry>

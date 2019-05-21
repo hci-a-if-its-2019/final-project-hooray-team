@@ -19,8 +19,9 @@
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
-		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
-		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
+		<!--<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />-->
+		<!--<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
 
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
@@ -256,23 +257,21 @@
 
 										<!-- Isi tab edit -->
 
-										<form class="form-horizontal">
+										<form class="form-horizontal" id="sub-form">
 											<h4 class="mb-xlg">Subjects Information</h4>
 											<fieldset>
 												<div class="form-group">
-													<label class="col-md-3 control-label" for="modules">Modules <span class="required">*</span></label>
+													<label class="col-md-3 control-label">Modules <span class="required">*</span></label>
 													<div class="col-md-8">
-														<select class="form-control input-sm mb-md" required>
-															<option>+</option>
+														<select class="form-control input-sm mb-md" id="sub-mod-menu" required>
 														</select>
 													</div>
 	
 												</div>
 												<div class="form-group">
-													<label class="col-md-3 control-label" for="subjects">Subjects <span class="required">*</span></label>
+													<label class="col-md-3 control-label" for="sub-menu">Subjects <span class="required">*</span></label>
 													<div class="col-md-8">
-														<select class="form-control input-sm mb-md" required>
-															<option>+</option>
+														<select class="form-control input-sm mb-md" id="sub-menu" required>
 														</select>
 													</div>
 												</div>
@@ -319,6 +318,7 @@
 		<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
 		<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
 		<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 		
 		<!-- Theme Base, Components and Settings -->
 		<script src="assets/javascripts/theme.js"></script>
@@ -346,6 +346,7 @@
                         }
                         console.log(moduleOption);
                         $('#mod-menu').append(moduleOption);
+                        $('#sub-mod-menu').append(moduleOption);
                     },
                     error: function (e) {
                         console.log(e);
@@ -366,29 +367,125 @@
                         });
                     }
                 });
+                
+                // let subjects;
+                // $.ajax({
+				// 	type: 'GET',
+				// 	url: baseURL + 'exam/api/subject',
+				// 	success: function(data){
+				// 	    subjects = data;
+				// 	}
+				// });
+                
+                $('#sub-mod-menu').on('change', function () {
+                    $('#sub-menu option').remove();
+                    subjectOption = '';
+                    $('#sub-menu').append('<option value="0">+</option>');
+					val = $(this).val();
+					$.ajax({
+                        type: 'GET',
+                        url: baseURL + 'exam/api/subject/module/' + val,
+                        success: function (data) {
+                            for(i=0; i < data.length; i++){
+                                subjectOption += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+							}
+							$('#sub-menu').append(subjectOption);
+                        }
+					});
+                });
+
+                $('#sub-menu').on('change', function () {
+                    var val = $(this).val();
+                    console.log('val', val);
+                    if (val > 0) {
+                        $.ajax({
+                            type: 'GET',
+                            url: baseURL + 'exam/api/subject/id/' + val,
+                            success: function (data) {
+                                console.log(data);
+                                $('#sub-name').val(data.name);
+                                $('#sub-description').val(data.description);
+                            }
+                        });
+                    }
+                })
 
                 $('#mod-form').submit(function(event){
                     event.preventDefault();
                     data = {
                         id: $('#mod-menu').val(),
                         name: $('#mod-name').val(),
-                    }
+                    };
 
                     if (data.id == 0) {
                         $.ajax({
                             type: 'POST',
                             url: baseURL + 'exam/api/module',
-                            data: data,
+							crossOrigin: true,
+                            data: JSON.stringify(data),
                             dataType: 'json',
                             success: function(data){
-                                alert(data);
-                            }
+                                toastr.success(data.message, data.status);
+                            },
+							error: function(e){
+                                console.log(e);
+                                toastr.error(data.message, data.status);
+							}
                         });
                     }
                     else {
+                        toastr.warning("Update module is not supported yet!", "Warning");
+                    }
+                });
+
+                $('#sub-form').submit(function(event){
+                    event.preventDefault();
+                    data = {
+                        id: $('#sub-menu').val(),
+                        name: $('#sub-name').val(),
+						description: $('#sub-description').val(),
+						module_id: $('#sub-mod-menu').val(),
+                    };
+
+                    console.log(JSON.stringify(data));
+
+
+                    if (data.id == 0) {
+                        $.ajax({
+                            type: 'POST',
+                            url: baseURL + 'exam/api/subject',
+                            data: JSON.stringify(data),
+                            dataType: 'json',
+                            success: function(data){
+                                toastr.success(data.message, data.status);
+                            },
+                            error: function(e){
+                                console.log(e);
+                                toastr.error(data.message, data.status);
+                            }
+                        });
+                    }
+                    else if (data.id > 0) {
+                        $.ajax({
+                            type: 'PUT',
+                            url: baseURL + 'exam/api/subject/id/' + data.id,
+                            crossOrigin: true,
+                            data: JSON.stringify(data),
+                            dataType: 'json',
+                            success: function(data){
+                                toastr.success(data.message, data.status);
+                            },
+                            error: function(e){
+                                console.log(e);
+                                toastr.error(data.message, data.status);
+                            }
+                        });
+					}
+                    else {
                         alert("Update Module not supported yet!");
                     }
-                })
+
+                });
 
             });
 
