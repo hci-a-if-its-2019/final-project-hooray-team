@@ -1,1 +1,399 @@
-questions.html
+<!doctype html>
+<html class="fixed">
+<head>
+
+    <!-- Basic -->
+    <meta charset="UTF-8">
+
+    <title>Blank</title>
+    <meta name="keywords" content="HTML5 Admin Template" />
+    <meta name="description" content="Porto Admin - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+    <!--<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />-->
+    <!--<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />-->
+
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />-->
+
+    <!-- Specific Page Vendor CSS -->
+    <link rel="stylesheet" href="assets/vendor/pnotify/pnotify.custom.css" />
+    <link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link href="//cdn.quilljs.com/1.3.6/quill.bubble.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+    <!-- Head Libs -->
+    <script src="assets/vendor/modernizr/modernizr.js"></script>
+
+    <style type="text/css">
+        .page-header img {
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+    </style>
+
+</head>
+<body>
+<section class="body">
+
+    <div class="inner-wrapper">
+        <!-- start: sidebar -->
+        <aside id="sidebar-left" class="sidebar-left">
+
+            <div class="sidebar-header">
+                <div class="sidebar-title">
+                    Navigation
+                </div>
+                <div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+                    <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+                </div>
+            </div>
+
+            <div class="nano">
+                <div class="nano-content">
+                    <nav id="menu" class="nav-main" role="navigation">
+                        <ul class="nav nav-main">
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <span>Users</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="users.html"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
+                                    </li>
+                                    <li>
+                                        <a href="groups.html"><i class="fa fa-users" aria-hidden="true"></i>Groups</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-plus" aria-hidden="true"></i>Select</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-rocket" aria-hidden="true"></i>Online</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-upload" aria-hidden="true"></i>Import</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-copy" aria-hidden="true"></i>
+                                    <span>Modules</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="modules.html"><i class="fa fa-file-text" aria-hidden="true"></i>Modules</a>
+                                    </li>
+                                    <li>
+                                        <a href="questions.html"><i class="fa fa-pencil" aria-hidden="true"></i>Questions</a>
+                                    </li>
+                                    <li>
+                                        <a href="question_lists.html"><i class="fa fa-list" aria-hidden="true"></i>List</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-upload" aria-hidden="true"></i>Import</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-file" aria-hidden="true"></i>File Manager</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-certificate" aria-hidden="true"></i>SSL Certificates</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                                    <span>Tests</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="tests.html"><i class="fa fa-file-text-o" aria-hidden="true"></i>Tests</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-plus-circle" aria-hidden="true"></i>Select</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-upload" aria-hidden="true"></i>Import Answers</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-search-plus" aria-hidden="true"></i>OMR Bulk Importer</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-list-ol" aria-hidden="true"></i>Evaluation</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-rebel" aria-hidden="true"></i>Results</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-user" aria-hidden="true"></i>Users</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-recycle" aria-hidden="true"></i>
+                                    <span>Backup</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                    <span>Public</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                    <span>Help</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                    <span>Info</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                    <span>Logout</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+
+        </aside>
+        <!-- end: sidebar -->
+
+        <section role="main" class="content-body">
+            <header class="page-header">
+                <img src="img/logo_tcexam.png">
+
+                <div class="right-wrapper pull-right">
+                    <ol class="breadcrumbs" style="margin-right: 10px;">
+                        <li>
+                            <a href="index.html">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li><span>Module</span></li>
+                        <li><span>Questions</span></li>
+                    </ol>
+                </div>
+            </header>
+
+            <!-- start: page -->
+            <section class="panel">
+                <header class="panel-heading">
+                    <div class="panel-actions">
+                        <!--<a href="#" class="fa fa-caret-down"></a>-->
+                        <!--<a href="#" class="fa fa-times"></a>-->
+                    </div>
+
+                    <h2 class="panel-title">Question Management</h2>
+                </header>
+                <div class="panel-body">
+                    <fieldset>
+                        <div class="form-group">
+                            <!--<div class="col-md-1"></div>-->
+                            <label class="col-md-2 control-label">Modules <span class="required">*</span></label>
+                            <div class="col-md-8">
+                                <select class="form-control input-sm mb-md" id="sub-mod-menu" required>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <!--<div class="col-md-1"></div>-->
+                            <label class="col-md-2 control-label" for="sub-menu">Subjects <span class="required">*</span></label>
+                            <div class="col-md-8">
+                                <select class="form-control input-sm mb-md" id="sub-menu" required>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <!--<div class="col-md-1"></div>-->
+                            <label class="col-md-2 control-label" for="question-menu">Question List<span class="required">*</span></label>
+                            <div class="col-md-8">
+                                <select class="form-control input-sm mb-md" id="question-menu" required>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-2 control-label" for="que-question">Question <span class="required">*</span></label>
+                            <div class="col-md-8">
+                                <div id="que-question" style="height: 25vh;"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-2 control-label" for="que-explanation">Explanation</label>
+                            <div class="col-md-8">
+                                <div class="toggle" data-plugin-toggle>
+                                    <section class="toggle">
+                                        <label>Brief explanation of the question above <small>(optional)</small></label>
+                                        <div class="toggle-content">
+                                            <textarea name="explanation" class="form-control" id="que-explanation" rows="4" data-plugin-textarea-autosize></textarea>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <!--<div class="col-md-1"></div>-->
+                            <label class="col-md-2 control-label">Type<span class="required">*</span></label>
+                            <div class="col-md-8">
+                                <div class="radio-custom radio-primary">
+                                    <input type="radio" id="1" name="type" value="1">
+                                    <label for="1">Single Answer</label>
+                                </div>
+                                <div class="radio-custom radio-primary">
+                                    <input type="radio" id="2" name="type" value="2">
+                                    <label for="2">Multiple Answers</label>
+                                </div>
+                                <div class="radio-custom radio-primary">
+                                    <input type="radio" id="3" name="type" value="3">
+                                    <label for="3">Free Answer</label>
+                                </div>
+                                <div class="radio-custom radio-primary">
+                                    <input type="radio" id="4" name="type" value="4">
+                                    <label for="4">Ordering Answers</label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-2 control-label">Extra</label>
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <input type="number" class="form-control" placeholder="difficulty" min="1" max="10"/>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select name="position" class="form-control">
+                                            <option value="0">position</option>
+                                            <option value="1">1</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="number" class="form-control" placeholder="timer [sec]" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--
+                        <div class="form-group">
+                            <label class="col-md-2 control-label" for="que-difficulty">Difficulty <span class="required">*</span></label>
+                            <div class="col-md-3">
+                                <input type="number" name="difficulty" class="form-control input-sm mb-md" id="que-difficulty" min="1" max="10" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-2 control-label" for="que-position">Position <span class="required">*</span></label>
+                            <div class="col-md-3">
+                                <select name="position" class="form-control input-sm mb-md" id="que-position">
+                                    <option value="0"> </option>
+                                    <option value="1">1</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-2 control-label" for="que-timer">Timer </label>
+                            <div class="col-md-3">
+                                <input type="number" name="timer" class="form-control input-sm mb-md" id="que-timer" />
+                            </div>
+                        </div>
+                        -->
+
+                    </fieldset>
+
+
+                </div>
+
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col-md-9 col-md-offset-2">
+                            <button type="submit" class="btn btn-primary">Add</button>
+                            <button type="reset" class="btn btn-default">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- end: page -->
+        </section>
+    </div>
+</section>
+
+<!-- Vendor -->
+<script src="assets/vendor/jquery/jquery.js"></script>
+<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+<!--<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>-->
+<!--<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>-->
+<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+
+<!-- Specific Page Vendor -->
+<script src="assets/vendor/pnotify/pnotify.custom.js" type="5d1e2441ba4382b5ed8fbeb9-text/javascript"></script>
+<script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+<script src="assets/vendor/jquery-autosize/jquery.autosize.js" type="6556119cab3b11e6ec9c6b0b-text/javascript"></script>
+
+
+
+
+<!-- Theme Base, Components and Settings -->
+<script src="assets/javascripts/theme.js"></script>
+
+<!-- Theme Custom -->
+<script src="assets/javascripts/theme.custom.js"></script>
+
+<!-- Theme Initialization Files -->
+<script src="assets/javascripts/theme.init.js"></script>
+
+<script src="js/apl_exam.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+       var quillQue = new Quill('#que-question', {
+           theme: 'snow'
+       });
+
+    });
+</script>
+
+</body>
+</html>
