@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="666e512f-b2f0-4c20-a683-aeac1083d75b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/questions.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,10 +38,11 @@
     <session id="-71090609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.130" value="1" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -53,7 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2754" />
+          <entry key="HTML" value="3713" />
         </counts>
       </usages-collector>
     </session>
@@ -63,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/blank.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="224">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -72,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/modules.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="254" column="50" lean-forward="true" selection-start-line="247" selection-start-column="44" selection-end-line="254" selection-end-column="50" />
+            <state relative-caret-position="227">
+              <caret line="210" column="27" lean-forward="true" selection-start-line="210" selection-start-column="27" selection-end-line="210" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#ol#0;n#div#0;n#header#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -84,11 +83,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/questions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="348" column="60" selection-start-line="348" selection-start-column="60" selection-end-line="348" selection-end-column="60" />
+            <state relative-caret-position="95">
+              <caret line="229" column="128" selection-start-line="229" selection-start-column="128" selection-end-line="229" selection-end-column="128" />
               <folding>
                 <element signature="n#style#0;n#ol#0;n#div#0;n#header#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#fieldset#0;n#div#0;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#fieldset#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/users.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="3312">
               <caret line="207" column="45" selection-start-line="207" selection-start-column="40" selection-end-line="207" selection-end-column="45" />
             </state>
           </provider>
@@ -142,6 +142,9 @@
       <find>groups</find>
       <find>nano-scr</find>
       <find>=&quot;submit</find>
+      <find>question manage</find>
+      <find>cancel</find>
+      <find>position</find>
     </findStrings>
     <replaceStrings>
       <replace>a href=&quot;#&quot;</replace>
@@ -178,10 +181,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
-    <option name="y" value="351" />
-    <option name="width" value="1640" />
-    <option name="height" value="1032" />
+    <option name="x" value="202" />
+    <option name="y" value="472" />
+    <option name="width" value="1641" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -215,7 +218,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558442123945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558442399001" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -246,18 +249,19 @@
       <workItem from="1558408474688" duration="1330000" />
       <workItem from="1558410802386" duration="2787000" />
       <workItem from="1558418069456" duration="6157000" />
-      <workItem from="1558437223768" duration="4793000" />
+      <workItem from="1558437223768" duration="5270000" />
+      <workItem from="1558465679629" duration="2054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16523000" />
+    <option name="totallyTimeSpent" value="19054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="234" width="1093" height="688" extended-state="0" />
+    <frame x="135" y="315" width="1094" height="678" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26911908" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,7 +276,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3291367" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33516484" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -312,25 +316,12 @@
     <entry file="file://$PROJECT_DIR$/docs/js/tes_kepribadian.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/tests.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="207" column="45" selection-start-line="207" selection-start-column="40" selection-end-line="207" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/groups.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="206" column="27" selection-start-line="206" selection-start-column="27" selection-end-line="206" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/question_lists.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/login.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -341,28 +332,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/blank.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="224">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3312">
+          <caret line="207" column="45" selection-start-line="207" selection-start-column="40" selection-end-line="207" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/tests.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/modules.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="254" column="50" lean-forward="true" selection-start-line="247" selection-start-column="44" selection-end-line="254" selection-end-column="50" />
+        <state relative-caret-position="227">
+          <caret line="210" column="27" lean-forward="true" selection-start-line="210" selection-start-column="27" selection-end-line="210" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#ol#0;n#div#0;n#header#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/question_lists.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/questions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="348" column="60" selection-start-line="348" selection-start-column="60" selection-end-line="348" selection-end-column="60" />
+        <state relative-caret-position="95">
+          <caret line="229" column="128" selection-start-line="229" selection-start-column="128" selection-end-line="229" selection-end-column="128" />
           <folding>
             <element signature="n#style#0;n#ol#0;n#div#0;n#header#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#fieldset#0;n#div#0;n#section#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#fieldset#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

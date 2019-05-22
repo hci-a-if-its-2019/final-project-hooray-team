@@ -5,7 +5,7 @@
     <!-- Basic -->
     <meta charset="UTF-8">
 
-    <title>Blank</title>
+    <title>Question Answer Management</title>
     <meta name="keywords" content="HTML5 Admin Template" />
     <meta name="description" content="Porto Admin - Responsive HTML5 Template">
     <meta name="author" content="okler.net">
@@ -210,147 +210,238 @@
             </header>
 
             <!-- start: page -->
-            <section class="panel">
-                <header class="panel-heading">
-                    <div class="panel-actions">
-                        <!--<a href="#" class="fa fa-caret-down"></a>-->
-                        <!--<a href="#" class="fa fa-times"></a>-->
-                    </div>
+            <!--<section class="panel col-md-11">-->
+                <!--<header class="panel-heading">-->
+                    <!--<div class="panel-actions">-->
+                        <!--&lt;!&ndash;<a href="#" class="fa fa-caret-down"></a>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<a href="#" class="fa fa-times"></a>&ndash;&gt;-->
+                    <!--</div>-->
+                    <!--<h2 class="panel-title">Question Management</h2>-->
+                <!--</header>-->
+                <!--<div class="panel-body">-->
+            <div class="row">
+                <div class="col-md-11">
+                    <div class="tabs tabs-primary">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="active">
+                                <a href="#question-management" data-toggle="tab" class="text-center"><i class="fa fa-list-ol"></i> Question Management</a>
+                            </li>
+                            <li>
+                                <a href="#answer-management" data-toggle="tab" class="text-center"><i class="fa fa-pencil"></i> Answer Management</a>
+                            </li>
+                        </ul>
 
-                    <h2 class="panel-title">Question Management</h2>
-                </header>
-                <div class="panel-body">
-                    <fieldset>
-                        <div class="form-group">
-                            <!--<div class="col-md-1"></div>-->
-                            <label class="col-md-2 control-label">Modules <span class="required">*</span></label>
-                            <div class="col-md-8">
-                                <select class="form-control input-sm mb-md" id="sub-mod-menu" required>
-                                </select>
-                            </div>
-
-                        </div>
-                        <div class="form-group">
-                            <!--<div class="col-md-1"></div>-->
-                            <label class="col-md-2 control-label" for="sub-menu">Subjects <span class="required">*</span></label>
-                            <div class="col-md-8">
-                                <select class="form-control input-sm mb-md" id="sub-menu" required>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <!--<div class="col-md-1"></div>-->
-                            <label class="col-md-2 control-label" for="question-menu">Question List<span class="required">*</span></label>
-                            <div class="col-md-8">
-                                <select class="form-control input-sm mb-md" id="question-menu" required>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-md-2 control-label" for="que-question">Question <span class="required">*</span></label>
-                            <div class="col-md-8">
-                                <div id="que-question" style="height: 25vh;"></div>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-md-2 control-label" for="que-explanation">Explanation</label>
-                            <div class="col-md-8">
-                                <div class="toggle" data-plugin-toggle>
-                                    <section class="toggle">
-                                        <label>Brief explanation of the question above <small>(optional)</small></label>
-                                        <div class="toggle-content">
-                                            <textarea name="explanation" class="form-control" id="que-explanation" rows="4" data-plugin-textarea-autosize></textarea>
+                        <div class="tab-content">
+                            <div id="question-management" class="tab-pane active">
+                                <h2 class="panel-title">Question Management</h2>
+                                <br />
+                                <fieldset>
+                                    <div class="form-group">
+                                        <!--<div class="col-md-1"></div>-->
+                                        <label class="col-md-2 control-label">Modules <span class="required">*</span></label>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm mb-md" id="sub-mod-menu" required>
+                                            </select>
                                         </div>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="form-group">
-                            <!--<div class="col-md-1"></div>-->
-                            <label class="col-md-2 control-label">Type<span class="required">*</span></label>
-                            <div class="col-md-8">
-                                <div class="radio-custom radio-primary">
-                                    <input type="radio" id="1" name="type" value="1">
-                                    <label for="1">Single Answer</label>
-                                </div>
-                                <div class="radio-custom radio-primary">
-                                    <input type="radio" id="2" name="type" value="2">
-                                    <label for="2">Multiple Answers</label>
-                                </div>
-                                <div class="radio-custom radio-primary">
-                                    <input type="radio" id="3" name="type" value="3">
-                                    <label for="3">Free Answer</label>
-                                </div>
-                                <div class="radio-custom radio-primary">
-                                    <input type="radio" id="4" name="type" value="4">
-                                    <label for="4">Ordering Answers</label>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-md-2 control-label">Extra</label>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <input type="number" class="form-control" placeholder="difficulty" min="1" max="10"/>
                                     </div>
-                                    <div class="col-md-4">
-                                        <select name="position" class="form-control">
-                                            <option value="0">position</option>
-                                            <option value="1">1</option>
-                                        </select>
+                                    <div class="form-group">
+                                        <!--<div class="col-md-1"></div>-->
+                                        <label class="col-md-2 control-label" for="sub-menu">Subjects <span class="required">*</span></label>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm mb-md" id="sub-menu" required>
+                                            </select>
+                                        </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <input type="number" class="form-control" placeholder="timer [sec]" />
+
+                                    <div class="form-group">
+                                        <!--<div class="col-md-1"></div>-->
+                                        <label class="col-md-2 control-label" for="question-menu">Question List<span class="required">*</span></label>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm mb-md" id="question-menu" required>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="que-question">Question <span class="required">*</span></label>
+                                        <div class="col-md-8">
+                                            <div id="que-question" style="height: 25vh;"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="que-explanation">Explanation</label>
+                                        <div class="col-md-8">
+                                            <div class="toggle" data-plugin-toggle>
+                                                <section class="toggle">
+                                                    <label>Brief explanation of the question above <small>(optional)</small></label>
+                                                    <div class="toggle-content">
+                                                        <textarea name="explanation" class="form-control" id="que-explanation" rows="4" data-plugin-textarea-autosize></textarea>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <!--<div class="col-md-1"></div>-->
+                                        <label class="col-md-2 control-label">Type<span class="required">*</span></label>
+                                        <div class="col-md-8">
+                                            <div class="radio-custom radio-primary">
+                                                <input type="radio" id="1" name="type" value="1">
+                                                <label for="1">Single Answer</label>
+                                            </div>
+                                            <div class="radio-custom radio-primary">
+                                                <input type="radio" id="2" name="type" value="2">
+                                                <label for="2">Multiple Answers</label>
+                                            </div>
+                                            <div class="radio-custom radio-primary">
+                                                <input type="radio" id="3" name="type" value="3">
+                                                <label for="3">Free Answer</label>
+                                            </div>
+                                            <div class="radio-custom radio-primary">
+                                                <input type="radio" id="4" name="type" value="4">
+                                                <label for="4">Ordering Answers</label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Extra</label>
+                                        <div class="col-md-8">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <input type="number" class="form-control" placeholder="difficulty" min="1" max="10"/>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <select name="position" class="form-control">
+                                                        <option value="0">position</option>
+                                                        <option value="1">1</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <input type="number" class="form-control" placeholder="timer [sec]" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="que-difficulty">Difficulty <span class="required">*</span></label>
+                                        <div class="col-md-3">
+                                            <input type="number" name="difficulty" class="form-control input-sm mb-md" id="que-difficulty" min="1" max="10" required />
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="que-position">Position <span class="required">*</span></label>
+                                        <div class="col-md-3">
+                                            <select name="position" class="form-control input-sm mb-md" id="que-position">
+                                                <option value="0"> </option>
+                                                <option value="1">1</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="que-timer">Timer </label>
+                                        <div class="col-md-3">
+                                            <input type="number" name="timer" class="form-control input-sm mb-md" id="que-timer" />
+                                        </div>
+                                    </div>
+                                    -->
+                                    <div class="row">
+                                        <div class="col-md-9 col-md-offset-2">
+                                            <!--<div class="btn-group">-->
+                                                <button type="submit" class="btn btn-primary">Save</button>
+                                                <button type="reset" class="btn btn-default">Cancel</button>
+                                            <!--</div>-->
+                                        </div>
+                                    </div>
+
+                                </fieldset>
                             </div>
-                        </div>
 
-                        <!--
-                        <div class="form-group">
-                            <label class="col-md-2 control-label" for="que-difficulty">Difficulty <span class="required">*</span></label>
-                            <div class="col-md-3">
-                                <input type="number" name="difficulty" class="form-control input-sm mb-md" id="que-difficulty" min="1" max="10" required />
+                            <div id="answer-management" class="tab-pane">
+                                <h2 class="panel-title">Answer Management</h2>
+                                <br />
+                                <fieldset>
+                                    <div class="form-group">
+                                        <!--<div class="col-md-1"></div>-->
+                                        <label class="col-md-2 control-label" for="que-ans-menu">Question List<span class="required">*</span></label>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm mb-md" id="que-ans-menu" required>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <!--<div class="col-md-1"></div>-->
+                                        <label class="col-md-2 control-label" for="ans-menu">Answer List<span class="required">*</span></label>
+                                        <div class="col-md-8">
+                                            <select class="form-control input-sm mb-md" id="ans-menu" required>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="ans-answer">Answer <span class="required">*</span></label>
+                                        <div class="col-md-8">
+                                            <div id="ans-answer" style="height: 25vh;"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="ans-explanation">Explanation</label>
+                                        <div class="col-md-8">
+                                            <div class="toggle" data-plugin-toggle>
+                                                <section class="toggle">
+                                                    <label>Brief explanation of the answer above <small>(optional)</small></label>
+                                                    <div class="toggle-content">
+                                                        <textarea name="explanation" class="form-control" id="ans-explanation" rows="4" data-plugin-textarea-autosize></textarea>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">is Right</label>
+                                        <div class="col-md-8">
+                                            <div class="checkbox-custom checkbox-default">
+                                                <input class="form-check-input position-static" type="checkbox" value="1" id="is-right" name="is-right"/>
+                                                <label for="is-right">True</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label" for="ans-position">Position</label>
+                                        <div class="col-md-2">
+                                            <select class="form-control mb-md" id="ans-position">
+                                                <option value="0"> </option>
+                                                <option value="1">1</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-9 col-md-offset-2">
+                                            <!--<div class="btn-group" role="group">-->
+                                                <button type="submit" class="btn btn-primary">Save</button>
+                                                <button type="reset" class="btn btn-default">Cancel</button>
+                                            <!--</div>-->
+                                        </div>
+                                    </div>
+                                </fieldset>
+
                             </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-md-2 control-label" for="que-position">Position <span class="required">*</span></label>
-                            <div class="col-md-3">
-                                <select name="position" class="form-control input-sm mb-md" id="que-position">
-                                    <option value="0"> </option>
-                                    <option value="1">1</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label class="col-md-2 control-label" for="que-timer">Timer </label>
-                            <div class="col-md-3">
-                                <input type="number" name="timer" class="form-control input-sm mb-md" id="que-timer" />
-                            </div>
-                        </div>
-                        -->
-
-                    </fieldset>
-
-
-                </div>
-
-                <div class="panel-footer">
-                    <div class="row">
-                        <div class="col-md-9 col-md-offset-2">
-                            <button type="submit" class="btn btn-primary">Add</button>
-                            <button type="reset" class="btn btn-default">Cancel</button>
                         </div>
                     </div>
+
                 </div>
 
             </section>
@@ -389,6 +480,10 @@
 <script type="text/javascript">
     $(document).ready(function () {
        var quillQue = new Quill('#que-question', {
+           theme: 'snow'
+       });
+
+       var quillAns = new Quill('#ans-answer', {
            theme: 'snow'
        });
 
