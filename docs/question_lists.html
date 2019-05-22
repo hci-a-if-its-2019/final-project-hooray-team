@@ -226,8 +226,8 @@
                             <div id="question-list" class="tab-pane active">
                                 <h2>Questions List</h2> <br />
                                 <div class="row">
-                                    <div class="col-md-11">
-                                        <table id="question-table" class="display" width="90%">
+                                    <div class="col-md-12">
+                                        <table id="question-table" class="display" width="100%">
                                             <thead>
                                                 <tr>
                                                     <th>Id</th>
@@ -237,6 +237,38 @@
                                                     <th>Actions</th>
                                                 </tr>
                                             </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Human Computer Interaction</td>
+                                                    <td>What is the definition of Human Computer Interaction?</td>
+                                                    <td>Single Answer</td>
+                                                    <td>
+                                                        <div class="btn-group"><button class='btn btn-info'><i class='fa fa-pencil-square'></i> Edit</button><button class='btn btn-danger'><i class='fa fa-times-circle'></i> Delete</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Human Computer Interaction</td>
+                                                    <td>What is the Typography?</td>
+                                                    <td>Free Answer</td>
+                                                    <td>
+                                                        <div class="btn-group"><button class='btn btn-info'><i class='fa fa-pencil-square'></i> Edit</button><button class='btn btn-danger'><i class='fa fa-times-circle'></i> Delete</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Requirement Engineering</td>
+                                                    <td>Give example of these study cases!</td>
+                                                    <td>Free Answer</td>
+                                                    <td>
+                                                        <div class="btn-group"><button class='btn btn-info'><i class='fa fa-pencil-square'></i> Edit</button><button class='btn btn-danger'><i class='fa fa-times-circle'></i> Delete</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
                                         </table>
                                     </div>
                                 </div>
@@ -244,17 +276,40 @@
                             <div id="answer-list" class="tab-pane">
                                 <h2>Answers List</h2> <br />
                                 <div class="row">
-                                    <div class="col-md-11">
-                                        <table id="answer-table" class="display" width="90%">
+                                    <div class="col-md-12">
+                                        <table id="answer-table" class="display" width="100%">
                                             <thead>
                                             <tr>
                                                 <th>Id</th>
                                                 <th>Question</th>
                                                 <th>Answer</th>
                                                 <th>Right</th>
-                                                <th>Actions</th>
+                                                <!--<th>Actions</th>-->
                                             </tr>
                                             </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>What is Human Computer Interaction?</td>
+                                                <td>The interaction between humans (the users) and computers</td>
+                                                <td><span class="badge">Right</span></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>What is Human Computer Interaction?</td>
+                                                <td>a multidisciplinary field of study focusing on the design of computer technology.</td>
+                                                <td></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>What is Human Computer Interaction?</td>
+                                                <td>the need to create human-computer interaction that was also easy and efficient for less experienced users became increasingly vital.</td>
+                                                <td></td>
+
+                                            </tr>
+                                            </tbody>
 
                                         </table>
                                     </div>
@@ -302,8 +357,12 @@
 <script src="js/apl_exam.js"></script>
 <script type="text/javascript">
     baseURL = window.BASE_URL;
-    $(document).ready(function () {
 
+    $(document).ready(function () {
+        $('#question-table').DataTable({});
+        $('#answer-table').DataTable({});
+    });
+    /*
        $('#question-table').DataTable({
            "ajax": {
                "url": baseURL + 'exam/api/question',
@@ -380,6 +439,7 @@
            ]
        });
     });
+    */
 </script>
 </body>
 </html>

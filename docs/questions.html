@@ -240,10 +240,12 @@
                                 <br />
                                 <fieldset>
                                     <div class="form-group">
-                                        <!--<div class="col-md-1"></div>-->
                                         <label class="col-md-2 control-label">Modules <span class="required">*</span></label>
                                         <div class="col-md-8">
                                             <select class="form-control input-sm mb-md" id="sub-mod-menu" required>
+                                                <option>Human Computer Interaction</option>
+                                                <option>Requirement Engineering</option>
+                                                <option>Software Architecture</option>
                                             </select>
                                         </div>
 
@@ -253,6 +255,9 @@
                                         <label class="col-md-2 control-label" for="sub-menu">Subjects <span class="required">*</span></label>
                                         <div class="col-md-8">
                                             <select class="form-control input-sm mb-md" id="sub-menu" required>
+                                                <option>Introduction</option>
+                                                <option>Typography</option>
+                                                <option>Usability Testing</option>
                                             </select>
                                         </div>
                                     </div>
@@ -262,6 +267,8 @@
                                         <label class="col-md-2 control-label" for="question-menu">Question List<span class="required">*</span></label>
                                         <div class="col-md-8">
                                             <select class="form-control input-sm mb-md" id="question-menu" required>
+                                                <option>+</option>
+                                                <option>What is definition of Human Computer Interaction?</option>
                                             </select>
                                         </div>
                                     </div>
@@ -292,7 +299,7 @@
                                         <label class="col-md-2 control-label">Type<span class="required">*</span></label>
                                         <div class="col-md-8">
                                             <div class="radio-custom radio-primary">
-                                                <input type="radio" id="1" name="type" value="1">
+                                                <input type="radio" id="1" name="type" value="1" checked>
                                                 <label for="1">Single Answer</label>
                                             </div>
                                             <div class="radio-custom radio-primary">
@@ -331,31 +338,6 @@
                                         </div>
                                     </div>
 
-                                    <!--
-                                    <div class="form-group">
-                                        <label class="col-md-2 control-label" for="que-difficulty">Difficulty <span class="required">*</span></label>
-                                        <div class="col-md-3">
-                                            <input type="number" name="difficulty" class="form-control input-sm mb-md" id="que-difficulty" min="1" max="10" required />
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label class="col-md-2 control-label" for="que-position">Position <span class="required">*</span></label>
-                                        <div class="col-md-3">
-                                            <select name="position" class="form-control input-sm mb-md" id="que-position">
-                                                <option value="0"> </option>
-                                                <option value="1">1</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label class="col-md-2 control-label" for="que-timer">Timer </label>
-                                        <div class="col-md-3">
-                                            <input type="number" name="timer" class="form-control input-sm mb-md" id="que-timer" />
-                                        </div>
-                                    </div>
-                                    -->
                                     <div class="row">
                                         <div class="col-md-9 col-md-offset-2">
                                             <!--<div class="btn-group">-->
@@ -378,10 +360,10 @@
                                                     <a href="#" class="fa fa-times"></a>
                                                 </div>
 
-                                                <h2 class="panel-title">First Answer</h2>
+                                                <h2 class="panel-title">First Answer&nbsp;&nbsp;&nbsp;<span><i class="fa fa-check-circle"></i> </span></h2>
                                             </header>
                                             <div class="panel-body">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non imperdiet nisi. Quisque cursus leo et lacus tempus porttitor. Sed egestas laoreet justo non feugiat.
+                                                the interaction between humans (the users) and computers. While initially concerned with computers.
                                             </div>
                                         </section>
                                         <section class="panel panel-info" id="panel-2" data-portlet-item>
@@ -394,7 +376,7 @@
                                                 <h2 class="panel-title">Second Answer</h2>
                                             </header>
                                             <div class="panel-body">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non imperdiet nisi. Quisque cursus leo et lacus tempus porttitor. Sed egestas laoreet justo non feugiat.
+                                                a multidisciplinary field of study focusing on the design of computer technology.
                                             </div>
                                         </section>
                                         <section class="panel panel-tertiary" id="panel-3" data-portlet-item>
@@ -407,7 +389,7 @@
                                                 <h2 class="panel-title">Third Answer</h2>
                                             </header>
                                             <div class="panel-body">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non imperdiet nisi. Quisque cursus leo et lacus tempus porttitor. Sed egestas laoreet justo non feugiat.
+                                                the need to create human-computer interaction that was also easy and efficient for less experienced users became increasingly vital.
                                             </div>
                                         </section>
                                     </div>
@@ -424,6 +406,7 @@
                                         <label class="col-md-2 control-label" for="que-ans-menu">Question List<span class="required">*</span></label>
                                         <div class="col-md-8">
                                             <select class="form-control input-sm mb-md" id="que-ans-menu" required>
+                                                <option>What is definition of Human Computer Interaction?</option>
                                             </select>
                                         </div>
                                     </div>
@@ -433,6 +416,8 @@
                                         <label class="col-md-2 control-label" for="ans-menu">Answer List<span class="required">*</span></label>
                                         <div class="col-md-8">
                                             <select class="form-control input-sm mb-md" id="ans-menu" required>
+                                                <option>+</option>
+                                                <option>The interaction between humans (the users) and computers</option>
                                             </select>
                                         </div>
                                     </div>
