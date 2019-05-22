@@ -48,13 +48,13 @@
 
 ### 3. Transcript
 
-All usability test transcripts are available in [Usability Transcript](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/transcript/transcript_usability.md)
+All usability test transcripts are available in [Usability Transcript](/transcript/transcript_usability.md)
 
 ### 4. Feedback and Incidence Analysis
 
 #### OBSERVATION 1 - User Management
 
-![Users Management](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/users_management.JPG)
+![Users Management](/assets/prototype/prototype2/users_management.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -64,7 +64,7 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 2 - Groups Management
 
-![Groups Management](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/groups_management.JPG)
+![Groups Management](/assets/prototype/prototype2/groups_management.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -75,7 +75,7 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 3 - Modules Management
 
-![Modules Management](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/modules.JPG)
+![Modules Management](/assets/prototype/prototype2/modules.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -86,7 +86,7 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 4 - Subjects Management
 
-![Subjects Management](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/subjects.JPG)
+![Subjects Management](/assets/prototype/prototype2/subjects.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -97,8 +97,8 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 5 - Questions Management
 
-![Question Management](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/question_management.JPG)
-![Question Management (continue)](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/question_management2.JPG)
+![Question Management](/assets/prototype/prototype2/question_management.JPG)
+![Question Management (continue)](/assets/prototype/prototype2/question_management2.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -109,7 +109,7 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 6 - Answer Management
 
-![Answer Management](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/answer.JPG)
+![Answer Management](/assets/prototype/prototype2/answer.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -120,7 +120,7 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 7 - Question Lists
 
-![Question Lists](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/question_list.JPG)
+![Question Lists](/assets/prototype/prototype2/question_list.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -130,7 +130,7 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 8 - Answer Lists
 
-![Answer Lists](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/answer_list.JPG)
+![Answer Lists](/assets/prototype/prototype2/answer_list.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -140,7 +140,7 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 9 - Test Management
 
-![Test Management](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/test_management.JPG)
+![Test Management](/assets/prototype/prototype2/test_management.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -150,7 +150,7 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 10 - Test to Subjects
 
-![Test to Subjects](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/test_to_subjects.JPG)
+![Test to Subjects](/assets/prototype/prototype2/test_to_subjects.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -160,7 +160,7 @@ All usability test transcripts are available in [Usability Transcript](https://g
 
 #### OBSERVATION 11 - Test to Groups
 
-![Test to Groups](https://github.com/hci-a-if-its-2019/final-project-hooray-team/tree/master/assets/prototype/prototype2/test_to_groups.JPG)
+![Test to Groups](/assets/prototype/prototype2/test_to_groups.JPG)
 
 - **Reference**: -
 - **Feedback**: -
