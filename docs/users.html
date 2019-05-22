@@ -22,6 +22,7 @@
 		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
 		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
 		<link rel="stylesheet" href="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
 
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
@@ -209,14 +210,14 @@
 								<header class="panel-heading">
 									<h2 class="panel-title">Users Management</h2>
 								</header>
+                            <form id="user-form">
 								<div class="panel-body">
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="form-group">
-												<label class="control-label" for="user">User</label>
+												<label class="control-label" for="user-menu">User</label>
 												<div class="col-sm-12">
-													<select class="form-control input-sm mb-md" required>
-														<option>+</option>
+													<select class="form-control input-sm mb-md" id="user-menu" required>
 													</select>
 												</div>
 											</div>
@@ -225,109 +226,56 @@
 									<div class="row">
 										<div class="col-sm-6">
 											<div class="form-group">
-												<label class="control-label">Username <span class="required">*</span></label>
-												<input type="text" name="username" class="form-control" required>
+												<label class="control-label">Username  </label>
+												<input type="text" id="username" class="form-control" required>
 											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="form-group">
-												<label class="control-label">Email <span class="required">*</span></label>
-												<input type="email" name="email" class="form-control" required>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="control-label">Password <span class="required">*</span></label>
-												<input type="password" name="password" class="form-control" required>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="control-label">Confirm Password <span class="required">*</span></label>
-												<input type="password" name="password-confirmation" class="form-control" required>
+												<label class="control-label">Email  </label>
+												<input type="email" id="email" class="form-control">
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-sm-6">
 											<div class="form-group">
-												<label class="control-label" for="level">Level <span class="required">*</span></label>
-												<select class="form-control input-sm mb-md" required>
-													<option>1 (Student)</option>
-													<option>10 (Administrator/Teacher)</option>
-												</select>
+												<label class="control-label">Password  </label>
+												<input type="password" id="password" class="form-control" required>
 											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="form-group">
-												<label class="control-label">Registration Number <span class="required">*</span></label>
-												<input type="text" name="reg-number" class="form-control" required>
+												<label class="control-label">Confirm Password  </label>
+												<input type="password" id="password-confirmation" class="form-control" required>
 											</div>
 										</div>
 									</div>
+
 									<div class="row">
 										<div class="col-sm-6">
 											<div class="form-group">
-												<label class="control-label">Name <span class="required">*</span></label>
-												<input type="text" name="name" class="form-control" required>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="control-label">Surename <span class="required">*</span></label>
-												<input type="text" name="surename" class="form-control" required>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="control-label" for="date-birth">Date of Birth <span class="required">*</span></label>
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="fa fa-calendar"></i>
-													</span>
-													<input type="text" data-plugin-datepicker class="form-control" required>
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="control-label">Place of Birth <span class="required">*</span></label>
-												<input type="text" name="place-of-birth" class="form-control" required>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-sm-6">
-											<div class="form-group">
-												<label class="control-label" for="groups">Groups <span class="required">*</span></label>
-												<div class="input-group btn-group">
-													<span class="input-group-addon">
-														<i class="fa fa-th-list"></i>
-													</span>
-													<select class="form-control" multiple="multiple" data-plugin-multiselect id="ms_example4">
-														<option value="hci">HCI</option>
-														<option value="imk">IMK</option>
-														<option value="pbkk">PBKK</option>
+												<label class="control-label" for="group">Groups  </label>
+													<select class="form-control" id="group" multiple>
 													</select>
-												</div>
 											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="form-group">
 												<label class="control-label">OTP Key</label>
-												<input type="text" name="otp-key" class="form-control" disabled="">
+                                                <button class="btn btn-dark" id="otpkey-generate"><i class="fa fa-qrcode"></i> Generate QR</button>
+												<input type="text" id="otpkey" class="form-control" disabled="">
+                                                <img id="otpkey-img" alt="qrcode is not available"/>
 											</div>
 										</div>
 									</div>
-									<p> <span class="required">*</span>) is required</p>
+									<!--<p> <span class="required">*</span>) is required</p>-->
 								</div>
 								<footer class="panel-footer text-center">
-									<button class="btn btn-primary">Submit</button>
+									<button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="reset" class="btn btn-secondary">Reset</button>
 								</footer>
+                            </form>
 						</section>
 							
 					</div>
@@ -341,9 +289,10 @@
 		<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
 		<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
 		<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
-		<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-		<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
-		<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+		<!--<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>-->
+		<!--<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>-->
+		<!--<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 		<script src="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>
 		
@@ -356,5 +305,130 @@
 		<!-- Theme Initialization Files -->
 		<script src="assets/javascripts/theme.init.js"></script>
 
+		<script src="js/apl_exam.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                baseURL = window.BASE_URL;
+
+                var option = '<option value="0">+</option>';
+                $.ajax({
+                    type: 'GET',
+                    url: baseURL + 'user/api/user',
+                    success: function(data){
+                        console.log(data);
+                        for (i = 0; i < data.length; i++) {
+                            option += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+                        }
+                        $('#user-menu').append(option);
+                    },
+                    error: function (e) {
+                        console.log(e);
+                    }
+                });
+
+                $.ajax({
+                    type: 'GET',
+                    url: baseURL + 'user/api/group',
+                    success: function(data){
+                        console.log(data);
+                        let groupOption = [];
+                        for (i = 0; i < data.length; i++) {
+                            groupOption += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+                        }
+                        $('#group').append(groupOption);
+                    },
+                    error: function (e) {
+                        console.log(e);
+                    }
+                })
+
+                $('#user-menu').on('change', function () {
+                    var val = $(this).val();
+                    console.log('val', val);
+                    if (val > 0) {
+                        $.ajax({
+                            type: 'GET',
+                            url: baseURL + 'user/api/user/id/' + val,
+                            success: function (data) {
+                                console.log(data);
+                                $('#username').val(data.user_name);
+                                $('#email').val(data.user_email);
+                                $('#level').val(data.user_level);
+                                otpkey = data.user_otpKey.split(".");
+                                $('#otpkey').val(otpkey[0]);
+                                $('#otpkey-img').attr("src", baseURL + 'public/images/' + data.user_otpKey);
+                                if (data.user_otpKey != '') $('#otpkey-generate').hide();
+                                else $('#otpkey-generate').show();
+                            }
+                        });
+                    }
+                    else {
+                        $('#username').val('');
+                        $('#email').val('');
+                        $('#level').val('');
+                        $('#otpkey').val('');
+                        $('#otpkey-img').attr("src", "");
+                        $('#otpkey-generate').show();
+                    }
+                });
+
+                $('#user-form').submit(function (event) {
+                    event.preventDefault();
+
+                    data = {
+                        id: $('#user-menu').val(),
+                        name: $('#username').val(),
+                        password: $('#password').val(),
+                        email: $('#email').val(),
+                        groups: $('#group').val()
+                    }
+                    console.log(data);
+
+                    if (data.id == 0) {
+                        $.ajax({
+                            type: 'POST',
+                            url: baseURL + 'user/api/user',
+                            crossOrigin: true,
+                            data: JSON.stringify(data),
+                            dataType: 'json',
+                            success: function(data){
+                                toastr.success(data.message, data.status);
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 2000);
+                            },
+                            error: function(e){
+                                console.log(e);
+                                toastr.error(data.message, data.status);
+
+                            }
+                        });
+                    }
+                    else {
+                        toastr.warning('Update user is not yet supported!', 'Warning');
+                    }
+                });
+
+                $('#otpkey-generate').click(function () {
+                    user_id = $('#user-menu').val();
+                    console.log(user_id);
+                   $.ajax({
+                       type: 'GET',
+                       url: baseURL + 'user/api/user/generate/' + user_id,
+                       success: function (data) {
+                           toastr.success(data.message, data.status);
+                           setTimeout(function() {
+                               location.reload();
+                               $('#user-menu').val(user_id);
+                           }, 2000);
+                       },
+                       error: function (e) {
+                           toastr.error(data.message, data.status);
+                       }
+                   })
+                });
+
+            });
+        </script>
 	</body>
 </html>
