@@ -109,7 +109,7 @@ All usability test transcripts are available in [Usability Transcript](/transcri
 
 #### OBSERVATION 6 - Answer Management
 
-![Answer Management](/assets/prototype/prototype2/answer.JPG)
+![Answer Management](/assets/prototype/prototype2/answer_management.JPG)
 
 - **Reference**: -
 - **Feedback**: -
@@ -142,11 +142,11 @@ All usability test transcripts are available in [Usability Transcript](/transcri
 
 ![Test Management](/assets/prototype/prototype2/test_management.JPG)
 
-- **Reference**: -
-- **Feedback**: -
-- **Incidence**: -
-- **Reason**: -
-- **Resolution**: -
+- **Reference**: [C14, D38, D22]
+- **Feedback**: Implicitly Negative
+- **Incidence**: The participant didn't realize that there are another two tabs on the same page and not understanding the test time meaning
+- **Reason**: When the participant reached the bottom of the page, they try to find another feature in the navigation bar
+- **Resolution**: add test time unit and make a form progress bar or next button on the footer page
 
 #### OBSERVATION 10 - Test to Subjects
 
