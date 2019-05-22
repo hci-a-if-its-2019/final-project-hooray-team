@@ -213,9 +213,11 @@ All usability test transcripts are available in [Usability Transcript](/transcri
 
 ## Part B: Prototyping (again)
 
-### Sketch
+### Sketch (Edited screen only)
 
-~
+![Edited sketch](https://gsculerlor.s-ul.eu/xEbXC3aZ)
+
+
 
 ### Design Rationale
 
