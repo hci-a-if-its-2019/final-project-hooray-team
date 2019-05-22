@@ -37,9 +37,10 @@
   #### e. Description of Participant 5
 
   - A male, 20 years old
-- Informatics ITS 2017
+  - Informatics ITS 2017
+  
   - Former lecturer assistant
-- Usually using paper or manually write the text or exercise
+  - Usually using paper or manually write the text or exercise
   
   #### f. Description of Participant 6
   
@@ -113,9 +114,9 @@ All usability test transcripts are available in [Usability Transcript](/transcri
 ![Question Management](/assets/prototype/prototype2/question_management.JPG)
 ![Question Management (continue)](/assets/prototype/prototype2/question_management2.JPG)
 
-- **Reference**: -
-- **Feedback**: -
-- **Incidence**: -
+- **Reference**: E16
+- **Feedback**: Explicitly positive
+- **Incidence**: Participant says using asterisk to make sure it's required is useful
 - **Reason**: -
 - **Resolution**: -
 
@@ -155,11 +156,11 @@ All usability test transcripts are available in [Usability Transcript](/transcri
 
 ![Test Management](/assets/prototype/prototype2/test_management.JPG)
 
-- **Reference**: [C14, D38, D22]
+- **Reference**: [C14, D38, D22, E21, F22, G27]
 - **Feedback**: Implicitly Negative
-- **Incidence**: The participant didn't realize that there are another two tabs on the same page and not understanding the test time meaning
-- **Reason**: When the participant reached the bottom of the page, they try to find another feature in the navigation bar
-- **Resolution**: add test time unit and make a form progress bar or next button on the footer page
+- **Incidence**: The participant didn't realize that there are another two tabs on the same page and not understanding the test time meaning, lack of detail on some same type input
+- **Reason**: When the participant reached the bottom of the page, they try to find another feature in the navigation bar, the participant confuse the different between start end time and test time
+- **Resolution**: add test time unit and make a form progress bar or next button on the footer page, adding self explanation below input
 
 #### OBSERVATION 10 - Test to Subjects
 
@@ -180,6 +181,14 @@ All usability test transcripts are available in [Usability Transcript](/transcri
 - **Incidence**: -
 - **Reason**: -
 - **Resolution**: -
+
+#### OBSERVATION a - Every long form page
+
+- **Reference**: F29
+- **Feedback**: Using another approach to solve problem
+- **Incidence**: Using a floating button rather than placing it on bottom of the form to make it easier to check
+- **Reason**: -
+- **Resolution**: Using *Discord'ish* floating button is quite good approach to solve this
 
 ------
 
