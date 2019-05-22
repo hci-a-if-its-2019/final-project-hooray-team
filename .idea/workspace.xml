@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="666e512f-b2f0-4c20-a683-aeac1083d75b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/buttons.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/css/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.colVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.flash.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.html5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.print.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.print.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/buttons.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/dataTables.buttons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/js/dataTables.buttons.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/Buttons-1.5.6/swf/flashExport.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/DataTables-1.10.18/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/datatables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/datatables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/datatables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/pdfmake-0.1.36/pdfmake.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/pdfmake-0.1.36/pdfmake.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/vendor/datatables/pdfmake-0.1.36/vfs_fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/question_lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/question_lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/install.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,11 +49,13 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="5413" />
+          <entry key="Markdown" value="384" />
         </counts>
       </usages-collector>
     </session>
@@ -169,14 +99,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/question_lists.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="244" column="60" lean-forward="true" selection-start-line="244" selection-start-column="60" selection-end-line="244" selection-end-column="60" />
+              <caret line="244" column="60" selection-start-line="244" selection-start-column="60" selection-end-line="244" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#header#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype/first_prototype.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-504" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype/second_prototype.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1208" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/install.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="214">
+                <caret line="39" column="107" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="107" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -246,6 +208,7 @@
         <option value="$PROJECT_DIR$/docs/groups.html" />
         <option value="$PROJECT_DIR$/docs/questions.html" />
         <option value="$PROJECT_DIR$/docs/question_lists.html" />
+        <option value="$PROJECT_DIR$/assets/install.md" />
       </list>
     </option>
   </component>
@@ -288,37 +251,7 @@
             <path>
               <item name="hooray" type="b2602c69:ProjectViewProjectNode" />
               <item name="hooray" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hooray" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hooray" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hooray" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hooray" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hooray" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hooray" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="datatables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hooray" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hooray" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="datatables" type="462c0819:PsiDirectoryNode" />
-              <item name="pdfmake-0.1.36" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -362,18 +295,18 @@
       <workItem from="1558410802386" duration="2787000" />
       <workItem from="1558418069456" duration="6157000" />
       <workItem from="1558437223768" duration="5270000" />
-      <workItem from="1558465679629" duration="7927000" />
+      <workItem from="1558465679629" duration="8430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24927000" />
+    <option name="totallyTimeSpent" value="25430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="156" y="46" width="1094" height="678" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,7 +321,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33516484" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33516484" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -501,10 +434,36 @@
     <entry file="file://$PROJECT_DIR$/docs/question_lists.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="244" column="60" lean-forward="true" selection-start-line="244" selection-start-column="60" selection-end-line="244" selection-end-column="60" />
+          <caret line="244" column="60" selection-start-line="244" selection-start-column="60" selection-end-line="244" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#section#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype/first_prototype.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-504" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype/second_prototype.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1208" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/install.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="214">
+            <caret line="39" column="107" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="107" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
