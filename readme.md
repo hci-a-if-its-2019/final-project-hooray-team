@@ -51,7 +51,7 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
  - Type: ordering answers; Question: What is the order in the shorten of HCI?
  8. Make answers in the order of questions above:
  - A human is a human being (right); A human is an animal
- - 
+ - [blank]
  - Human (right); Computer (right); Interaction (right); Creation
  - Human (right position 1); Computer (right position 2); Interaction (right position 3); Inovation
  9. Change single answer question to appear as the first question in any tests.
@@ -65,15 +65,6 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
  - Check everything else except 'logout when time expires'
  - Set password to 'imkimkimk'
  11. Set questions which have been created previously as the question for the test
-
-<!--
- Extra:
- 1. Logout from admin and login as created user above
- 2. Check if the test is available
- 3. Do the test
- 4. Logout and login as admin again, check evaluation and give points to free answer
- 5. Login as created user and check the results for the test which has been done
- -->
 
 ## User Description
 ### Participant 1 👨‍🚀
@@ -137,9 +128,10 @@ Artifact model, Flow model, and Cultural model for this Contextual Inquiry are a
 
 ### Dont's
 - Don't use green background for delete message
-- Don't put new field/section at the invisible part of the screen
+- Don't put new field/section at the unnoticed part of the screen (i.e in very bottom of the screen, right after end section of a view)
 - Don't put a form field which is unnecessary for the user
 - Don't hover everything to get description
+- Don't make user frustation by using unnecessary behavior like tick the checkbox if the behavior with and without using it is the same
 
 # Sketching and Prototyping
 ## Part A: Sketches
@@ -163,6 +155,7 @@ Navigation with external hardware (mouse and/or keyboard)
 
 ### Users
 
+- Highly related with education stuff (maybe teacher, lectures, or students)
 - Can use browser to browsing 
 - Can understand how to input something on online form
 - ~15-50 years old
