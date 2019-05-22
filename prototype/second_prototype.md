@@ -36,11 +36,24 @@
 
   #### e. Description of Participant 5
 
-  ~
-
-  #### f. Description of Participant 7 (new user/not included from last CI)
-
-  ~
+  - A male, 20 years old
+- Informatics ITS 2017
+  - Former lecturer assistant
+- Usually using paper or manually write the text or exercise
+  
+  #### f. Description of Participant 6
+  
+  - A female, 23 years old
+  - Sasjep UB 2015
+  - Usually asked by her lecturer to help them handling class tests or exercises
+  - Mostly done by their own online exam system (UB exam system)
+  
+  #### g. Description of Participant 7 (new user/not included from last CI)
+  
+  - A male, 25 years old
+  - English literature UB 2014
+  - Now really often teaching english to high school students
+  - Never using e-learning before, but often use app/web to help his teaching method
 
 ### 2. Evaluation Script
 

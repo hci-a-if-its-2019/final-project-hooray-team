@@ -69,3 +69,70 @@
 40. T : Udah
 41. Z : Oke, makasih banyak ya Tyo.
 ```
+
+### Participant 5 (May 22, 2019 18:21 duration 09'13")
+
+```
+1. G: Halo pak, kita ketemu lagi buat yang kayak kemaren
+2. P: Ngetes ngetes lagi?
+3. G: Yo i, cuma ini hasil kerja kerasku sekelompok buat sing lebih bagus jadi sans, lebih gampang harus e
+4. P: Okeh
+5. G: Jadi ini sama kayak kemaren apa apa aja yang harus dikerjainnya, inget gak?
+6. P: Gak mungkin lah njir
+7. G: Halah, yo wes jadi mulai bikin akun baru coba
+8. P: (membuka page user dan mengisi form) weh gila gila beda mbek kemaren tampilan e
+9. G: Oke terus bikin group baru setelahnya bikin modul baru
+10. P: (membuka page group management mengisi form) 
+11. P: (membuka page modules) ini modules sama subject diisi semua?
+12. G: Iyes
+13. P: Oke (mengisi form modules dan subjects)
+14. G: Lanjut silahkan buat pertanyaan sekaligus jawabannya, pastikan semua jenis pertanyaan dibuat
+15. P: Okeh (membuka page tests) lho kok gaada, oh salah deng beda
+16. P: (membuka page question) (membuat beberapa pertanyaan) Oh baru nyadar asterisk maksud e wajib, mantab mantab nggak kek kemaren kudu ngulang gara gara gak ngerti ada yang wajib
+17. P: (membuat jawaban) nah ini yo enak maksud e explanation jelas
+18. G: Okeh, lanjut dah kelar kan sekarang bikin o test e
+19. P: Oh iziiii, yang tadi tak buka harus e
+20. P: (membuka page tests) wah 3 kali kerja iki bau bau e
+21. P: (mengisi test management) okeh kelar, btw tadi harus e dikasih penjelasan time e itu satuan e apa biar gak salah nangkep sama point harusnya dikasih range aja biar nggak ngelantur ntar
+22. P: (pindah ke tab 2) (mengisi form)
+23. P: (pindah ke tab 3) (mengisi form) okeh sudah
+24. G: Okeh sekarang silahkan di assign pertanyaannya ke testnya
+25. P: (mengassign pertanyaan) okeh udah
+26. G: Okeh udah gans, thankyou gimana gimana ada masalah?
+27. P: Gaada sih udah aman kalo aku
+```
+
+### Participant 6 (May 22, 2019 18:51 duration 06'54")
+
+```
+1. G: Halo mbak hehe kita ketemu lagi mau test lagi kayak kemaren nih
+2. P: Oh sama kayak kemaren nih?
+3. G: Iya hehe, cuma beda kok tampilannya, tapi yang di tes sama kayak kemaren
+4. P: Oke oke
+5. G: Oke jadi ini sans aja ya kek kemaren
+6. P: Oke siap
+7. G: Oke jadi silahkan buat akun
+8. P: (membuka page user) oke sudah
+9. G: Oke sip terus sekarang silahkan bikin group baru setelahnya bikin modul baru
+10. P: (membuka page group management mengisi form) okehh terus apa? 
+11. G: Modul baru
+12. P: Okeh (membuka page modul) (mengisi form) oh oke sip sudahh
+13. G: Mantab sip sip, okeh sekarang kita ke pertanyaan sama jawaban, monggo buat soal dan jawaban
+14. P: Okeh (membuka page question) (mengisi pertanyaan) eh ini jenis pertanyaannya apa btw?
+15. G: Oh iya semuanya, jadi bikin ga cuma satu
+16. P: Oke oke (membuat beberapa pertanyaan) 
+17. P: Sip sudah
+18. G: Sip lanjut silahkan bikin testnya
+19. P: Okeh (membuka page tests) ini yang dipilih tab mana?
+20. G: Coba aja
+21. P: (membuka satu satu tab) oh urut kayaknya, oke dari awal yak
+22. P: (mengisi page pertama) ini point angka bebas? biasanya ada batesnya berapa sampe berapa
+23. G: Iya angka
+24. P: Oke oke (melanjutkan sampai page 3)
+25. P: Sip sudah
+26. G: Oke terakhir silahkan assign pertanyaan ke testnya
+27. P: (assign pertanyaan) oh gini aja kan ya?
+28. G: Iya, oke udah kelar tumben cepet hahaha
+29. P: weh anda menghinaku ini dasar hahaha
+....
+```
