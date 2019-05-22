@@ -1,6 +1,61 @@
 #Transcript
 
 ### Participant 1 (May 22, 2019 16:00 duration 15'37")
+1. N: "Pada hari ini, saya melakukan pengujian hasil prototipe yang telah kami buat berdasarkan tec exam."
+2. N: "Pertama, masuk login sebagai admin dan passwordnya 1234."
+3. J: "Ya, sudah."
+4. N: "Buatlah seorang user baru."
+5. J: "Sebentar ya, agak sulit carinya... Yang ada tanda plus ini kan?"
+6. N: "Iya"
+7. J: (mengisi form) "Submit ya?"
+8. N: "Kemudian, buatlah sebuah grup baru."
+9. J: "Sudah, beres."
+10. N: "Masukkan orang yang telah dibuat ke dalam grup tersebut."
+11. J:  "Gak tau, ini menu yang mana ya?"
+12. N: "Coba kembali ke bagian user yang tadi."
+13. J: "Oh, ini ditambahkan lewat form yang ini..."
+14. N: "Iya, kemudian update."
+15. N: "Setelah itu, buatlah sebuah modul baru dengan nama Technology."
+16. J: "Sudah."
+17. N: "Dari modul yang telah dibuat, tambahkan Subject dengan nama HCI."
+18. J: (Sambil mengerjakan) "Ohh... ini yang menunya di sebelahnya persis. Sudah bisa."
+19. N: "Apakah anda merasa kesulitan dalam menemukan menu tambah Subject?"
+20. J: "Tidak terlalu, karena saya sudah cari di menu pinggir tidak ada, terus kelihatan ada di situ."
+21. N: "Berarti perlu tombol di bawah modul untuk langsung mengarahkan ke Subject?"
+22. J: "Mungkin lebih baik kalau ada opsi menu di pinggir yang kelihatan, dan kalau kursor diarahkan ke pilihan itu, bisa muncul informasi pop-up tentang pilihan menu itu."
+23. N: "Baiklah, terima kasih atas masukkannya. Selanjutnya membuat 1 pertanyaan baru pada modul Human Computer Interaction, Subject Introduction, dan pertanyaannya What is the definition of HCI."
+24. J: "Oke, sudah bisa."
+25. N: "Tambahkan eksplanasi, HCI adalah sebuah mata kuliah."
+26. J: "Oh, berarti pake yang explanation ini... Oke, sudah beres."
+27. N: "Apakah anda merasa kesulitan untuk mencari bagian eksplanasi? Karena berbentuk dropdown?"
+28. J: "Tidak terlalu sulit sih, hanya saja panah di menu dropdown nya mengarah ke kanan, bukan bawah. Jadi tidak terlihat seperti dropdown."
+29. N: "Itu kalau diklik baru mengarah ke bawah. Hehe..."
+30. N: "Tambahkan 1 jawaban dari pertanyaan tersebut."
+31. J: "Ini pakai yang answer management berarti ?"
+32. N: "Iya, benar. Kemudian kembali ke question management, di bawah terdapat daftar jawaban dari pertanyaan tersebut. Bagaimana menurut anda?"
+33. J: "Ya, tampilannya sangat user friendly dan jelas."
+34. N: “Apakah anda tahu tujuan daftar tersebut?”
+35. J: “Untuk melihat daftar jawaban yang ada, bukan ?”
+36. N: “Menurut anda, apakah bagian ini penting dan berguna?”
+37. J: “Sangat efisien, saya senang karena ini tidak perlu bolak-balik untuk melihatnya, bisa langsung di halaman yang sama.”
+38. N: “Lalu buatlah sebuah tes baru.”
+39. J: “Sudah selesai, terus apa lagi ?”
+40. N: “Menurut anda, apakah bintang warna merah yang di sebelah nama form diperlukan?”
+41. J: “Itu yang merah required ya?”
+42. N: “Iya, kan semua fieldnya required apakah perlu diberi bintang semua?”
+43. J: “Kalau semuanya merah, ya sebenarnya tidak diperlukan. Tapi, kalau misalnya ada yang tidak lengkap pengisiannya, baru bisa diberikan warning kepada pembuat tes.”
+44. N: “Oh yang kalau diketik mengeluarkan validasi otomatis? Misalnya seperti email jika ditulis tidak dalam format email keluar warna merahnya, gitu?”
+45. J: “Iya, kurang lebih seperti itu agar websitenya bisa terlihat lebih interaktif.”
+46. N: “Masukkan tes yang telah dibuat tadi ke salah satu grup.”
+47. J: “Lah, ini pasti pakai yang test to groups. Kelihatan di sebelahnya, kan.”
+48. N: “Iya, memang. Apakah anda kurang nyaman dengan hal tersebut? Apakah perlu perbaikan?”
+49. J: “Mungkin bisa dimodifikasi sedikit tampilannya, dengan memberikan warna di kotak-kotak pilihan test management, test to subject, dan test to group. Jadi, nanti bisa kelihatan ada 3 warna berbeda, alias 3 menu berbeda.”
+50. N: “Terakhir, masukkan sebuah subject ke topik tersebut.”
+51. J: “Apa pakai yang test to subject ini?”
+52. N: “Iya, betul”
+53. J: “Oke, sudah beres.”
+54. N: “Terima kasih atas partisipasi anda dalam melakukan usability testing terhadap prototipe kami. Sekian.”
+55. J: “Iya, sama-sama.”
 
 
 ### Participant 3 (May 22, 2019 15:00 duration 07'35")
