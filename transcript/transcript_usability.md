@@ -61,6 +61,67 @@
 
 ### Participant 2 (May 22, 2019 20:00 duration 11' 10")
 ```
+1.N: “Hari ini, saya akan melakukan usability testing kepada seorang pengguna.”
+2.N: “Pertama, login sebagai admin, dengan username ‘main’ dan password ‘1234’.”
+3.M: “Main?”
+4.N: “Maksud saya ‘Admin’.”
+5.N: (Login berhasil) “Nah, ini sekarang ter-redirect ke sini. Sekarang, buatlah user baru…”
+6.M: “Sebentar… Oh, ‘users’…”
+7.M: (Sambil mengisi) “Hmm… coba pakai nama user ‘test’. Kemudian ‘group’nya ?”
+8.N: “Group nya pilih yang HCI. Nah, apakah anda merasa kesulitan ketika menemukan form yang seperti ini ?”
+9.M: “Hmm… Tidak juga sih.”
+10.N: “Berarti masih gapapa kan?”
+11.M: “Iya, kok.”
+12.N: “Oke. Sekarang, buatlah sebuah ‘group’.... Dengan nama HCI”
+13.M: “Oke, selesai.”
+14.N: “Sekarang, buatlah sebuah modul…”
+15.M: “Oke, Modules…”
+16.N: “Dengan nama ‘Teknologi’.”
+17.N: (Pembuatan modul berhasil) “Sekarang, buatlah sebuah topik baru.”
+18.M: (Sambil mencari) “Topik baru ?”
+19.N: “Maksud saya subject.”
+20.M: “Ohh.. yang ini.. Oke…”
+21.N: “Di bawah module yang tadi, ‘teknologi’, dengan nama ‘subject’ nya 22.‘Human Computer’.”
+22.M: “Description nya ?”
+23.N: “Isi dengan ‘Interaction’.”
+24.N: “Apakah anda merasa kesulitan untuk melakukan ini ?”
+25.M: “Subject nya kalau tadi tidak melihat ini, saya tidak tahu mau mencari 26.di mana.”
+27.N: “Apakah sebaiknya dipisah atau disambung di sini ?”
+28.M: “Mungkin lebih enak kalau dipisah.”
+29.N: “Dibikin menu baru ?”
+30.M: “Iya, benar.”
+31.N: “Sekarang, di bawah module yang tadi, ganti subject dari human interaction jadi human manusia.”
+32.M: “Oke, sudah.”
+33.N: “Sekarang, buatlah sebuah pertanyaan baru.”
+34.M: (Berhasil membuat pertanyaan baru)
+35.N: “Setelah itu, tambahkan eksplanasi atau penjelasan untuk pertanyaan itu.”
+36.M: (Menambahkan explanation ke pertanyaan)
+37.N: “Apakah anda tahu jika ini digunakan untuk penjelasan atau tidak ?”
+38.M: “Hmm… Iya tahu.”
+39.N: “Kemudian pilih single answer, difficulty, position.”
+40.N: “Setelah itu, sekarang tambahkan jawaban.”
+41.M: (Terdengar kebingungan) “Hah ? Gimana ?”
+42.N: “Coba di scroll ke atas. Ini sama kaya yang tadi modelnya.”
+43.M: (Menemukan menu answer management) “Ohh… ini.. Iya iya…”
+44.N: “Berarti kan anda kesulitan dalam hal ini… Apakah sebaiknya ditambahkan button lain di bawah tadi ?”
+45.M: “Iya, seharusnya sama yang tadi juga diganti, diberi tombol lain.”
+46.N: “Ohh...Iya, mungkin ditambah tombol next ?”
+47.M: “Iya, tombol next saja lebih baik.”
+48.N: “Baiklah, sekarang lanjutkan membuat jawabannya. Pilih jawaban ini sebagai benar, dan atur posisi jawaban ini sebagai yang pertama.”
+49.M: “Oke, sudah beres.”
+50.N: “Oke, sekarang kembali ke tab Questions. Coba scroll ke bawah. Apakah anda merasa ini penting untuk menampilkan jawaban-jawaban seperti ini ?”
+51.M: “Tidak apa-apa sih ini.. Tapi, ini perlu hyperlink di tiap jawaban untuk menyambungkan ke tempat edit nya. Karena kalau tidak begitu, nanti akan dikira ini sebagai tempat untuk mengedit jawaban.”
+52.N: “Iya, awalnya saya juga sempat berpikiran seperti itu. Jadi, apakah sebaiknya menu edit jawaban ini dipisah atau digabung ?”
+53.M: “Tetap lebih baik dipisah, karena kalau jawabannya panjang kan jadi repot juga. Cuma, sebenarnya kalau dibuat seperti ini, saya masih tidak mengerti”
+54.N: “Ohh… Berarti, kalau dibuat font seperti ini, apa masih perlu ditampilkan lagi ?”
+55.M: “Tidak usah mungkin ya… Eh, tapi sebenarnya perlu sih buat melihat jawaban untuk pertanyaan ini sudah masuk apa saja.”
+56.N: “Baiklah. Sekarang, buatlah test baru dengan deskripsinya juga. Test timenya 60 menit Nah, apakah anda bisa mengerti kalau ini 60 menit, detik, atau jam ?”
+57.M: “Tidak mengerti.”
+58.N: “Baik, berarti itu perlu diganti dengan yang lebih jelas. Oke, lanjutkan dengan mengisi basic points 4, wrong answer -1, dan no answer 0.”
+59.M: (Berhasil mengisi form test)
+60.N: “Apakah anda kesulitan dengan diberinya bintang-bintang di semua isian form ?”
+61.M: “Tidak juga, sih. Cuma lebih baik kalau di atasnya ditulis all of fields in this form is required. Jadi langsung tahu kalau perlu diisi semuanya.”
+62.N: “Terima kasih banyak telah menjadi partisipan dalam evaluasi prototipe hari ini.”
 ```
 
 ### Participant 3 (May 22, 2019 15:00 duration 07'35")
