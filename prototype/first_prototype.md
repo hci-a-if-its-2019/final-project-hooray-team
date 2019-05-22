@@ -48,5 +48,5 @@ Sketch:
 ![Test](/assets/prototype/ganen/Test%20Management.png)
 *Image : Add Test*
 
-![Test with question](/assets/prototype/ganen/Test%20Management%20%2D%80%93%20with%20answer.png)
+![Test with question](/assets/prototype/ganen/Test%20Management%20-%20with%20answer.png)
 *Image : Add question to test*
