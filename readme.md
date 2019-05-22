@@ -51,7 +51,7 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
  - Type: ordering answers; Question: What is the order in the shorten of HCI?
  8. Make answers in the order of questions above:
  - A human is a human being (right); A human is an animal
- - 
+ - [blank]
  - Human (right); Computer (right); Interaction (right); Creation
  - Human (right position 1); Computer (right position 2); Interaction (right position 3); Inovation
  9. Change single answer question to appear as the first question in any tests.
@@ -65,15 +65,6 @@ TCExam automates all assessment phases: authoring, scheduling, delivering, and r
  - Check everything else except 'logout when time expires'
  - Set password to 'imkimkimk'
  11. Set questions which have been created previously as the question for the test
-
-<!--
- Extra:
- 1. Logout from admin and login as created user above
- 2. Check if the test is available
- 3. Do the test
- 4. Logout and login as admin again, check evaluation and give points to free answer
- 5. Login as created user and check the results for the test which has been done
- -->
 
 ## User Description
 ### Participant 1 👨‍🚀
@@ -137,55 +128,16 @@ Artifact model, Flow model, and Cultural model for this Contextual Inquiry are a
 
 ### Dont's
 - Don't use green background for delete message
-- Don't put new field/section at the invisible part of the screen
+- Don't put new field/section at the unnoticed part of the screen (i.e in very bottom of the screen, right after end section of a view)
 - Don't put a form field which is unnecessary for the user
 - Don't hover everything to get description
+- Don't make user frustation by using unnecessary behavior like tick the checkbox if the behavior with and without using it is the same
 
 # Sketching and Prototyping
-## Part A: Sketches
+For sketcing and prototyping for this section is available in this link: [Sketching and Prototyping](prototype/first_prototype.md)
 
-### Design Rationale
+# Usability Evaluation and Prototyping (again)
 
-The core problem in original TCExam is bad design on their platform. Lack of explanation, too-old-styled themed layout and not well-centered layout design make user uncomfortable and sometimes missed the feature. From that, we need to fix it by using the simple, minimalist, yet modern and self-explained layout design.
+For usability evaluation and second prototyping for this section is available in this link: [Usability Evaluation and Prototyping](prototype/second_prototype.md)
 
-## Part B: Assumptions
-
-### Hardware
-
-PC with minimum spec:
-
-- Intel dual core processor
-- RAM 2 GB
-- Internet connection of course
-- Dedicated graphic card, minimum Intel HD
-
-Navigation with external hardware (mouse and/or keyboard)
-
-### Users
-
-- Can use browser to browsing 
-- Can understand how to input something on online form
-- ~15-50 years old
-
-
-## Part C: Prototypes
-
-Adobe XD file: https://gsculerlor.s-ul.eu/4Nkg75WG
-
-![Question_List](assets/prototype/ganen/List%20of%20questions.png)
-*Image : Showing list of questions*
-![Questions](assets/prototype/ganen/Edit%20Question.png)
-*Image : Edit question and add answers*
-![Grups](assets/prototype/ganen/Group%20Management.png)
-*Image : Add Group*
-![Topics](assets/prototype/ganen/Topics%20Management.png)
-*Image : Add Topic*
-
-![User](assets/prototype/ganen/User%20Management.png)
-*Image : Add User*
-
-![Test](assets/prototype/ganen/Test%20Management.png)
-*Image : Add Test*
-
-![Test with question](assets/prototype/ganen/Test%20Management%20–%20with%20answer.png)
-*Image : Add question to test*
+# 
