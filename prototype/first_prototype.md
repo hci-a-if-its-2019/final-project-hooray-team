@@ -30,20 +30,20 @@ Navigation with external hardware (mouse and/or keyboard)
 
 Adobe XD file: https://gsculerlor.s-ul.eu/4Nkg75WG
 
-![Question_List](/Users/gsculerlor/Documents/GitHub/final-project-hooray-team/assets/prototype/ganen/List%20of%20questions.png)
+![Question_List](/assets/prototype/ganen/List%20of%20questions.png)
 *Image : Showing list of questions*
-![Questions](/Users/gsculerlor/Documents/GitHub/final-project-hooray-team/assets/prototype/ganen/Edit%20Question.png)
+![Questions](/assets/prototype/ganen/Edit%20Question.png)
 *Image : Edit question and add answers*
-![Grups](/Users/gsculerlor/Documents/GitHub/final-project-hooray-team/assets/prototype/ganen/Group%20Management.png)
+![Grups](/assets/prototype/ganen/Group%20Management.png)
 *Image : Add Group*
-![Topics](/Users/gsculerlor/Documents/GitHub/final-project-hooray-team/assets/prototype/ganen/Topics%20Management.png)
+![Topics](assets/prototype/ganen/Topics%20Management.png)
 *Image : Add Topic*
 
-![User](/Users/gsculerlor/Documents/GitHub/final-project-hooray-team/assets/prototype/ganen/User%20Management.png)
+![User](/assets/prototype/ganen/User%20Management.png)
 *Image : Add User*
 
-![Test](/Users/gsculerlor/Documents/GitHub/final-project-hooray-team/assets/prototype/ganen/Test%20Management.png)
+![Test](/assets/prototype/ganen/Test%20Management.png)
 *Image : Add Test*
 
-![Test with question](/Users/gsculerlor/Documents/GitHub/final-project-hooray-team/assets/prototype/ganen/Test%20Management%20%E2%80%93%20with%20answer.png)
+![Test with question](assets/prototype/ganen/Test%20Management%20%E2%80%93%20with%20answer.png)
 *Image : Add question to test*

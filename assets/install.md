@@ -30,3 +30,11 @@ Coba cek [youtube](https://www.youtube.com/watch?v=Fj9Io6aoHag)
 1. Buka xampp, klik kanan di Apache config, pilih php.in
 2. Cari maximum_execution_time diganti jadi 300
 3. Restart Apache (Stop -> Start again)
+
+## Connect with Database
+1. Install [Phalcon](https://github.com/phalcon/cphalcon) version 3.4.3
+2. Follow the tutorial and check phpinfo();
+3. Open phpmyadmin create database *aplexam*
+4. Import `aplexam.sql` to MySQL
+5. Clone [APL-Exam](https://github.com/natashaval/APL-OAuth2-Server) to xampp/htdocs **Don't rename folder**
+6. Test by enter in URL `http://localhost/apl/APL-OAuth2-Server/src/exam/api/module`. Is it returning data?
