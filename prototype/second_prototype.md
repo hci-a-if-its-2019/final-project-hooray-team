@@ -78,6 +78,7 @@
  - Groups: HCI A Class
  - Basic points: 4; Points for wrong answer: -1; Points for no answer: 0; Points to pass the exam: 0
 11. Set questions which have been created previously as the question for the test
+
 ### 3. Transcript
 
 All usability test transcripts are available in [Usability Transcript](/transcript/transcript_usability.md)

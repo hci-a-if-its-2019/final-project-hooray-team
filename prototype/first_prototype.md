@@ -30,6 +30,9 @@ Navigation with external hardware (mouse and/or keyboard)
 
 Adobe XD file: https://gsculerlor.s-ul.eu/4Nkg75WG
 
+Sketch:
+![Sketch 1](/assets/prototype/sketch1.jpg)
+
 ![Question_List](/assets/prototype/ganen/List%20of%20questions.png)
 *Image : Showing list of questions*
 ![Questions](/assets/prototype/ganen/Edit%20Question.png)
