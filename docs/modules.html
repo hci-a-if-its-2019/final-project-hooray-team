@@ -220,7 +220,7 @@
 								<div class="tab-content">
 									<div id="overview" class="tab-pane active">
 										<!-- Isi tab overview -->
-										<form class="form-horizontal" id="mod-form">
+										<!--<form class="form-horizontal" id="mod-form">-->
 											<h4 class="mb-xlg">Modules Information</h4>
 											<fieldset>
                                                 <div class="form-group">
@@ -248,13 +248,14 @@
 											<div class="panel-footer">
 												<div class="row">
 													<div class="col-md-9 col-md-offset-3">
-														<button type="submit" class="btn btn-primary">Add</button>
+														<button type="submit" id="mod-save" class="btn btn-primary">Save</button>
+														<button class="btn btn-danger" id="mod-del">Delete</button>
 														<button type="reset" class="btn btn-default">Cancel</button>
 													</div>
 												</div>
 											</div>
 
-										</form>
+										<!--</form>-->
 									</div>
 									<div id="edit" class="tab-pane">
 
@@ -349,6 +350,7 @@
 				// 	var content = quill.getText();
 				// 	console.log(content);
                 // });
+				$('#mod-del').hide();
 
                 var moduleOption = '<option value="0">+</option>';
                 $.ajax({
@@ -378,19 +380,15 @@
                             success: function (data) {
                                 console.log(data);
                                 $('#mod-name').val(data.name);
+                                $('#mod-del').show();
                             }
                         });
                     }
+                    else {
+                        $('#mod-name').val('');
+                        $('#mod-del').hide();
+					}
                 });
-                
-                // let subjects;
-                // $.ajax({
-				// 	type: 'GET',
-				// 	url: baseURL + 'exam/api/subject',
-				// 	success: function(data){
-				// 	    subjects = data;
-				// 	}
-				// });
                 
                 $('#sub-mod-menu').on('change', function () {
                     $('#sub-menu option').remove();
@@ -426,7 +424,8 @@
                     }
                 })
 
-                $('#mod-form').submit(function(event){
+				$('#mod-save').click(function(){
+                // $('#mod-form').submit(function(event){
                     event.preventDefault();
                     data = {
                         id: $('#mod-menu').val(),
@@ -511,6 +510,29 @@
 
                 });
 
+                $('#mod-del').click(function () {
+					mod_id = $('#mod-menu').val();
+					console.log(mod_id);
+					$.ajax({
+						type: 'DELETE',
+						url: baseURL + 'exam/api/module/id/' + mod_id,
+						success: function (data) {
+							if (data.status == 'success'){
+							    toastr.success(data.message, data.status);
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 2000);
+							}
+                            else if (data.status == 'failed'){
+                                toastr.error(data.message, data.status);
+                            }
+                        },
+						error: function (e) {
+						    console.log(e);
+                            toastr.error(e.responseJSON.message, e.responseJSON.status);
+                        }
+					})
+                });
 
             });
 

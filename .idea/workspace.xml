@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="666e512f-b2f0-4c20-a683-aeac1083d75b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/modules.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,14 +64,14 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="15" />
+          <entry key="HTML" value="16" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="8089" />
+          <entry key="HTML" value="8557" />
           <entry key="Markdown" value="384" />
         </counts>
       </usages-collector>
@@ -79,11 +79,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/users.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="-401">
               <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/modules.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="523" column="41" selection-start-line="523" selection-start-column="41" selection-end-line="523" selection-end-column="41" />
+              <folding>
+                <element signature="n#div#1;n#aside#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/groups.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="327" column="44" selection-start-line="327" selection-start-column="36" selection-end-line="327" selection-end-column="44" />
+            <state relative-caret-position="102">
+              <caret line="328" column="41" lean-forward="true" selection-start-line="326" selection-start-column="32" selection-end-line="328" selection-end-column="41" />
               <folding>
                 <element signature="n#aside#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -112,8 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mod-form</find>
-      <find>form</find>
       <find>sub-form</find>
       <find>a href=&quot;&quot;</find>
       <find>tce</find>
@@ -138,9 +148,11 @@
       <find>toastr</find>
       <find>&lt;span class=&quot;required&quot;&gt;*&lt;/span&gt;</find>
       <find>id=&quot;username</find>
-      <find>&lt;form</find>
       <find>toastr.min</find>
       <find>email</find>
+      <find>submit</find>
+      <find>&lt;form</find>
+      <find>&lt;/form</find>
       <find>location</find>
     </findStrings>
     <replaceStrings>
@@ -162,9 +174,9 @@
         <option value="$PROJECT_DIR$/assets/install.md" />
         <option value="$PROJECT_DIR$/docs/questions.html" />
         <option value="$PROJECT_DIR$/docs/question_lists.html" />
-        <option value="$PROJECT_DIR$/docs/modules.html" />
         <option value="$PROJECT_DIR$/docs/groups.html" />
         <option value="$PROJECT_DIR$/docs/users.html" />
+        <option value="$PROJECT_DIR$/docs/modules.html" />
       </list>
     </option>
   </component>
@@ -182,8 +194,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-23" />
-    <option name="y" value="154" />
+    <option name="x" value="205" />
+    <option name="y" value="132" />
     <option name="width" value="1641" />
     <option name="height" value="1017" />
   </component>
@@ -258,18 +270,18 @@
       <workItem from="1558437223768" duration="5270000" />
       <workItem from="1558465679629" duration="10453000" />
       <workItem from="1558521336288" duration="376000" />
-      <workItem from="1558550259134" duration="4925000" />
+      <workItem from="1558550259134" duration="5933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32754000" />
+    <option name="totallyTimeSpent" value="33762000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="103" width="1094" height="678" extended-state="0" />
+    <frame x="137" y="88" width="1094" height="678" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28626692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28626692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,30 +414,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/modules.html">
+    <entry file="file://$PROJECT_DIR$/docs/users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="502" column="41" selection-start-line="502" selection-start-column="41" selection-end-line="502" selection-end-column="41" />
-          <folding>
-            <element signature="n#div#1;n#aside#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="-401">
+          <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/groups.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="327" column="44" selection-start-line="327" selection-start-column="36" selection-end-line="327" selection-end-column="44" />
+        <state relative-caret-position="102">
+          <caret line="328" column="41" lean-forward="true" selection-start-line="326" selection-start-column="32" selection-end-line="328" selection-end-column="41" />
           <folding>
             <element signature="n#aside#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/users.html">
+    <entry file="file://$PROJECT_DIR$/docs/modules.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="385" lean-forward="true" selection-start-line="385" selection-end-line="385" />
+        <state relative-caret-position="148">
+          <caret line="523" column="41" selection-start-line="523" selection-start-column="41" selection-end-line="523" selection-end-column="41" />
+          <folding>
+            <element signature="n#div#1;n#aside#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
