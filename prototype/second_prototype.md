@@ -10,23 +10,28 @@
 
 ### 1. Brief Description of Participants
 
-- #### a. Description of Participant 1
-
-  ~
-
+  #### a. Description of Participant 1
+    - The participant is a male user of Indonesia origin aged about 21 years old.
+    - He is a mechanical engineering student.
+    - He had experienced as tutor for international students last year.
+    - Nowadays, he is tutoring two high school students twice a week.
+    - He likes to make mini quiz for his students in short answer type.
+    - In writing his mini quiz, he uses Microsoft Word application.
   #### b. Description of Participant 2
-
-  ~
+    - The participant is a 20 years old female user.
+    - She is a computer science student.
+    - She has been working as a teaching assistant for 4 terms.
+    - Neither exam questions nor exercises are prepared by her since they are created directly by the teacher.
+    - She assists hand-written tests with printed questions.
 
   #### c. Description of Participant 3
-
   - A female, 21 years old
   - A student of Informatics Department batch 2016
   - She had experienced as a tutor for high school students last year
   - She never made exam questions for her students because it has been prepared by the course
   - In giving exercise, she uses her printed book given by the course
 
-  #### d. Description of Participant 4
+ #### d. Description of Participant 4
 
   - A male, 20 years old
   - A student of Informatics Department batch 2017
@@ -34,22 +39,25 @@
   - He make exercise for his students
   - In giving exercise, he uses his Microsoft word Application
 
-  #### e. Description of Participant 5
+#### e. Description of Participant 5
 
   - A male, 20 years old
   - Informatics ITS 2017
+<<<<<<< Updated upstream
   
+=======
+>>>>>>> Stashed changes
   - Former lecturer assistant
   - Usually using paper or manually write the text or exercise
   
-  #### f. Description of Participant 6
+ #### f. Description of Participant 6
   
   - A female, 23 years old
   - Sasjep UB 2015
   - Usually asked by her lecturer to help them handling class tests or exercises
   - Mostly done by their own online exam system (UB exam system)
   
-  #### g. Description of Participant 7 (new user/not included from last CI)
+ #### g. Description of Participant 7 (new user/not included from last CI)
   
   - A male, 25 years old
   - English literature UB 2014
@@ -57,9 +65,23 @@
   - Never using e-learning before, but often use app/web to help his teaching method
 
 ### 2. Evaluation Script
-
-~
-
+1. Login as default admin with username and password as admin and 1234
+2. Create a new user with his/her level is not equal to zero (since it cannot be used)
+3. Create a new group named 'HCI A Class' and move the user to this group
+4. Create a new module named 'Technology'
+5. Create a new topic named 'Human-Computer' and fill in description as 'the interaction between humans and computers'
+6. Change the topic name to 'Human Computer Interaction'
+7. In the module 'Technology' with topic 'Human Computer Interaction', create a question.
+8. Create an answer based on the created question.
+9. Change single answer question to appear as the first question in any tests.
+10. Create a test
+ - Name: IMK
+ - Description: IMK for Contextual Inquiry of Horray Team
+ - Start time: today date and End time: tomorrow date
+ - Test time: 60 minutes
+ - Groups: HCI A Class
+ - Basic points: 4; Points for wrong answer: -1; Points for no answer: 0; Points to pass the exam: 0
+11. Set questions which have been created previously as the question for the test
 ### 3. Transcript
 
 All usability test transcripts are available in [Usability Transcript](/transcript/transcript_usability.md)
