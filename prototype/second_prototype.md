@@ -2,7 +2,7 @@
 
 ## Operating the Prototype
 
-~
+[![Prototype TCExam](https://img.youtube.com/vi/D8M911-6tyY/0.jpg)](https://youtu.be/D8M911-6tyY)
 
 ------
 
