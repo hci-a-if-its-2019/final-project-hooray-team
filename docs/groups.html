@@ -22,6 +22,11 @@
 		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
 		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
 
+		<!-- Specific Page Vendor CSS -->
+		<!--<link rel="stylesheet" href="assets/vendor/pnotify/pnotify.custom.css" />-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+
+
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
 
@@ -208,33 +213,32 @@
 								<header class="panel-heading">
 									<h2 class="panel-title">Groups Management</h2>
 								</header>
-								<div class="panel-body">
-									<div class="row">
-										<div class="col-lg-12">
-											<div class="form-group">
-												<label class="control-label" for="groups">Groups</label>
-												<select class="form-control input-sm mb-md" required>
-													<option>+</option>
-													<option>HCI A</option>
-													<option>HCI B</option>
-													<option>HCI C</option>
-												</select>
+								<form method="POST" id="group-form">
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="form-group">
+													<label class="control-label" for="groups">Groups</label>
+													<select class="form-control input-sm mb-md" id="group-menu" required>
+													</select>
+												</div>
 											</div>
 										</div>
-									</div>
-									<div class="row">
-										<div class="col-lg-12">
-											<div class="form-group">
-												<label class="control-label">Groups Name <span class="required">*</span></label>
-												<input type="text" name="groups-name" class="form-control" required>
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="form-group">
+													<label class="control-label">Group Name <span class="required">*</span></label>
+													<input type="text" name="group-name" id="group-name" class="form-control" required>
+												</div>
 											</div>
 										</div>
+										<p> <span class="required">*</span>) is required</p>
 									</div>
-									<p> <span class="required">*</span>) is required</p>
-								</div>
-								<footer class="panel-footer text-center">
-									<button class="btn btn-primary">Add</button>
-								</footer>
+									<footer class="panel-footer text-center">
+										<button type="submit" class="btn btn-primary">Save</button>
+										<button type="reset" class="btn btn-secondary">Clear</button>
+									</footer>
+								</form>
 						</section>
 							
 					</div>
@@ -245,13 +249,17 @@
 
 		<!-- Vendor -->
 		<script src="assets/vendor/jquery/jquery.js"></script>
-		<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<!--<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>-->
 		<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
-		<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
-		<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-		<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
+		<!--<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>-->
+		<!--<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>-->
+		<!--<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>-->
 		<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
-		
+
+		<!-- Specific Page Vendor -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+		<!--<script src="assets/vendor/pnotify/pnotify.custom.js" type="5d1e2441ba4382b5ed8fbeb9-text/javascript"></script>-->
+
 		<!-- Theme Base, Components and Settings -->
 		<script src="assets/javascripts/theme.js"></script>
 		
@@ -260,6 +268,96 @@
 		
 		<!-- Theme Initialization Files -->
 		<script src="assets/javascripts/theme.init.js"></script>
+
+		<script src="js/apl_exam.js"></script>
+		<script type="text/javascript">
+			baseURL = window.BASE_URL;
+
+			var option = '<option value="0">+</option>';
+			$(document).ready(function () {
+				$.ajax({
+					type: 'GET',
+					url: baseURL + 'user/api/group',
+					success: function(data){
+                        console.log(data);
+                        for (i = 0; i < data.length; i++) {
+                            option += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+                        }
+                        $('#group-menu').append(option);
+					},
+					error: function (e) {
+						console.log(e);
+                    }
+				});
+
+                $('#group-menu').on('change', function () {
+                    var val = $(this).val();
+                    console.log('val', val);
+                    if (val > 0) {
+                        $.ajax({
+                            type: 'GET',
+                            url: baseURL + 'user/api/group/id/' + val,
+                            success: function (data) {
+                                console.log(data);
+                                $('#group-name').val(data.name);
+                            }
+                        });
+                    }
+                });
+
+				$('#group-form').submit(function (event) {
+					event.preventDefault();
+                    data = {
+                        id: $('#group-menu').val(),
+                        name: $('#group-name').val(),
+                    };
+
+                    if (data.id == 0) {
+                        $.ajax({
+                            type: 'POST',
+                            url: baseURL + 'user/api/group',
+                            crossOrigin: true,
+                            data: JSON.stringify(data),
+                            dataType: 'json',
+                            success: function(data){
+                                toastr.success(data.message, data.status);
+                                setTimeout(function () {
+									location.reload();
+                                }, 2000);
+                            },
+                            error: function(e){
+                                console.log(e);
+                                toastr.error(data.message, data.status);
+
+                            }
+                        });
+                    }
+                    else if (data.id > 0) {
+                        $.ajax({
+                            type: 'PUT',
+                            url: baseURL + 'user/api/group/id/' + data.id,
+                            crossOrigin: true,
+                            data: JSON.stringify(data),
+                            dataType: 'json',
+                            success: function(data){
+                                toastr.success(data.message, data.status);
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 2000);
+                            },
+                            error: function(e){
+                                console.log(e);
+                                toastr.error(e, data.status);
+                            }
+                        });
+                    }
+                    else {
+                        toastr.warning('Unsupported!', 'Warning');
+					}
+
+                })
+            })
+		</script>
 
 	</body>
 </html>

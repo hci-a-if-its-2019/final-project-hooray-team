@@ -442,6 +442,9 @@
                             dataType: 'json',
                             success: function(data){
                                 toastr.success(data.message, data.status);
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 2000);
                             },
 							error: function(e){
                                 console.log(e);
@@ -476,6 +479,9 @@
                             dataType: 'json',
                             success: function(data){
                                 toastr.success(data.message, data.status);
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 2000);
                             },
                             error: function(e){
                                 console.log(e);
@@ -492,6 +498,9 @@
                             dataType: 'json',
                             success: function(data){
                                 toastr.success(data.message, data.status);
+                                setTimeout(function () {
+                                    location.reload();
+                                }, 2000);
                             },
                             error: function(e){
                                 console.log(e);
@@ -499,9 +508,6 @@
                             }
                         });
 					}
-                    else {
-                        alert("Update Module not supported yet!");
-                    }
 
                 });
 
