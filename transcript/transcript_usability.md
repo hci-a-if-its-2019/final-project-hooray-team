@@ -97,8 +97,6 @@
 19. P: Oh iziiii, yang tadi tak buka harus e
 20. P: (membuka page tests) wah 3 kali kerja iki bau bau e
 21. P: (mengisi test management) okeh kelar, btw tadi harus e dikasih penjelasan time e itu satuan e apa biar gak salah nangkep sama point harusnya dikasih range aja biar nggak ngelantur ntar
-22. P: (pindah ke tab 2) (mengisi form)
-23. P: (pindah ke tab 3) (mengisi form) okeh sudah
 24. G: Okeh sekarang silahkan di assign pertanyaannya ke testnya
 25. P: (mengassign pertanyaan) okeh udah
 26. G: Okeh udah gans, thankyou gimana gimana ada masalah?
@@ -131,11 +129,47 @@
 21. P: (membuka satu satu tab) oh urut kayaknya, oke dari awal yak
 22. P: (mengisi page pertama) ini point angka bebas? biasanya ada batesnya berapa sampe berapa
 23. G: Iya angka
-24. P: Oke oke (melanjutkan sampai page 3)
+24. P: Oke oke
 25. P: Sip sudah
 26. G: Oke terakhir silahkan assign pertanyaan ke testnya
 27. P: (assign pertanyaan) oh gini aja kan ya?
 28. G: Iya, oke udah kelar tumben cepet hahaha
-29. P: weh anda menghinaku ini dasar hahaha
+29. P: weh anda menghinaku ini dasar hahaha, eh btw saran dong button save sama cancelnya dibuat floating aja jadi gak susah kalo misal pagenya panjang gitu formnya
 ....
 ```
+
+### Participant 7 (May 22, 2019 21:01 duration 08'02")
+
+```
+1. G: Halo jadi sekarang kita bakal ngetes sebuah sistem nih, jadi yang dites bukan kamu e tapi sistemnya jadi gapapa salah gausah tegang 
+2. P: Oke oke jadi gimana ini caranya?
+3. G: Jadi ntar aku bakal ngasih instruksi silahkan dikerjakan, gitu doang kok
+3. P: Oke siap siap
+4. G: Oke mulai ya silahkan buat akun dulu
+5. P: Oke (membuka page akun) (mengisi form)
+6. P: Oke sudah terus?
+7. G: Sekarang silahkan bikin group baru
+8. P: (membuka page group) tinggal isi kan ya ini?
+9. G: Iya
+10. P: Oke (melanjutkan membuat group) oke sudah
+11. G: Sekarang silahkan bikin modul baru
+12. P: Modul ya (mencari modul) (membuka page modul) ini sama kan tinggal isi doang?
+13. G: Iya semua tinggal isi aja haha
+14. P: Oke haha (melanjutkan mengisi form)
+15. P: Oke sudahh
+16. G: Sip sekarang silahkan bikin pertanyaan lalu jawabannya juga, untuk jenis pertanyaan semua jenis ya jadi banyak pertanyaan bikinnya
+17. P: ehhhhh, yaudah yaudah
+18. P: (membuka page question) Lah gunanya test time sama start end time apa dong, kan sama harusnya? Ini point bebas?
+19. G: Iya bebas penting angka
+20. P: Oke (melanjutkan membuat pertanyaan) ini sebelahnya nggak juga?
+21. G: Nanti ada lagi, kelarin dulu aja buatnya
+22. P: Oke oke (melanjutkan membuat pertanyaan) oke sudah
+23. G: Nah terakhir silahkan mengassign pertanyaan tadi ke test yang sesuai
+24. P: Ohh gitu maksudnya sek sek (mengassign pertanyaan)
+25. P: Sip sudahh
+26. G: Oke itu terakhir, jadi gimana?
+27. P: Gaada masalah sih paling cuma point dikasih tau harus angka sama test time tadi agak ambigu sama time atasnya, pokoknya kurang penjelasan
+28. G: Oalah oke oke
+
+```
+
