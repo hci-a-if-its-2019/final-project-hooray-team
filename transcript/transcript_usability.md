@@ -1,4 +1,29 @@
-Transcript
+#Transcript
+
+### Participant 3 (May 22, 2019 15:00 duration 07'35")
+```
+1. Z : Jadi ini prototipe untuk aplikasi yang kemarin, coba sekarang buat user baru
+2. N : (Membuka page users, mengisi form) Udah
+3. Z : Terus buat grup baru
+4. N : (Membuka page groups, mengisi form) Iya ini
+5. Z : Terus membuat modul dan subjectnya
+6. N : (Membuka page modules dan tab subjects)
+7. Z : Oke terus membuat question dan answernya
+8. N : (Membuka page question)
+9. Z : Oke terus nambah jawaban
+10. N : (Membuka page answer) Udah
+11. Z : Terus membuat test
+12. N : (Mencari page test, membuka page test)
+13. Z : Kalo udah create testnya, assign testnya ke subject sama grupnya
+14. N : (Mencari - cari letak assignnya, lalu scroll ke atas) Ha ini
+15. Z : Oke, kalau sudah coba lihat semua soal yang sudah dibuat
+16. N : (Mencari tab list) List tadi ada list kok, ini kan
+17. Z : Yea benar, udah gitu aja. Ada tanggapan tidak dari perbedaan yang lama dengan yang sekarang?
+18. N : (Membuka page test) Hmm apa ya.. Paling yang susah ditemui yang ini, nek wes kadung scroll ke bawah. Tapi kalau sudah terbiasa ya nggak sih
+19. Z : Oh gitu, sudah?
+20. N : Iya udah
+21. Z : Okedeh terimakasih Nilaa
+```
 
 ### Participant 4 (May 22, 2019 13:00 duration 10'20")
 ```
