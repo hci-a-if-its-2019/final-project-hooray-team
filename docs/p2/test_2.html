@@ -235,6 +235,7 @@
 									<div class="tab-content">
 										<div id="w4-account" class="tab-pane active">
 											<div class="panel-body">
+												<p><strong>Please fill all available fields!</strong></p>
 												<div class="row">
 													<div class="col-sm-12">
 														<div class="form-group">
@@ -250,7 +251,7 @@
 												<div class="row">
 													<div class="col-sm-12">
 														<div class="form-group">
-															<label class="control-label">Name <span class="required">*</span></label>
+															<label class="control-label">Name</label>
 															<input type="text" name="username" class="form-control" required>
 														</div>
 													</div>
@@ -258,7 +259,7 @@
 												<div class="row">
 													<div class="col-sm-12">
 														<div class="form-group">
-															<label class="control-label">Description <span class="required">*</span></label>
+															<label class="control-label">Description</label>
 															<input type="text" name="description" class="form-control" required>
 														</div>
 													</div>
@@ -266,7 +267,7 @@
 												<div class="row">
 													<div class="col-sm-6">
 														<div class="form-group">
-															<label class="control-label" for="start-date">Start Date<span class="required">*</span></label>
+															<label class="control-label" for="start-date">Start Date</label>
 															<div class="input-group">
 																<span class="input-group-addon">
 																	<i class="fa fa-calendar"></i>
@@ -277,7 +278,7 @@
 													</div>
 													<div class="col-sm-6">
 														<div class="form-group">
-															<label class="control-label" for="end-date">End Date<span class="required">*</span></label>
+															<label class="control-label" for="end-date">End Date</label>
 															<div class="input-group">
 																<span class="input-group-addon">
 																	<i class="fa fa-calendar"></i>
@@ -290,7 +291,7 @@
 												<div class="row">
 													<div class="col-sm-6">
 														<div class="form-group">
-															<label class="control-label" for="start-time">Start Time<span class="required">*</span></label>
+															<label class="control-label" for="start-time">Start Time</label>
 															<div class="input-group">
 																<span class="input-group-addon">
 																	<i class="fa fa-clock-o"></i>
@@ -301,7 +302,7 @@
 													</div>
 													<div class="col-sm-6">
 														<div class="form-group">
-															<label class="control-label" for="end-time">End Time<span class="required">*</span></label>
+															<label class="control-label" for="end-time">End Time</label>
 															<div class="input-group">
 																<span class="input-group-addon">
 																	<i class="fa fa-clock-o"></i>
@@ -314,7 +315,7 @@
 												<div class="row">
 													<div class="col-sm-12">
 														<div class="form-group" style="margin-top: 4px">
-															<label class="control-label">Test Time (In minutes)<span class="required">*</span></label>
+															<label class="control-label">Test Time (In minutes)</label>
 															<input type="number" name="test-time" class="form-control" required>
 															<label>Test Time is time that user taken to finish the test</label>
 														</div>
@@ -323,27 +324,13 @@
 												<div class="row">
 													<div class="col-sm-6">
 														<div class="form-group">
-															<label class="control-label">Basic points <span class="required">*</span></label>
+															<label class="control-label">Basic points </label>
 															<input type="number" name="test-time" class="form-control" required>
 														</div>
 													</div>
 													<div class="col-sm-6">
 														<div class="form-group">
-															<label class="control-label">Points for wrong answer <span class="required">*</span></label>
-															<input type="number" name="test-time" class="form-control" required>
-														</div>
-													</div>
-												</div>
-												<div class="row">
-													<div class="col-sm-6">
-														<div class="form-group">
-															<label class="control-label">Points for no answer<span class="required">*</span></label>
-															<input type="number" name="test-time" class="form-control" required>
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="form-group">
-															<label class="control-label">Points to pass the exam<span class="required">*</span></label>
+															<label class="control-label">Points for wrong answer </label>
 															<input type="number" name="test-time" class="form-control" required>
 														</div>
 													</div>
@@ -351,7 +338,21 @@
 												<div class="row">
 													<div class="col-sm-6">
 														<div class="form-group">
-															<label class="control-label">Random questions<span class="required">*</span></label><br>
+															<label class="control-label">Points for no answer</label>
+															<input type="number" name="test-time" class="form-control" required>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="form-group">
+															<label class="control-label">Points to pass the exam</label>
+															<input type="number" name="test-time" class="form-control" required>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="form-group">
+															<label class="control-label">Random questions</label><br>
 															<div class="radio-inline">
 																<label>
 																	<input type="radio" name="random-questions" id="random-questions" value="select" checked="">
@@ -368,7 +369,7 @@
 													</div>
 													<div class="col-sm-6">
 														<div class="form-group">
-															<label class="control-label">Random answer<span class="required">*</span></label><br>
+															<label class="control-label">Random answer</label><br>
 															<div class="radio-inline">
 																<label>
 																	<input type="radio" name="random-answer" id="random-answer" value="select" checked="">
@@ -384,7 +385,6 @@
 														</div>
 													</div>
 												</div>
-												<p> <span class="required">*</span>) is required</p>
 											</div>
 											
 										</div>
@@ -393,9 +393,10 @@
 											<!-- Isi tab test-subjects -->
 											<form class="form-horizontal" id="sub-form">
 												<h4 class="mb-xlg">Assign Test to Subjects</h4>
+												<p><strong>Please fill all available fields!</strong></p>
 												<fieldset>
 													<div class="form-group">
-														<label class="col-md-3 control-label">Subjects <span class="required">*</span></label>
+														<label class="col-md-3 control-label">Subjects </label>
 														<div class="col-md-8">
 															<select class="form-control input-sm mb-md" id="sub-mod-menu" required>
 																<option>HCI</option>
@@ -404,14 +405,13 @@
 		
 													</div>
 													<div class="form-group">
-														<label class="col-md-3 control-label" for="sub-menu">Test <span class="required">*</span></label>
+														<label class="col-md-3 control-label" for="sub-menu">Test </label>
 														<div class="col-md-8">
 															<select class="form-control input-sm mb-md" id="sub-menu" required>
 																<option>Mid-term Evaluation</option>
 															</select>
 														</div>
 													</div>
-													<p> <span class="required">*</span>) is required</p>
 												</fieldset>
 											</form>
 										</div>
@@ -419,9 +419,10 @@
 											<!-- Isi tab test-groups -->
 												<form class="form-horizontal" id="sub-form">
 													<h4 class="mb-xlg">Assign Test to Groups</h4>
+													<p><strong>Please fill all available fields!</strong></p>
 													<fieldset>
 														<div class="form-group">
-															<label class="col-md-3 control-label">Groups <span class="required">*</span></label>
+															<label class="col-md-3 control-label">Groups </label>
 															<div class="col-md-8">
 																<select class="form-control input-sm mb-md" id="sub-mod-menu" required>
 																	<option>HCI A</option>
@@ -430,14 +431,13 @@
 			
 														</div>
 														<div class="form-group">
-															<label class="col-md-3 control-label" for="sub-menu">Test <span class="required">*</span></label>
+															<label class="col-md-3 control-label" for="sub-menu">Test </label>
 															<div class="col-md-8">
 																<select class="form-control input-sm mb-md" id="sub-menu" required>
 																	<option>Mid-term Evaluation</option>
 																</select>
 															</div>
 														</div>
-														<p> <span class="required">*</span>) is required</p>
 													</fieldset>
 
 												</form>
