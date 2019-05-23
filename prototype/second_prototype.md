@@ -112,7 +112,7 @@ All usability test transcripts are available in [Usability Transcript](/transcri
 
 - **Reference**: -
 - **Feedback**: -
-- **Incidence**: -
+- **Incidence**: - 
 - **Reason**: -
 - **Resolution**: -
 
@@ -121,11 +121,11 @@ All usability test transcripts are available in [Usability Transcript](/transcri
 
 ![Subjects Management](/assets/prototype/prototype2/subjects.JPG)
 
-- **Reference**: -
-- **Feedback**: -
-- **Incidence**: -
-- **Reason**: -
-- **Resolution**: -
+- **Reference**: [A18 - A22]
+- **Feedback**: Explicitly Negative
+- **Incidence**: Participant said that subject menu is hidden and hard to see
+- **Reason**: Subject menu is a part of Modules Information in other tab
+- **Resolution**: Add button next to Module Information to reference to Subject Information
 
 
 #### OBSERVATION 5 - Questions Management
@@ -133,9 +133,11 @@ All usability test transcripts are available in [Usability Transcript](/transcri
 ![Question Management](/assets/prototype/prototype2/question_management.JPG)
 ![Question Management (continue)](/assets/prototype/prototype2/question_management2.JPG)
 
-- **Reference**: E16
+- **Reference**: E16, A37
 - **Feedback**: Explicitly positive
-- **Incidence**: Participant says using asterisk to make sure it's required is useful
+- **Incidence**: Participant says using asterisk to make sure it's required is useful; 
+Participant A said that showing answers below related questions is useful since user need not to go back and forth
+between question and answer management tabs 
 - **Reason**: -
 - **Resolution**: -
 
