@@ -229,4 +229,4 @@ Based on observation result, we still need to add more explanation to some field
 
 ### High-Fidelity Interactive-Prototype
 
-Link: 
+Link: [Revised Prototype](https://hci-a-if-its-2019.github.io/final-project-hooray-team/p2/index.html)
