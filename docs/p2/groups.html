@@ -1,0 +1,265 @@
+<!doctype html>
+<html class="fixed">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="UTF-8">
+
+		<title>Groups Management</title>
+		<meta name="keywords" content="HTML5 Admin Template" />
+		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.js"></script>
+
+		<style type="text/css">
+			.page-header img {
+				padding-top: 10px;
+				padding-left: 10px;
+			}
+		</style>
+
+	</head>
+	<body>
+		<section class="body">
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<aside id="sidebar-left" class="sidebar-left">
+				
+					<div class="sidebar-header">
+						<div class="sidebar-title">
+							Navigation
+						</div>
+						<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+							<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+						</div>
+					</div>
+				
+					<div class="nano">
+						<div class="nano-content">
+							<nav id="menu" class="nav-main" role="navigation">
+								<ul class="nav nav-main">
+									<li>
+										<a href="index.html">
+											<i class="fa fa-home" aria-hidden="true"></i>
+											<span>Home</span>
+										</a>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-users" aria-hidden="true"></i>
+											<span>Users</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="users.html"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
+											</li>
+											<li>
+												<a href="groups.html"><i class="fa fa-users" aria-hidden="true"></i>Groups</a>
+											</li>
+											<li>
+												<a><i class="fa fa-plus" aria-hidden="true"></i>Select</a>
+											</li>
+											<li>
+												<a><i class="fa fa-rocket" aria-hidden="true"></i>Online</a>
+											</li>
+											<li>
+												<a><i class="fa fa-upload" aria-hidden="true"></i>Import</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-copy" aria-hidden="true"></i>
+											<span>Modules</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="modules_2.html"><i class="fa fa-file-text" aria-hidden="true"></i>Modules</a>
+											</li>
+											<li>
+												<a href="questions_2.html"><i class="fa fa-pencil" aria-hidden="true"></i>Questions</a>
+											</li>
+											<li>
+												<a href="question_lists.html"><i class="fa fa-list" aria-hidden="true"></i>List</a>
+											</li>
+											<li>
+												<a><i class="fa fa-upload" aria-hidden="true"></i>Import</a>
+											</li>
+											<li>
+												<a><i class="fa fa-file" aria-hidden="true"></i>File Manager</a>
+											</li>
+											<li>
+												<a><i class="fa fa-certificate" aria-hidden="true"></i>SSL Certificates</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-file-text" aria-hidden="true"></i>
+											<span>Tests</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="test_2.html"><i class="fa fa-file-text-o" aria-hidden="true"></i>Tests</a>
+											</li>
+											<li>
+												<a><i class="fa fa-plus-circle" aria-hidden="true"></i>Select</a>
+											</li>
+											<li>
+												<a><i class="fa fa-upload" aria-hidden="true"></i>Import Answers</a>
+											</li>
+											<li>
+												<a><i class="fa fa-search-plus" aria-hidden="true"></i>OMR Bulk Importer</a>
+											</li>
+											<li>
+												<a><i class="fa fa-list-ol" aria-hidden="true"></i>Evaluation</a>
+											</li>
+											<li>
+												<a><i class="fa fa-rebel" aria-hidden="true"></i>Results</a>
+											</li>
+											<li>
+												<a><i class="fa fa-user" aria-hidden="true"></i>Users</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-recycle" aria-hidden="true"></i>
+											<span>Backup</span>
+										</a>
+									</li>	
+									<li>
+										<a href="#">
+											<i class="fa fa-bullhorn" aria-hidden="true"></i>
+											<span>Public</span>
+										</a>
+									</li>			
+									<li>
+										<a href="#">
+											<i class="fa fa-question-circle" aria-hidden="true"></i>
+											<span>Help</span>
+										</a>
+									</li>			
+									<li>
+										<a href="#">
+											<i class="fa fa-info-circle" aria-hidden="true"></i>
+											<span>Info</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-sign-out" aria-hidden="true"></i>
+											<span>Logout</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+				
+							</div>
+						</div>
+				
+				</aside>
+				<!-- end: sidebar -->
+
+				<section role="main" class="content-body">
+					<header class="page-header">
+						<img src="img/logo_tcexam.png">
+					
+						<div class="right-wrapper pull-right">
+							<ol class="breadcrumbs">
+								<li>
+									<a href="index.html">
+										<i class="fa fa-home"></i>
+									</a>
+								</li>
+								<li><span>Users</span></li>
+								<li><span>Groups Management</span></li>
+							</ol>
+						</div>
+					</header>
+
+					<!-- start: page -->
+					<div class="col-lg-12">
+						<section class="panel">
+								<header class="panel-heading">
+									<h2 class="panel-title">Groups Management</h2>
+								</header>
+								<div class="panel-body">
+									<div class="row">
+										<div class="col-lg-12">
+											<div class="form-group">
+												<label class="control-label" for="groups">Groups</label>
+												<select class="form-control input-sm mb-md" required>
+													<option>+</option>
+													<option>HCI A</option>
+													<option>HCI B</option>
+													<option>HCI C</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-lg-12">
+											<div class="form-group">
+												<label class="control-label">Groups Name <span class="required">*</span></label>
+												<input type="text" name="groups-name" class="form-control" required>
+											</div>
+										</div>
+									</div>
+									<p> <span class="required">*</span>) is required</p>
+								</div>
+								<footer class="panel-footer text-center">
+									<button class="btn btn-primary">Add</button>
+								</footer>
+						</section>
+							
+					</div>
+					<!-- end: page -->
+				</section>
+			</div>
+		</section>
+
+		<!-- Vendor -->
+		<script src="assets/vendor/jquery/jquery.js"></script>
+		<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+		<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
+		<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="assets/javascripts/theme.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="assets/javascripts/theme.custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="assets/javascripts/theme.init.js"></script>
+
+	</body>
+</html>

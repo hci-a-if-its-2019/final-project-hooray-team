@@ -65,7 +65,7 @@ Sketch:
 *Image : Edit question and add answers*
 ![Grups](/assets/prototype/ganen/Group%20Management.png)
 *Image : Add Group*
-![Topics](assets/prototype/ganen/Topics%20Management.png)
+![Topics](/assets/prototype/ganen/Topics%20Management.png)
 *Image : Add Topic*
 
 ![User](/assets/prototype/ganen/User%20Management.png)
@@ -74,5 +74,5 @@ Sketch:
 ![Test](/assets/prototype/ganen/Test%20Management.png)
 *Image : Add Test*
 
-![Test with question](assets/prototype/ganen/Test%20Management%20%E2%80%93%20with%20answer.png)
+![Test with question](/assets/prototype/ganen/TestManagement2.png)
 *Image : Add question to test*

@@ -1,0 +1,445 @@
+<!doctype html>
+<html class="fixed">
+<head>
+
+    <!-- Basic -->
+    <meta charset="UTF-8">
+
+    <title>List</title>
+    <meta name="keywords" content="HTML5 Admin Template" />
+    <meta name="description" content="Porto Admin - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+    <!--<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />-->
+    <!--<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />-->
+
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />-->
+    <link rel="stylesheet" href="assets/vendor/datatables/Buttons-1.5.6/buttons.bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendor/datatables/datatables.min.css" />
+    <link rel="stylesheet" href="assets/vendor/datatables/DataTables-1.10.18/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendor/datatables/DataTables-1.10.18/css/jquery.dataTables.min.css" />
+
+    <!--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />-->
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+    <!-- Head Libs -->
+    <script src="assets/vendor/modernizr/modernizr.js"></script>
+
+    <style type="text/css">
+        .page-header img {
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+    </style>
+
+</head>
+<body>
+<section class="body">
+
+    <div class="inner-wrapper">
+        <!-- start: sidebar -->
+        <aside id="sidebar-left" class="sidebar-left">
+
+            <div class="sidebar-header">
+                <div class="sidebar-title">
+                    Navigation
+                </div>
+                <div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+                    <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+                </div>
+            </div>
+
+            <div class="nano">
+                <div class="nano-content">
+                    <nav id="menu" class="nav-main" role="navigation">
+                        <ul class="nav nav-main">
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <span>Users</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="users.html"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
+                                    </li>
+                                    <li>
+                                        <a href="groups.html"><i class="fa fa-users" aria-hidden="true"></i>Groups</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-plus" aria-hidden="true"></i>Select</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-rocket" aria-hidden="true"></i>Online</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-upload" aria-hidden="true"></i>Import</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-copy" aria-hidden="true"></i>
+                                    <span>Modules</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="modules_2.html"><i class="fa fa-file-text" aria-hidden="true"></i>Modules</a>
+                                    </li>
+                                    <li>
+                                        <a href="questions_2.html"><i class="fa fa-pencil" aria-hidden="true"></i>Questions</a>
+                                    </li>
+                                    <li>
+                                        <a href="question_lists.html"><i class="fa fa-list" aria-hidden="true"></i>List</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-upload" aria-hidden="true"></i>Import</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-file" aria-hidden="true"></i>File Manager</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-certificate" aria-hidden="true"></i>SSL Certificates</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                                    <span>Tests</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="test_2.html"><i class="fa fa-file-text-o" aria-hidden="true"></i>Tests</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-plus-circle" aria-hidden="true"></i>Select</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-upload" aria-hidden="true"></i>Import Answers</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-search-plus" aria-hidden="true"></i>OMR Bulk Importer</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-list-ol" aria-hidden="true"></i>Evaluation</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-rebel" aria-hidden="true"></i>Results</a>
+                                    </li>
+                                    <li>
+                                        <a><i class="fa fa-user" aria-hidden="true"></i>Users</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="pengajar-dashboard.html">
+                                    <i class="fa fa-recycle" aria-hidden="true"></i>
+                                    <span>Backup</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pengajar-dashboard.html">
+                                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                    <span>Public</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pengajar-dashboard.html">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                    <span>Help</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pengajar-dashboard.html">
+                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                    <span>Info</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pengajar-dashboard.html">
+                                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                    <span>Logout</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+
+        </aside>
+        <!-- end: sidebar -->
+
+        <section role="main" class="content-body">
+            <header class="page-header">
+                <img src="img/logo_tcexam.png">
+
+                <div class="right-wrapper pull-right" style="margin-right: 10px;">
+                    <ol class="breadcrumbs">
+                        <li>
+                            <a href="index.html">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li><span>Modules</span></li>
+                        <li><span>List</span></li>
+                    </ol>
+                </div>
+            </header>
+
+            <!-- start: page -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tabs tabs-info">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="active">
+                                <a href="#question-list" data-toggle="tab" class="text-center">Question List</a>
+                            </li>
+                            <li>
+                                <a href="#answer-list" data-toggle="tab" class="text-center">Answer List</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="question-list" class="tab-pane active">
+                                <h2>Questions List</h2> <br />
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <table id="question-table" class="display" width="100%">
+                                            <thead>
+                                                <tr>
+                                                    <th>Id</th>
+                                                    <th>Subject</th>
+                                                    <th>Question</th>
+                                                    <th>Type</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Human Computer Interaction</td>
+                                                    <td>What is the definition of Human Computer Interaction?</td>
+                                                    <td>Single Answer</td>
+                                                    <td>
+                                                        <div class="btn-group"><button class='btn btn-info'><i class='fa fa-pencil-square'></i> Edit</button><button class='btn btn-danger'><i class='fa fa-times-circle'></i> Delete</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Human Computer Interaction</td>
+                                                    <td>What is the Typography?</td>
+                                                    <td>Free Answer</td>
+                                                    <td>
+                                                        <div class="btn-group"><button class='btn btn-info'><i class='fa fa-pencil-square'></i> Edit</button><button class='btn btn-danger'><i class='fa fa-times-circle'></i> Delete</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Requirement Engineering</td>
+                                                    <td>Give example of these study cases!</td>
+                                                    <td>Free Answer</td>
+                                                    <td>
+                                                        <div class="btn-group"><button class='btn btn-info'><i class='fa fa-pencil-square'></i> Edit</button><button class='btn btn-danger'><i class='fa fa-times-circle'></i> Delete</button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="answer-list" class="tab-pane">
+                                <h2>Answers List</h2> <br />
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <table id="answer-table" class="display" width="100%">
+                                            <thead>
+                                            <tr>
+                                                <th>Id</th>
+                                                <th>Question</th>
+                                                <th>Answer</th>
+                                                <th>Right</th>
+                                                <!--<th>Actions</th>-->
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>What is Human Computer Interaction?</td>
+                                                <td>The interaction between humans (the users) and computers</td>
+                                                <td><span class="badge">Right</span></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>What is Human Computer Interaction?</td>
+                                                <td>a multidisciplinary field of study focusing on the design of computer technology.</td>
+                                                <td></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>What is Human Computer Interaction?</td>
+                                                <td>the need to create human-computer interaction that was also easy and efficient for less experienced users became increasingly vital.</td>
+                                                <td></td>
+
+                                            </tr>
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- end: page -->
+        </section>
+    </div>
+</section>
+
+<!-- Vendor -->
+<script src="assets/vendor/jquery/jquery.js"></script>
+<!--<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>-->
+<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+<!--<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>-->
+<!--<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>-->
+<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>-->
+
+<!--DataTables-->
+<script src="assets/vendor/datatables/pdfmake-0.1.36/vfs_fonts.js"></script>
+<script src="assets/vendor/datatables/pdfmake-0.1.36/pdfmake.min.js"></script>
+<script src="assets/vendor/datatables/Buttons-1.5.6/js/buttons.bootstrap.min.js"></script>
+<script src="assets/vendor/datatables/Buttons-1.5.6/js/dataTables.buttons.js"></script>
+<script src="assets/vendor/datatables/datatables.min.js"></script>
+<script src="assets/vendor/datatables/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
+<!--<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>-->
+<!--<script src="assets/vendor/datatables/DataTables-1.10.18/js/dataTables.bootstrap4.min.js"></script>-->
+<!--<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>-->
+
+<!-- Theme Base, Components and Settings -->
+<script src="assets/javascripts/theme.js"></script>
+
+<!-- Theme Custom -->
+<script src="assets/javascripts/theme.custom.js"></script>
+
+<!-- Theme Initialization Files -->
+<script src="assets/javascripts/theme.init.js"></script>
+
+<script src="js/apl_exam.js"></script>
+<script type="text/javascript">
+    baseURL = window.BASE_URL;
+
+    $(document).ready(function () {
+        $('#question-table').DataTable({});
+        $('#answer-table').DataTable({});
+    });
+    /*
+       $('#question-table').DataTable({
+           "ajax": {
+               "url": baseURL + 'exam/api/question',
+               "dataSrc": ""
+           },
+           buttons: [
+               'pdf'
+           ],
+           "columns": [
+               {"data": "id"},
+               {"data": "subject.name"},
+               {"data": "description"},
+               {"data": "type"},
+               {"data": null, "orderable": false}
+           ],
+           columnDefs: [
+               {
+                   targets: -1,
+                   data: null,
+                   defaultContent:
+                       " <button class='btn btn-info'><i class='fa fa-pencil-square'></i> Edit</button>" +
+                       " <button class='btn btn-danger'><i class='fa fa-times-circle'></i> Delete</button>"
+
+               },
+               {
+                   targets: 3,
+                   createdCell: function (td, cellData, rowData, row, col) {
+                       if ( cellData == 1){
+                           $(td).html('<span class="badge badge-primary">Single Answer</span>')
+                       }
+                       else if ( cellData == 2){
+                           $(td).html('<span class="badge badge-warning">Multiple Answers</span>')
+                       }
+                       else if ( cellData == 3){
+                           $(td).html('<span class="badge badge-dark">Free Answer</span>')
+                       }
+                       else if ( cellData == 4){
+                           $(td).html('<span class="badge badge-info">Ordering Answer</span>')
+                       }
+                   }
+               }
+           ]
+       });
+
+       $('#answer-table').DataTable({
+           "ajax": {
+               "url": baseURL + 'exam/api/answer',
+               "dataSrc": ""
+           },
+           "columns": [
+               {"data": "id"},
+               {"data": "question.description"},
+               {"data": "description"},
+               {"data": "is_right"},
+               {"data": null, "orderable": false}
+           ],
+           columnDefs: [
+               {
+                   targets: -1,
+                   data: null,
+                   defaultContent:
+                       " <button class='btn btn-info'><i class='fa fa-pencil-square'></i> Edit</button>" +
+                       " <button class='btn btn-danger'><i class='fa fa-times-circle'></i> Delete</button>"
+
+               },
+               {
+                   targets: 3,
+                   createdCell: function (td, cellData, rowData, row, col) {
+                       if ( cellData == 1){
+                           $(td).wrapInner('<span class="badge badge-pill badge-success"></span>')
+                       }
+                   }
+               }
+           ]
+       });
+    });
+    */
+</script>
+</body>
+</html>
