@@ -23,8 +23,9 @@
 		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
 		<link rel="stylesheet" href="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css" />
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />-->
 		<link rel="stylesheet" href="assets/vendor/bootstrap-timepicker/css/bootstrap-timepicker.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
 
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
@@ -386,21 +387,17 @@
 											<h4 class="mb-xlg">Assign Test to Subjects</h4>
 											<fieldset>
 												<div class="form-group">
-													<label class="col-md-3 control-label">Test <span class="required">*</span></label>
+													<label class="col-md-3 control-label">Test </label>
 													<div class="col-md-8">
-														<select class="form-control input-sm mb-md" id="sub-mod-menu" required>
-															<option value="1">Mid Term</option>
-															<option value="2">Final Exam</option>
+														<select class="form-control input-sm mb-md" id="assign-test-menu" required>
 														</select>
 													</div>
 	
 												</div>
 												<div class="form-group">
-													<label class="col-md-3 control-label" for="sub-menu">Subjects <span class="required">*</span></label>
+													<label class="col-md-3 control-label" for="sub-menu">Subjects </label>
 													<div class="col-md-8">
-														<select class="form-control input-sm mb-md" id="sub-menu" multiple required>
-																<option value="1">Contextual Inquiry</option>
-																<option value="2">Model and Annotations</option>
+														<select class="form-control input-sm mb-md" id="assign-sub-menu" multiple required>
 														</select>
 													</div>
 												</div>
@@ -410,7 +407,7 @@
 											<div class="panel-footer">
 												<div class="row">
 													<div class="col-md-9 col-md-offset-3">
-														<button type="submit" class="btn btn-primary">Add</button>
+														<button id="assign-test-sub-submit" class="btn btn-primary">Add</button>
 														<button type="reset" class="btn btn-default">Cancel</button>
 													</div>
 												</div>
@@ -478,8 +475,8 @@
 		<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>
 		<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-		<script src="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>
-		<script src="assets/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+		<!--<script src="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>-->
+		<!--<script src="assets/vendor/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>-->
 
 		<!-- Theme Base, Components and Settings -->
 		<script src="assets/javascripts/theme.js"></script>
@@ -491,6 +488,60 @@
 		<script src="assets/javascripts/theme.init.js"></script>
 
 		<script src="js/apl_exam.js"></script>
+		<script type="text/javascript">
+            baseURL = window.BASE_URL;
+
+			$(document).ready(function () {
+                $.ajax({
+                    type: 'GET',
+                    url: baseURL + 'exam/api/test',
+                    success: function(data){
+                        let testOption = [];
+                        for (i = 0; i < data.length; i++){
+                            testOption += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+                        }
+                        $('#assign-test-menu').append(testOption);
+                    }
+                });
+
+                $.ajax({
+                    type: 'GET',
+                    url: baseURL + 'exam/api/subject',
+                    success: function(data){
+                        let subOption = [];
+                        for (i = 0; i < data.length; i++){
+                            subOption += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+                        }
+                        $('#assign-sub-menu').append(subOption);
+                    }
+                });
+
+                $('#assign-test-sub-submit').click(function (event) {
+                    event.preventDefault();
+
+                   data = {
+                       'test_id': $('#assign-test-menu').val(),
+                       'subjects': $('#assign-sub-menu').val()
+                   }
+
+                   console.log(data);
+
+                   $.ajax({
+                       type: 'POST',
+                       url: baseURL + 'exam/api/test/assign',
+                       data: JSON.stringify(data),
+                       dataType: 'json',
+                       success: function(data){
+                           toastr.success(data);
+                       },
+                       error: function(e){
+                           toastr.error(e.responseJSON.message, e.responseJSON.status);
+                       }
+                   })
+                });
+            });
+
+		</script>
 
 	</body>
 </html>
