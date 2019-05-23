@@ -1,0 +1,529 @@
+<!doctype html>
+<html class="fixed">
+	<head>
+
+		<!-- Basic -->
+		<meta charset="UTF-8">
+
+		<title>Modules and Subjects</title>
+		<meta name="keywords" content="HTML5 Admin Template" />
+		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+		<!--<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />-->
+		<!--<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+		<link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+		<link href="//cdn.quilljs.com/1.3.6/quill.bubble.css" rel="stylesheet">
+
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.js"></script>
+
+		<style type="text/css">
+			.page-header img {
+				padding-top: 10px;
+				padding-left: 10px;
+			}
+		</style>
+
+	</head>
+	<body>
+		<section class="body">
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<aside id="sidebar-left" class="sidebar-left">
+				
+					<div class="sidebar-header">
+						<div class="sidebar-title">
+							Navigation
+						</div>
+						<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+							<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+						</div>
+					</div>
+				
+					<div class="nano">
+						<div class="nano-content">
+							<nav id="menu" class="nav-main" role="navigation">
+								<ul class="nav nav-main">
+									<li>
+										<a href="index.html">
+											<i class="fa fa-home" aria-hidden="true"></i>
+											<span>Home</span>
+										</a>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-users" aria-hidden="true"></i>
+											<span>Users</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="users.html"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
+											</li>
+											<li>
+												<a href="groups.html"><i class="fa fa-users" aria-hidden="true"></i>Groups</a>
+											</li>
+											<li>
+												<a><i class="fa fa-plus" aria-hidden="true"></i>Select</a>
+											</li>
+											<li>
+												<a><i class="fa fa-rocket" aria-hidden="true"></i>Online</a>
+											</li>
+											<li>
+												<a><i class="fa fa-upload" aria-hidden="true"></i>Import</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-copy" aria-hidden="true"></i>
+											<span>Modules</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="modules_2.html"><i class="fa fa-file-text" aria-hidden="true"></i>Modules</a>
+											</li>
+											<li>
+												<a href="questions_2.html"><i class="fa fa-pencil" aria-hidden="true"></i>Questions</a>
+											</li>
+											<li>
+												<a href="question_lists.html"><i class="fa fa-list" aria-hidden="true"></i>List</a>
+											</li>
+											<li>
+												<a><i class="fa fa-upload" aria-hidden="true"></i>Import</a>
+											</li>
+											<li>
+												<a><i class="fa fa-file" aria-hidden="true"></i>File Manager</a>
+											</li>
+											<li>
+												<a><i class="fa fa-certificate" aria-hidden="true"></i>SSL Certificates</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-parent">
+										<a>
+											<i class="fa fa-file-text" aria-hidden="true"></i>
+											<span>Tests</span>
+										</a>
+										<ul class="nav nav-children">
+											<li>
+												<a href="test_2.html"><i class="fa fa-file-text-o" aria-hidden="true"></i>Tests</a>
+											</li>
+											<li>
+												<a><i class="fa fa-plus-circle" aria-hidden="true"></i>Select</a>
+											</li>
+											<li>
+												<a><i class="fa fa-upload" aria-hidden="true"></i>Import Answers</a>
+											</li>
+											<li>
+												<a><i class="fa fa-search-plus" aria-hidden="true"></i>OMR Bulk Importer</a>
+											</li>
+											<li>
+												<a><i class="fa fa-list-ol" aria-hidden="true"></i>Evaluation</a>
+											</li>
+											<li>
+												<a><i class="fa fa-rebel" aria-hidden="true"></i>Results</a>
+											</li>
+											<li>
+												<a><i class="fa fa-user" aria-hidden="true"></i>Users</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-recycle" aria-hidden="true"></i>
+											<span>Backup</span>
+										</a>
+									</li>	
+									<li>
+										<a href="#">
+											<i class="fa fa-bullhorn" aria-hidden="true"></i>
+											<span>Public</span>
+										</a>
+									</li>			
+									<li>
+										<a href="#">
+											<i class="fa fa-question-circle" aria-hidden="true"></i>
+											<span>Help</span>
+										</a>
+									</li>			
+									<li>
+										<a href="#">
+											<i class="fa fa-info-circle" aria-hidden="true"></i>
+											<span>Info</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-sign-out" aria-hidden="true"></i>
+											<span>Logout</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+				
+							</div>
+						</div>
+				
+				</aside>
+				<!-- end: sidebar -->
+
+				<section role="main" class="content-body">
+					<header class="page-header">
+						<img src="img/logo_tcexam.png">
+					
+						<div class="right-wrapper pull-right">
+							<ol class="breadcrumbs" style="margin-right: 10px;">
+								<li>
+									<a href="index.html">
+										<i class="fa fa-home"></i>
+									</a>
+								</li>
+								<li><span>Modules</span></li>
+								<li><span>Modules and Subjects</span></li>
+							</ol>
+						</div>
+					</header>
+
+					<!-- start: page -->
+					<div class="col-lg-12">
+						<div class="tabs">
+								<ul class="nav nav-tabs tabs-primary">
+									<li class="active">
+										<a href="#overview" data-toggle="tab">Modules</a>
+									</li>
+									<li>
+										<a href="#edit" data-toggle="tab">Subjects</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div id="overview" class="tab-pane active">
+										<!-- Isi tab overview -->
+										<div class="row">
+											<div class="col-md-9">
+												<h4 class="mb-xlg">Modules Information</h4>
+											</div>
+											<div class="col-md-3">
+												<button class="btn btn-primary"><i class="fa fa-angle-right"></i> Go To Subjects</button>
+											</div>
+										</div>
+										<form class="form-horizontal" id="mod-form">
+											<fieldset>
+                                                <div class="form-group">
+                                                    <label class="col-md-3 control-label" for="mod-menu">Modules<span class="required">*</span></label>
+                                                    <div class="col-md-8">
+                                                        <select class="form-control" id="mod-menu">
+                                                        </select>
+                                                    </div>
+                                                </div>
+												<div class="form-group">
+													<label class="col-md-3 control-label" for="mod-name">Modules Name <span class="required">*</span></label>
+													<div class="col-md-8">
+														<input type="text" class="form-control" id="mod-name" required>
+													</div>
+												</div>
+												<!--<div class="form-group">-->
+													<!--<label class="col-md-3 control-label" for="mod-description">Description</label>-->
+													<!--<div class="col-md-8">-->
+														<!--<input type="text" class="form-control" id="mod-description">-->
+													<!--</div>-->
+												<!--</div>-->
+												<p> <span class="required">*</span>) is required</p>
+											</fieldset>
+										
+											<div class="panel-footer">
+												<div class="row">
+													<div class="col-md-9 col-md-offset-3">
+														<button type="submit" class="btn btn-primary">Add</button>
+														<button type="reset" class="btn btn-default">Cancel</button>
+													</div>
+												</div>
+											</div>
+
+										</form>
+									</div>
+									<div id="edit" class="tab-pane">
+
+										<!-- Isi tab edit -->
+										<div class="row">
+											<div class="col-md-9">
+												<h4 class="mb-xlg">Subjects Information</h4>
+											</div>
+											<div class="col-md-3">
+													<button class="btn btn-primary"><i class="fa fa-angle-left"></i> Go Back Modules</button>
+
+											</div>
+										</div>
+
+										<form class="form-horizontal" id="sub-form">
+											<fieldset>
+												<div class="form-group">
+													<label class="col-md-3 control-label">Modules <span class="required">*</span></label>
+													<div class="col-md-8">
+														<select class="form-control input-sm mb-md" id="sub-mod-menu" required>
+														</select>
+													</div>
+	
+												</div>
+												<div class="form-group">
+													<label class="col-md-3 control-label" for="sub-menu">Subjects <span class="required">*</span></label>
+													<div class="col-md-8">
+														<select class="form-control input-sm mb-md" id="sub-menu" required>
+														</select>
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-3 control-label" for="sub-name">Subjects Name <span class="required">*</span></label>
+													<div class="col-md-8">
+														<input type="text" class="form-control" id="sub-name" required />
+													</div>
+												</div>
+												<div class="form-group">
+													<label class="col-md-3 control-label" for="sub-description">Description</label>
+													<div class="col-md-8">
+														<div id="sub-description"></div>
+														<!--<textarea class="form-control" id="sub-description"></textarea>-->
+													</div>
+												</div>
+												<p> <span class="required">*</span>) is required</p>
+											</fieldset>
+										
+											<div class="panel-footer">
+												<div class="row">
+													<div class="col-md-9 col-md-offset-3">
+														<button type="submit" class="btn btn-primary">Add</button>
+														<button type="reset" class="btn btn-default">Cancel</button>
+													</div>
+												</div>
+											</div>
+
+										</form>
+
+									</div>
+								</div>
+							</div>
+					</div>
+					<!-- end: page -->
+				</section>
+			</div>
+		</section>
+
+		<!-- Vendor -->
+		<script src="assets/vendor/jquery/jquery.js"></script>
+		<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+		<!--<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>-->
+		<!--<script src="assets/vendor/magnific-popup/magnific-popup.js"></script>-->
+		<script src="assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+		<script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+
+
+		<!-- Theme Base, Components and Settings -->
+		<script src="assets/javascripts/theme.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="assets/javascripts/theme.custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="assets/javascripts/theme.init.js"></script>
+
+		<script src="js/apl_exam.js"></script>
+		<script type="text/javascript">
+			baseURL = window.BASE_URL;
+
+			$(document).ready(function() {
+				var quill = new Quill('#sub-description', {
+				    theme: 'snow'
+				});
+				//
+				// $('#dump-quill').click(function () {
+				// 	var content = quill.getText();
+				// 	console.log(content);
+                // });
+
+                var moduleOption = '<option value="0">+</option>';
+                $.ajax({
+                    type: 'GET',
+                    url: baseURL + 'exam/api/module',
+                    success: function (data) {
+                        console.log(data);
+                        for (i = 0; i < data.length; i++) {
+                            moduleOption += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+                        }
+                        console.log(moduleOption);
+                        $('#mod-menu').append(moduleOption);
+                        $('#sub-mod-menu').append(moduleOption);
+                    },
+                    error: function (e) {
+                        console.log(e);
+                    }
+                });
+
+                $('#mod-menu').on('change', function () {
+                    var val = $(this).val();
+                    console.log('val', val);
+                    if (val > 0) {
+                        $.ajax({
+                            type: 'GET',
+                            url: baseURL + 'exam/api/module/id/' + val,
+                            success: function (data) {
+                                console.log(data);
+                                $('#mod-name').val(data.name);
+                            }
+                        });
+                    }
+                });
+                
+                // let subjects;
+                // $.ajax({
+				// 	type: 'GET',
+				// 	url: baseURL + 'exam/api/subject',
+				// 	success: function(data){
+				// 	    subjects = data;
+				// 	}
+				// });
+                
+                $('#sub-mod-menu').on('change', function () {
+                    $('#sub-menu option').remove();
+                    subjectOption = '';
+                    $('#sub-menu').append('<option value="0">+</option>');
+					val = $(this).val();
+					$.ajax({
+                        type: 'GET',
+                        url: baseURL + 'exam/api/subject/module/' + val,
+                        success: function (data) {
+                            for(i=0; i < data.length; i++){
+                                subjectOption += '<option value="' + data[i].id + '">' + data[i].name + '</option>';
+							}
+							$('#sub-menu').append(subjectOption);
+                        }
+					});
+                });
+
+                $('#sub-menu').on('change', function () {
+                    var val = $(this).val();
+                    console.log('val', val);
+                    if (val > 0) {
+                        $.ajax({
+                            type: 'GET',
+                            url: baseURL + 'exam/api/subject/id/' + val,
+                            success: function (data) {
+                                console.log(data);
+                                $('#sub-name').val(data.name);
+                                // $('#sub-description').val(data.description);
+								quill.setText(data.description);
+                            }
+                        });
+                    }
+                })
+
+                $('#mod-form').submit(function(event){
+                    event.preventDefault();
+                    data = {
+                        id: $('#mod-menu').val(),
+                        name: $('#mod-name').val(),
+                    };
+
+                    if (data.id == 0) {
+                        $.ajax({
+                            type: 'POST',
+                            url: baseURL + 'exam/api/module',
+							crossOrigin: true,
+                            data: JSON.stringify(data),
+                            dataType: 'json',
+                            success: function(data){
+                                toastr.success(data.message, data.status);
+                            },
+							error: function(e){
+                                console.log(e);
+                                toastr.error(data.message, data.status);
+							}
+                        });
+                    }
+                    else {
+                        toastr.warning("Update module is not supported yet!", "Warning");
+                    }
+                });
+
+
+                $('#sub-form').submit(function(e){
+                    e.preventDefault();
+                    data = {
+                        id: $('#sub-menu').val(),
+                        name: $('#sub-name').val(),
+						// description: $('#sub-description').val(),
+						description: quill.getText(0, quill.getLength()),
+						module_id: $('#sub-mod-menu').val(),
+                    };
+
+                    console.log(JSON.stringify(data));
+
+
+                    if (data.id == 0) {
+                        $.ajax({
+                            type: 'POST',
+                            url: baseURL + 'exam/api/subject',
+                            data: JSON.stringify(data),
+                            dataType: 'json',
+                            success: function(data){
+                                toastr.success(data.message, data.status);
+                            },
+                            error: function(e){
+                                console.log(e);
+                                toastr.error(data.message, data.status);
+                            }
+                        });
+                    }
+                    else if (data.id > 0) {
+                        $.ajax({
+                            type: 'PUT',
+                            url: baseURL + 'exam/api/subject/id/' + data.id,
+                            crossOrigin: true,
+                            data: JSON.stringify(data),
+                            dataType: 'json',
+                            success: function(data){
+                                toastr.success(data.message, data.status);
+                            },
+                            error: function(e){
+                                console.log(e);
+                                toastr.error(data.message, data.status);
+                            }
+                        });
+					}
+                    else {
+                        alert("Update Module not supported yet!");
+                    }
+
+                });
+
+
+            });
+
+		</script>
+
+	</body>
+</html>
